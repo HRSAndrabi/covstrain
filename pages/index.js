@@ -101,13 +101,16 @@ export default function Home() {
                                             hover:ring-slate-300 hover:text-sky-500 focus:outline-none focus:ring-2 
                                             focus:ring-sky-500"
                                             >
-                                                <Image
+                                                {/* <Image
                                                     src={`https://countryflagsapi.com/png/${country.cca3}`}
                                                     alt="logo"
                                                     layout="intrinsic"
                                                     height="25"
                                                     width="30"
-                                                />
+                                                /> */}
+                                                <div className="text-2xl">
+                                                    {country.flag}
+                                                </div>
                                                 <div>{country.name.common}</div>
                                             </a>
                                         </Link>
