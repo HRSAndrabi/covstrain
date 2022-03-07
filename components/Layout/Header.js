@@ -1,23 +1,24 @@
 import Link from "next/link";
+import Image from "next/image";
 import { MdMenu } from "react-icons/md";
 import { AiFillGithub } from "react-icons/ai";
 
 const Header = () => {
     return (
-        <div className="w-full px-5 py-3 absolute top-0 left-0 right-0 backdrop-blur-lg z-50">
-            <div className="max-w-screen-lg mx-auto flex justify-between items-center">
+        <div className="w-full fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-50">
+            <div className="max-w-screen-lg mx-auto px-5 py-3 flex justify-between items-center">
                 <div className="flex gap-2 items-center">
                     <Link href="/" passHref>
                         <div className="flex gap-2 items-center cursor-pointer">
-                            {/* <Image
+                            <Image
                                 src="/logo.svg"
                                 alt="logo"
                                 layout="fixed"
                                 height="30"
                                 width="30"
-                            /> */}
-                            <div className="text-slate-900 text-2xl">
-                                CoVStrain
+                            />
+                            <div className="text-slate-800 text-xl font-medium">
+                                covstrain
                             </div>
                         </div>
                     </Link>
