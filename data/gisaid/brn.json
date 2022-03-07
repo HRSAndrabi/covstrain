@@ -1,1310 +1,396 @@
 {
-    "2021-01-24": {
-        "submissions_per_variant": [
-            {
-                "count": 1,
-                "value": "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 1,
-                "value": "Spike_K417N"
-            }
-        ],
-        "submissions_per_lineage": [
-            {
-                "count": 1,
-                "value": "B.1.351"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 1,
-                "value": "GH"
-            }
-        ],
-        "submissions": 1
-    },
-    "2020-02-23": {},
-    "2020-08-09": {},
-    "2021-04-11": {},
-    "2020-11-15": {},
-    "2020-05-17": {},
-    "2021-10-17": {},
-    "2020-05-10": {},
-    "2020-08-02": {},
-    "2019-10-27": {},
-    "2021-07-11": {},
-    "2020-11-22": {},
-    "2022-01-02": {
-        "submissions_per_variant": [
-            {
-                "count": 30,
-                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
-            },
-            {
-                "count": 11,
-                "value": "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa"
-            },
-            {
-                "count": 1,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 41,
-                "value": "Spike_T478K"
-            },
-            {
-                "count": 32,
-                "value": "Spike_P681R"
-            },
-            {
-                "count": 31,
-                "value": "Spike_L452R"
-            },
-            {
-                "count": 12,
-                "value": "Spike_K417N"
-            },
-            {
-                "count": 11,
-                "value": "Spike_N440K"
-            },
-            {
-                "count": 11,
-                "value": "Spike_D796Y"
-            },
-            {
-                "count": 10,
-                "value": "Spike_Y144del"
-            },
-            {
-                "count": 10,
-                "value": "Spike_V70del"
-            },
-            {
-                "count": 10,
-                "value": "Spike_V143del"
-            },
-            {
-                "count": 10,
-                "value": "Spike_S373P"
-            },
-            {
-                "count": 10,
-                "value": "Spike_H69del"
-            },
-            {
-                "count": 10,
-                "value": "Spike_G446S"
-            },
-            {
-                "count": 10,
-                "value": "Spike_G339D"
-            },
-            {
-                "count": 9,
-                "value": "Spike_S477N"
-            },
-            {
-                "count": 9,
-                "value": "Spike_S375F"
-            },
-            {
-                "count": 9,
-                "value": "Spike_E484A"
-            },
-            {
-                "count": 5,
-                "value": "Spike_Y505H"
-            },
-            {
-                "count": 5,
-                "value": "Spike_R346K"
-            },
-            {
-                "count": 5,
-                "value": "Spike_Q498R"
-            },
-            {
-                "count": 5,
-                "value": "Spike_Q493R"
-            },
-            {
-                "count": 5,
-                "value": "Spike_G496S"
-            },
-            {
-                "count": 4,
-                "value": "Spike_N501Y"
-            }
-        ],
-        "submissions_per_lineage": [
-            {
-                "count": 27,
-                "value": "AY.24.1"
-            },
-            {
-                "count": 6,
-                "value": "BA.1"
-            },
-            {
-                "count": 4,
-                "value": "BA.1.1"
-            },
-            {
-                "count": 1,
-                "value": "BA.2"
-            },
-            {
-                "count": 1,
-                "value": "AY.75"
-            },
-            {
-                "count": 1,
-                "value": "AY.39.1"
-            },
-            {
-                "count": 1,
-                "value": "AY.1"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 30,
-                "value": "GK"
-            },
-            {
-                "count": 11,
-                "value": "GRA"
-            },
-            {
-                "count": 1,
-                "value": "G"
-            }
-        ],
-        "submissions": 42
-    },
-    "2021-01-17": {},
-    "2021-07-18": {},
-    "2021-04-04": {},
-    "2020-11-08": {},
-    "2020-08-16": {},
-    "2020-03-01": {},
-    "2020-05-24": {},
-    "2022-03-06": {},
-    "2021-01-10": {},
-    "2021-10-24": {},
-    "2021-10-31": {
-        "submissions_per_variant": [
-            {
-                "count": 12,
-                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 12,
-                "value": "Spike_P681R"
-            },
-            {
-                "count": 12,
-                "value": "Spike_L452R"
-            },
-            {
-                "count": 11,
-                "value": "Spike_T478K"
-            },
-            {
-                "count": 1,
-                "value": "Spike_G446S"
-            },
-            {
-                "count": 1,
-                "value": "Spike_G339D"
-            }
-        ],
-        "submissions_per_lineage": [
-            {
-                "count": 10,
-                "value": "AY.24.1"
-            },
-            {
-                "count": 1,
-                "value": "AY.24"
-            },
-            {
-                "count": 1,
-                "value": "AY.23"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 11,
-                "value": "GK"
-            },
-            {
-                "count": 1,
-                "value": "G"
-            }
-        ],
-        "submissions": 12
-    },
-    "2013-07-28": {},
-    "2021-07-25": {
-        "submissions_per_variant": [
-            {
-                "count": 16,
-                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 16,
-                "value": "Spike_T478K"
-            },
-            {
-                "count": 16,
-                "value": "Spike_P681R"
-            },
-            {
-                "count": 16,
-                "value": "Spike_L452R"
-            }
-        ],
-        "submissions_per_lineage": [
-            {
-                "count": 13,
-                "value": "AY.23"
-            },
-            {
-                "count": 2,
-                "value": "AY.24.1"
-            },
-            {
-                "count": 1,
-                "value": "AY.24"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 15,
-                "value": "GK"
-            },
-            {
-                "count": 1,
-                "value": "O"
-            }
-        ],
-        "submissions": 16
-    },
-    "2021-05-02": {},
-    "2021-03-28": {},
-    "2021-02-14": {},
-    "2020-02-02": {},
-    "2020-10-25": {},
-    "2020-04-26": {},
-    "2022-01-16": {
-        "submissions_per_variant": [
-            {
-                "count": 37,
-                "value": "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa"
-            },
-            {
-                "count": 7,
-                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 43,
-                "value": "Spike_T478K"
-            },
-            {
-                "count": 37,
-                "value": "Spike_N440K"
-            },
-            {
-                "count": 37,
-                "value": "Spike_K417N"
-            },
-            {
-                "count": 37,
-                "value": "Spike_G339D"
-            },
-            {
-                "count": 37,
-                "value": "Spike_D796Y"
-            },
-            {
-                "count": 36,
-                "value": "Spike_S373P"
-            },
-            {
-                "count": 36,
-                "value": "Spike_E484A"
-            },
-            {
-                "count": 35,
-                "value": "Spike_S477N"
-            },
-            {
-                "count": 35,
-                "value": "Spike_S375F"
-            },
-            {
-                "count": 19,
-                "value": "Spike_Y505H"
-            },
-            {
-                "count": 19,
-                "value": "Spike_Q498R"
-            },
-            {
-                "count": 19,
-                "value": "Spike_Q493R"
-            },
-            {
-                "count": 19,
-                "value": "Spike_N501Y"
-            },
-            {
-                "count": 8,
-                "value": "Spike_G446S"
-            },
-            {
-                "count": 7,
-                "value": "Spike_P681R"
-            },
-            {
-                "count": 7,
-                "value": "Spike_L452R"
-            },
-            {
-                "count": 3,
-                "value": "Spike_Y144del"
-            },
-            {
-                "count": 3,
-                "value": "Spike_V70del"
-            },
-            {
-                "count": 3,
-                "value": "Spike_V143del"
-            },
-            {
-                "count": 3,
-                "value": "Spike_H69del"
-            },
-            {
-                "count": 2,
-                "value": "Spike_G496S"
-            },
-            {
-                "count": 1,
-                "value": "Spike_R346K"
-            }
-        ],
-        "submissions_per_lineage": [
-            {
-                "count": 34,
-                "value": "BA.2"
-            },
-            {
-                "count": 7,
-                "value": "AY.24.1"
-            },
-            {
-                "count": 2,
-                "value": "BA.1"
-            },
-            {
-                "count": 1,
-                "value": "BA.1.1"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 37,
-                "value": "GRA"
-            },
-            {
-                "count": 7,
-                "value": "GK"
-            }
-        ],
-        "submissions": 44
-    },
-    "2020-07-19": {},
-    "2021-12-19": {
-        "submissions_per_variant": [
-            {
-                "count": 20,
-                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
-            },
-            {
-                "count": 8,
-                "value": "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 28,
-                "value": "Spike_T478K"
-            },
-            {
-                "count": 21,
-                "value": "Spike_P681R"
-            },
-            {
-                "count": 20,
-                "value": "Spike_L452R"
-            },
-            {
-                "count": 14,
-                "value": "Spike_G446S"
-            },
-            {
-                "count": 8,
-                "value": "Spike_Y144del"
-            },
-            {
-                "count": 8,
-                "value": "Spike_V70del"
-            },
-            {
-                "count": 8,
-                "value": "Spike_V143del"
-            },
-            {
-                "count": 8,
-                "value": "Spike_N440K"
-            },
-            {
-                "count": 8,
-                "value": "Spike_K417N"
-            },
-            {
-                "count": 8,
-                "value": "Spike_H69del"
-            },
-            {
-                "count": 8,
-                "value": "Spike_G339D"
-            },
-            {
-                "count": 8,
-                "value": "Spike_D796Y"
-            },
-            {
-                "count": 7,
-                "value": "Spike_S373P"
-            },
-            {
-                "count": 6,
-                "value": "Spike_S477N"
-            },
-            {
-                "count": 6,
-                "value": "Spike_S375F"
-            },
-            {
-                "count": 6,
-                "value": "Spike_E484A"
-            },
-            {
-                "count": 5,
-                "value": "Spike_Y505H"
-            },
-            {
-                "count": 5,
-                "value": "Spike_Q498R"
-            },
-            {
-                "count": 5,
-                "value": "Spike_Q493R"
-            },
-            {
-                "count": 5,
-                "value": "Spike_N501Y"
-            },
-            {
-                "count": 5,
-                "value": "Spike_G496S"
-            }
-        ],
-        "submissions_per_lineage": [
-            {
-                "count": 18,
-                "value": "AY.24.1"
-            },
-            {
-                "count": 8,
-                "value": "BA.1"
-            },
-            {
-                "count": 2,
-                "value": "B.1.617.2"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 20,
-                "value": "GK"
-            },
-            {
-                "count": 8,
-                "value": "GRA"
-            }
-        ],
-        "submissions": 28
-    },
-    "2020-07-12": {},
-    "2021-06-20": {},
-    "2021-09-12": {},
-    "2017-09-03": {},
-    "2010-12-12": {},
-    "2020-04-19": {},
-    "2022-01-23": {},
-    "2020-11-01": {},
-    "2021-06-27": {},
-    "2021-02-07": {},
-    "2021-09-19": {},
-    "2020-05-03": {},
-    "2020-10-18": {},
-    "2022-01-09": {
-        "submissions_per_variant": [
-            {
-                "count": 99,
-                "value": "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa"
-            },
-            {
-                "count": 44,
-                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
-            },
-            {
-                "count": 1,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 138,
-                "value": "Spike_T478K"
-            },
-            {
-                "count": 101,
-                "value": "Spike_K417N"
-            },
-            {
-                "count": 100,
-                "value": "Spike_N440K"
-            },
-            {
-                "count": 100,
-                "value": "Spike_G339D"
-            },
-            {
-                "count": 98,
-                "value": "Spike_D796Y"
-            },
-            {
-                "count": 97,
-                "value": "Spike_S373P"
-            },
-            {
-                "count": 91,
-                "value": "Spike_S477N"
-            },
-            {
-                "count": 91,
-                "value": "Spike_E484A"
-            },
-            {
-                "count": 81,
-                "value": "Spike_S375F"
-            },
-            {
-                "count": 45,
-                "value": "Spike_G446S"
-            },
-            {
-                "count": 44,
-                "value": "Spike_P681R"
-            },
-            {
-                "count": 44,
-                "value": "Spike_L452R"
-            },
-            {
-                "count": 41,
-                "value": "Spike_Y144del"
-            },
-            {
-                "count": 41,
-                "value": "Spike_V143del"
-            },
-            {
-                "count": 40,
-                "value": "Spike_V70del"
-            },
-            {
-                "count": 40,
-                "value": "Spike_H69del"
-            },
-            {
-                "count": 32,
-                "value": "Spike_Q493R"
-            },
-            {
-                "count": 31,
-                "value": "Spike_Q498R"
-            },
-            {
-                "count": 30,
-                "value": "Spike_Y505H"
-            },
-            {
-                "count": 26,
-                "value": "Spike_N501Y"
-            },
-            {
-                "count": 21,
-                "value": "Spike_R346K"
-            },
-            {
-                "count": 10,
-                "value": "Spike_G496S"
-            }
-        ],
-        "submissions_per_lineage": [
-            {
-                "count": 58,
-                "value": "BA.2"
-            },
-            {
-                "count": 33,
-                "value": "AY.24.1"
-            },
-            {
-                "count": 22,
-                "value": "BA.1.1"
-            },
-            {
-                "count": 19,
-                "value": "BA.1"
-            },
-            {
-                "count": 4,
-                "value": "AY.24"
-            },
-            {
-                "count": 2,
-                "value": "AY.39.1"
-            },
-            {
-                "count": 1,
-                "value": "AY.47"
-            },
-            {
-                "count": 1,
-                "value": "AY.34"
-            },
-            {
-                "count": 1,
-                "value": "AY.13"
-            },
-            {
-                "count": 1,
-                "value": "AY.111"
-            },
-            {
-                "count": 1,
-                "value": "AY.1"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 99,
-                "value": "GRA"
-            },
-            {
-                "count": 42,
-                "value": "GK"
-            },
-            {
-                "count": 2,
-                "value": "G"
-            },
-            {
-                "count": 1,
-                "value": "GR"
-            }
-        ],
-        "submissions": 144
-    },
-    "2021-04-25": {},
-    "2020-07-26": {},
-    "2021-01-31": {
-        "submissions_per_variant": [
-            {
-                "count": 2,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 2,
-                "value": "GR"
-            }
-        ],
-        "submissions": 2
-    },
-    "2020-02-16": {},
-    "2021-12-26": {
-        "submissions_per_variant": [
-            {
-                "count": 19,
-                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
-            },
-            {
-                "count": 3,
-                "value": "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 22,
-                "value": "Spike_T478K"
-            },
-            {
-                "count": 19,
-                "value": "Spike_P681R"
-            },
-            {
-                "count": 19,
-                "value": "Spike_L452R"
-            },
-            {
-                "count": 4,
-                "value": "Spike_G446S"
-            },
-            {
-                "count": 3,
-                "value": "Spike_Y144del"
-            },
-            {
-                "count": 3,
-                "value": "Spike_V70del"
-            },
-            {
-                "count": 3,
-                "value": "Spike_V143del"
-            },
-            {
-                "count": 3,
-                "value": "Spike_S477N"
-            },
-            {
-                "count": 3,
-                "value": "Spike_S373P"
-            },
-            {
-                "count": 3,
-                "value": "Spike_N440K"
-            },
-            {
-                "count": 3,
-                "value": "Spike_K417N"
-            },
-            {
-                "count": 3,
-                "value": "Spike_H69del"
-            },
-            {
-                "count": 3,
-                "value": "Spike_G339D"
-            },
-            {
-                "count": 3,
-                "value": "Spike_E484A"
-            },
-            {
-                "count": 3,
-                "value": "Spike_D796Y"
-            },
-            {
-                "count": 2,
-                "value": "Spike_S375F"
-            }
-        ],
-        "submissions_per_lineage": [
-            {
-                "count": 16,
-                "value": "AY.24.1"
-            },
-            {
-                "count": 3,
-                "value": "BA.1"
-            },
-            {
-                "count": 2,
-                "value": "AY.23"
-            },
-            {
-                "count": 1,
-                "value": "B.1.617.2"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 19,
-                "value": "GK"
-            },
-            {
-                "count": 3,
-                "value": "GRA"
-            }
-        ],
-        "submissions": 22
-    },
-    "2021-10-03": {},
-    "2021-10-10": {},
-    "2021-09-26": {},
-    "2020-02-09": {},
-    "2021-07-04": {},
-    "2021-04-18": {},
-    "2020-04-05": {},
-    "2020-10-04": {},
-    "2020-01-12": {},
-    "2020-12-27": {},
-    "2020-06-28": {},
-    "2022-02-06": {},
-    "2020-09-13": {},
-    "2020-06-21": {},
-    "2021-11-28": {
-        "submissions_per_variant": [
-            {
-                "count": 78,
-                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 78,
-                "value": "Spike_T478K"
-            },
-            {
-                "count": 78,
-                "value": "Spike_P681R"
-            },
-            {
-                "count": 78,
-                "value": "Spike_L452R"
-            },
-            {
-                "count": 6,
-                "value": "Spike_G446S"
-            }
-        ],
-        "submissions_per_lineage": [
-            {
-                "count": 72,
-                "value": "AY.24.1"
-            },
-            {
-                "count": 6,
-                "value": "AY.23"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 78,
-                "value": "GK"
-            }
-        ],
-        "submissions": 78
-    },
-    "2019-12-08": {},
-    "2021-08-22": {
-        "submissions_per_variant": [
-            {
-                "count": 12,
-                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 12,
-                "value": "Spike_T478K"
-            },
-            {
-                "count": 12,
-                "value": "Spike_P681R"
-            },
-            {
-                "count": 12,
-                "value": "Spike_L452R"
-            }
-        ],
-        "submissions_per_lineage": [
-            {
-                "count": 12,
-                "value": "AY.24.1"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 12,
-                "value": "GK"
-            }
-        ],
-        "submissions": 12
-    },
-    "2021-05-30": {},
-    "2020-10-11": {},
-    "2020-01-05": {},
-    "2020-03-29": {},
-    "2022-02-13": {},
-    "2021-08-29": {},
-    "2021-06-06": {},
-    "2021-02-28": {},
-    "2020-07-05": {},
-    "2020-04-12": {},
-    "2020-09-27": {},
-    "2021-02-21": {},
-    "2020-01-26": {},
-    "2020-09-20": {},
-    "2021-12-05": {
-        "submissions_per_variant": [
-            {
-                "count": 61,
-                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 61,
-                "value": "Spike_T478K"
-            },
-            {
-                "count": 61,
-                "value": "Spike_P681R"
-            },
-            {
-                "count": 61,
-                "value": "Spike_L452R"
-            },
-            {
-                "count": 7,
-                "value": "Spike_G446S"
-            }
-        ],
-        "submissions_per_lineage": [
-            {
-                "count": 60,
-                "value": "AY.24.1"
-            },
-            {
-                "count": 1,
-                "value": "AY.23"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 61,
-                "value": "GK"
-            }
-        ],
-        "submissions": 61
-    },
-    "2021-12-12": {
-        "submissions_per_variant": [
-            {
-                "count": 78,
-                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
-            },
-            {
-                "count": 1,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 79,
-                "value": "Spike_T478K"
-            },
-            {
-                "count": 79,
-                "value": "Spike_P681R"
-            },
-            {
-                "count": 79,
-                "value": "Spike_L452R"
-            },
-            {
-                "count": 15,
-                "value": "Spike_G446S"
-            },
-            {
-                "count": 1,
-                "value": "Spike_N440K"
-            },
-            {
-                "count": 1,
-                "value": "Spike_K417N"
-            }
-        ],
-        "submissions_per_lineage": [
-            {
-                "count": 72,
-                "value": "AY.24.1"
-            },
-            {
-                "count": 5,
-                "value": "AY.23"
-            },
-            {
-                "count": 1,
-                "value": "B.1.617.2"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 79,
-                "value": "GK"
-            }
-        ],
-        "submissions": 79
-    },
-    "2019-03-24": {},
-    "2021-06-13": {},
-    "2021-09-05": {},
-    "2020-01-19": {},
-    "2022-01-30": {},
-    "2020-12-20": {},
-    "2021-05-09": {},
-    "2021-01-03": {
-        "submissions_per_variant": [
-            {
-                "count": 2,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 2,
-                "value": "GR"
-            }
-        ],
-        "submissions": 2
-    },
-    "2020-03-15": {
-        "submissions_per_variant": [
-            {
-                "count": 3,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 3,
-                "value": "O"
-            }
-        ],
-        "submissions": 3
-    },
-    "2022-02-27": {},
-    "2021-03-21": {},
-    "2020-12-06": {},
-    "2020-06-07": {},
-    "2021-11-07": {
-        "submissions_per_variant": [
-            {
-                "count": 61,
-                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 61,
-                "value": "Spike_T478K"
-            },
-            {
-                "count": 61,
-                "value": "Spike_P681R"
-            },
-            {
-                "count": 61,
-                "value": "Spike_L452R"
-            },
-            {
-                "count": 7,
-                "value": "Spike_G446S"
-            },
-            {
-                "count": 1,
-                "value": "Spike_G339D"
-            }
-        ],
-        "submissions_per_lineage": [
-            {
-                "count": 57,
-                "value": "AY.24.1"
-            },
-            {
-                "count": 3,
-                "value": "AY.23"
-            },
-            {
-                "count": 1,
-                "value": "AY.43"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 61,
-                "value": "GK"
-            }
-        ],
-        "submissions": 61
-    },
-    "2019-06-30": {},
-    "2020-08-23": {},
-    "2020-05-31": {},
-    "2019-12-29": {},
-    "2021-08-01": {},
-    "2020-03-08": {},
-    "2020-12-13": {},
-    "2021-08-08": {},
-    "2021-05-16": {},
-    "2020-03-22": {
-        "submissions_per_variant": [
-            {
-                "count": 2,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 2,
-                "value": "O"
-            }
-        ],
-        "submissions": 2
-    },
-    "2021-03-14": {},
-    "2020-09-06": {},
-    "2020-06-14": {},
-    "2020-11-29": {},
-    "2020-08-30": {},
-    "2021-11-14": {
-        "submissions_per_variant": [
-            {
-                "count": 58,
-                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 58,
-                "value": "Spike_P681R"
-            },
-            {
-                "count": 58,
-                "value": "Spike_L452R"
-            },
-            {
-                "count": 57,
-                "value": "Spike_T478K"
-            },
-            {
-                "count": 3,
-                "value": "Spike_G446S"
-            }
-        ],
-        "submissions_per_lineage": [
-            {
-                "count": 46,
-                "value": "AY.24.1"
-            },
-            {
-                "count": 11,
-                "value": "AY.23"
-            },
-            {
-                "count": 1,
-                "value": "AY.122"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 57,
-                "value": "GK"
-            },
-            {
-                "count": 1,
-                "value": "G"
-            }
-        ],
-        "submissions": 58
-    },
-    "2021-11-21": {
-        "submissions_per_variant": [
-            {
-                "count": 73,
-                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 73,
-                "value": "Spike_T478K"
-            },
-            {
-                "count": 73,
-                "value": "Spike_P681R"
-            },
-            {
-                "count": 73,
-                "value": "Spike_L452R"
-            },
-            {
-                "count": 16,
-                "value": "Spike_G446S"
-            }
-        ],
-        "submissions_per_lineage": [
-            {
-                "count": 69,
-                "value": "AY.24.1"
-            },
-            {
-                "count": 4,
-                "value": "AY.23"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 73,
-                "value": "GK"
-            }
-        ],
-        "submissions": 73
-    },
-    "2021-08-15": {},
-    "2021-05-23": {},
-    "2021-03-07": {},
-    "2022-02-20": {}
+    "variant_series": [
+        {
+            "Other": 1.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "03/15/2020",
+            "submissions": 1.0
+        },
+        {
+            "Other": 1.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "03/29/2020",
+            "submissions": 1.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "04/12/2020",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "04/26/2020",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "05/10/2020",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "05/24/2020",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "06/07/2020",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "06/21/2020",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "07/05/2020",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "07/19/2020",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "08/02/2020",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "08/16/2020",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "08/30/2020",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "09/13/2020",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "09/27/2020",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "10/11/2020",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "10/25/2020",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "11/08/2020",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "11/22/2020",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "12/06/2020",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "12/20/2020",
+            "submissions": 0.0
+        },
+        {
+            "Other": 1.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "01/03/2021",
+            "submissions": 1.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "01/17/2021",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.6666666666666666,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.3333333333333333,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "01/31/2021",
+            "submissions": 1.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "02/14/2021",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "02/28/2021",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "03/14/2021",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "03/28/2021",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "04/11/2021",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "04/25/2021",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "05/09/2021",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "05/23/2021",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "06/06/2021",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "06/20/2021",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "07/04/2021",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "07/18/2021",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 1.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "08/01/2021",
+            "submissions": 1.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "08/15/2021",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 1.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "08/29/2021",
+            "submissions": 1.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "09/12/2021",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "09/26/2021",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "10/10/2021",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "10/24/2021",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 1.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "11/07/2021",
+            "submissions": 1.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 1.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "11/21/2021",
+            "submissions": 1.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 1.0,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.0,
+            "name": "12/05/2021",
+            "submissions": 1.0
+        },
+        {
+            "Other": 0.009345794392523364,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.9158878504672897,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.07476635514018691,
+            "name": "12/19/2021",
+            "submissions": 1.0
+        },
+        {
+            "Other": 0.015625,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.765625,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.21875,
+            "name": "01/02/2022",
+            "submissions": 1.0
+        },
+        {
+            "Other": 0.005319148936170213,
+            "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
+            "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.2712765957446808,
+            "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.723404255319149,
+            "name": "01/16/2022",
+            "submissions": 1.0
+        }
+    ]
 }

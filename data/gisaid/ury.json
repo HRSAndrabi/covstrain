@@ -1,1190 +1,268 @@
 {
-    "2021-01-24": {
-        "submissions_per_variant": [
-            {
-                "count": 14,
-                "value": "Other"
-            },
-            {
-                "count": 6,
-                "value": "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 19,
-                "value": "GR"
-            },
-            {
-                "count": 1,
-                "value": "G"
-            }
-        ],
-        "submissions": 20
-    },
-    "2020-02-23": {},
-    "2020-08-09": {
-        "submissions_per_variant": [
-            {
-                "count": 1,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 1,
-                "value": "GR"
-            }
-        ],
-        "submissions": 1
-    },
-    "2021-04-11": {
-        "submissions_per_variant": [
-            {
-                "count": 54,
-                "value": "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan"
-            },
-            {
-                "count": 37,
-                "value": "Other"
-            },
-            {
-                "count": 3,
-                "value": "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 26,
-                "value": "Spike_N501Y"
-            }
-        ],
-        "submissions_per_lineage": [
-            {
-                "count": 52,
-                "value": "P.1"
-            },
-            {
-                "count": 2,
-                "value": "P.1.1"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 91,
-                "value": "GR"
-            },
-            {
-                "count": 2,
-                "value": "GV"
-            },
-            {
-                "count": 1,
-                "value": "G"
-            }
-        ],
-        "submissions": 94
-    },
-    "2020-11-15": {},
-    "2020-05-17": {
-        "submissions_per_variant": [
-            {
-                "count": 1,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 1,
-                "value": "G"
-            }
-        ],
-        "submissions": 1
-    },
-    "2021-10-17": {},
-    "2020-05-10": {
-        "submissions_per_variant": [
-            {
-                "count": 3,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 2,
-                "value": "G"
-            },
-            {
-                "count": 1,
-                "value": "GR"
-            }
-        ],
-        "submissions": 3
-    },
-    "2020-08-02": {},
-    "2019-10-27": {},
-    "2021-07-11": {},
-    "2020-11-22": {
-        "submissions_per_variant": [
-            {
-                "count": 2,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 2,
-                "value": "GR"
-            }
-        ],
-        "submissions": 2
-    },
-    "2022-01-02": {},
-    "2021-01-17": {
-        "submissions_per_variant": [
-            {
-                "count": 17,
-                "value": "Other"
-            },
-            {
-                "count": 13,
-                "value": "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 29,
-                "value": "GR"
-            },
-            {
-                "count": 1,
-                "value": "G"
-            }
-        ],
-        "submissions": 30
-    },
-    "2021-07-18": {},
-    "2021-04-04": {
-        "submissions_per_variant": [
-            {
-                "count": 26,
-                "value": "Other"
-            },
-            {
-                "count": 19,
-                "value": "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan"
-            },
-            {
-                "count": 1,
-                "value": "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 5,
-                "value": "Spike_N501Y"
-            }
-        ],
-        "submissions_per_lineage": [
-            {
-                "count": 18,
-                "value": "P.1"
-            },
-            {
-                "count": 1,
-                "value": "P.1.1"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 43,
-                "value": "GR"
-            },
-            {
-                "count": 3,
-                "value": "GV"
-            }
-        ],
-        "submissions": 46
-    },
-    "2020-11-08": {},
-    "2020-08-16": {},
-    "2020-03-01": {},
-    "2020-05-24": {
-        "submissions_per_variant": [
-            {
-                "count": 13,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 9,
-                "value": "GR"
-            },
-            {
-                "count": 4,
-                "value": "G"
-            }
-        ],
-        "submissions": 13
-    },
-    "2022-03-06": {},
-    "2021-01-10": {
-        "submissions_per_variant": [
-            {
-                "count": 9,
-                "value": "Other"
-            },
-            {
-                "count": 6,
-                "value": "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 14,
-                "value": "GR"
-            },
-            {
-                "count": 1,
-                "value": "G"
-            }
-        ],
-        "submissions": 15
-    },
-    "2021-10-24": {},
-    "2021-10-31": {},
-    "2013-07-28": {},
-    "2021-07-25": {},
-    "2021-05-02": {
-        "submissions_per_variant": [
-            {
-                "count": 1,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 1,
-                "value": "GR"
-            }
-        ],
-        "submissions": 1
-    },
-    "2021-03-28": {
-        "submissions_per_variant": [
-            {
-                "count": 15,
-                "value": "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan"
-            },
-            {
-                "count": 9,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 11,
-                "value": "Spike_N501Y"
-            }
-        ],
-        "submissions_per_lineage": [
-            {
-                "count": 15,
-                "value": "P.1"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 23,
-                "value": "GR"
-            },
-            {
-                "count": 1,
-                "value": "GV"
-            }
-        ],
-        "submissions": 24
-    },
-    "2021-02-14": {
-        "submissions_per_variant": [
-            {
-                "count": 25,
-                "value": "Other"
-            },
-            {
-                "count": 1,
-                "value": "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 26,
-                "value": "GR"
-            }
-        ],
-        "submissions": 26
-    },
-    "2020-02-02": {},
-    "2020-10-25": {},
-    "2020-04-26": {
-        "submissions_per_variant": [
-            {
-                "count": 8,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 7,
-                "value": "G"
-            },
-            {
-                "count": 1,
-                "value": "GR"
-            }
-        ],
-        "submissions": 8
-    },
-    "2022-01-16": {},
-    "2020-07-19": {
-        "submissions_per_variant": [
-            {
-                "count": 10,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 10,
-                "value": "GR"
-            }
-        ],
-        "submissions": 10
-    },
-    "2021-12-19": {},
-    "2020-07-12": {
-        "submissions_per_variant": [
-            {
-                "count": 2,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 2,
-                "value": "GR"
-            }
-        ],
-        "submissions": 2
-    },
-    "2021-06-20": {},
-    "2021-09-12": {},
-    "2017-09-03": {},
-    "2010-12-12": {},
-    "2020-04-19": {
-        "submissions_per_variant": [
-            {
-                "count": 4,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 2,
-                "value": "G"
-            },
-            {
-                "count": 1,
-                "value": "S"
-            },
-            {
-                "count": 1,
-                "value": "GR"
-            }
-        ],
-        "submissions": 4
-    },
-    "2022-01-23": {},
-    "2020-11-01": {
-        "submissions_per_variant": [
-            {
-                "count": 3,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 3,
-                "value": "GR"
-            }
-        ],
-        "submissions": 3
-    },
-    "2021-06-27": {},
-    "2021-02-07": {
-        "submissions_per_variant": [
-            {
-                "count": 45,
-                "value": "Other"
-            },
-            {
-                "count": 1,
-                "value": "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 45,
-                "value": "GR"
-            },
-            {
-                "count": 1,
-                "value": "GH"
-            }
-        ],
-        "submissions": 46
-    },
-    "2021-09-19": {},
-    "2020-05-03": {},
-    "2020-10-18": {},
-    "2022-01-09": {},
-    "2021-04-25": {
-        "submissions_per_variant": [
-            {
-                "count": 20,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 20,
-                "value": "GR"
-            }
-        ],
-        "submissions": 20
-    },
-    "2020-07-26": {
-        "submissions_per_variant": [
-            {
-                "count": 7,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 7,
-                "value": "GR"
-            }
-        ],
-        "submissions": 7
-    },
-    "2021-01-31": {
-        "submissions_per_variant": [
-            {
-                "count": 12,
-                "value": "Other"
-            },
-            {
-                "count": 2,
-                "value": "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 14,
-                "value": "GR"
-            }
-        ],
-        "submissions": 14
-    },
-    "2020-02-16": {},
-    "2021-12-26": {},
-    "2021-10-03": {},
-    "2021-10-10": {},
-    "2021-09-26": {},
-    "2020-02-09": {},
-    "2021-07-04": {},
-    "2021-04-18": {
-        "submissions_per_variant": [
-            {
-                "count": 22,
-                "value": "Other"
-            },
-            {
-                "count": 17,
-                "value": "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan"
-            },
-            {
-                "count": 1,
-                "value": "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 6,
-                "value": "Spike_N501Y"
-            },
-            {
-                "count": 1,
-                "value": "Spike_V143del"
-            }
-        ],
-        "submissions_per_lineage": [
-            {
-                "count": 17,
-                "value": "P.1"
-            },
-            {
-                "count": 1,
-                "value": "C.37"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 39,
-                "value": "GR"
-            },
-            {
-                "count": 1,
-                "value": "G"
-            }
-        ],
-        "submissions": 40
-    },
-    "2020-04-05": {
-        "submissions_per_variant": [
-            {
-                "count": 3,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 1,
-                "value": "S"
-            },
-            {
-                "count": 1,
-                "value": "GR"
-            },
-            {
-                "count": 1,
-                "value": "GH"
-            }
-        ],
-        "submissions": 3
-    },
-    "2020-10-04": {},
-    "2020-01-12": {},
-    "2020-12-27": {
-        "submissions_per_variant": [
-            {
-                "count": 4,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 4,
-                "value": "GR"
-            }
-        ],
-        "submissions": 4
-    },
-    "2020-06-28": {
-        "submissions_per_variant": [
-            {
-                "count": 8,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 8,
-                "value": "GR"
-            }
-        ],
-        "submissions": 8
-    },
-    "2022-02-06": {},
-    "2020-09-13": {},
-    "2020-06-21": {
-        "submissions_per_variant": [
-            {
-                "count": 15,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 15,
-                "value": "GR"
-            }
-        ],
-        "submissions": 15
-    },
-    "2021-11-28": {},
-    "2019-12-08": {},
-    "2021-08-22": {},
-    "2021-05-30": {
-        "submissions_per_variant": [
-            {
-                "count": 1,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 1,
-                "value": "GR"
-            }
-        ],
-        "submissions": 1
-    },
-    "2020-10-11": {
-        "submissions_per_variant": [
-            {
-                "count": 2,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 2,
-                "value": "GR"
-            }
-        ],
-        "submissions": 2
-    },
-    "2020-01-05": {},
-    "2020-03-29": {
-        "submissions_per_variant": [
-            {
-                "count": 11,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [
-            {
-                "count": 2,
-                "value": "B"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 4,
-                "value": "S"
-            },
-            {
-                "count": 4,
-                "value": "GR"
-            },
-            {
-                "count": 2,
-                "value": "V"
-            },
-            {
-                "count": 1,
-                "value": "G"
-            }
-        ],
-        "submissions": 11
-    },
-    "2022-02-13": {},
-    "2021-08-29": {},
-    "2021-06-06": {},
-    "2021-02-28": {
-        "submissions_per_variant": [
-            {
-                "count": 41,
-                "value": "Other"
-            },
-            {
-                "count": 7,
-                "value": "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan"
-            },
-            {
-                "count": 5,
-                "value": "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 7,
-                "value": "Spike_N501Y"
-            }
-        ],
-        "submissions_per_lineage": [
-            {
-                "count": 7,
-                "value": "P.1"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 53,
-                "value": "GR"
-            }
-        ],
-        "submissions": 53
-    },
-    "2020-07-05": {
-        "submissions_per_variant": [
-            {
-                "count": 5,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 5,
-                "value": "GR"
-            }
-        ],
-        "submissions": 5
-    },
-    "2020-04-12": {
-        "submissions_per_variant": [
-            {
-                "count": 9,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 8,
-                "value": "G"
-            },
-            {
-                "count": 1,
-                "value": "S"
-            }
-        ],
-        "submissions": 9
-    },
-    "2020-09-27": {
-        "submissions_per_variant": [
-            {
-                "count": 3,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 3,
-                "value": "GR"
-            }
-        ],
-        "submissions": 3
-    },
-    "2021-02-21": {
-        "submissions_per_variant": [
-            {
-                "count": 25,
-                "value": "Other"
-            },
-            {
-                "count": 2,
-                "value": "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 1,
-                "value": "Spike_L452R"
-            }
-        ],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 27,
-                "value": "GR"
-            }
-        ],
-        "submissions": 27
-    },
-    "2020-01-26": {},
-    "2020-09-20": {
-        "submissions_per_variant": [
-            {
-                "count": 3,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 3,
-                "value": "GR"
-            }
-        ],
-        "submissions": 3
-    },
-    "2021-12-05": {},
-    "2021-12-12": {},
-    "2019-03-24": {},
-    "2021-06-13": {},
-    "2021-09-05": {},
-    "2020-01-19": {},
-    "2022-01-30": {},
-    "2020-12-20": {
-        "submissions_per_variant": [
-            {
-                "count": 4,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 4,
-                "value": "GR"
-            }
-        ],
-        "submissions": 4
-    },
-    "2021-05-09": {},
-    "2021-01-03": {
-        "submissions_per_variant": [
-            {
-                "count": 7,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 7,
-                "value": "GR"
-            }
-        ],
-        "submissions": 7
-    },
-    "2020-03-15": {
-        "submissions_per_variant": [
-            {
-                "count": 1,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 1,
-                "value": "S"
-            }
-        ],
-        "submissions": 1
-    },
-    "2022-02-27": {},
-    "2021-03-21": {
-        "submissions_per_variant": [
-            {
-                "count": 35,
-                "value": "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan"
-            },
-            {
-                "count": 6,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 29,
-                "value": "Spike_N501Y"
-            }
-        ],
-        "submissions_per_lineage": [
-            {
-                "count": 34,
-                "value": "P.1"
-            },
-            {
-                "count": 1,
-                "value": "P.1.1"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 40,
-                "value": "GR"
-            },
-            {
-                "count": 1,
-                "value": "GV"
-            }
-        ],
-        "submissions": 41
-    },
-    "2020-12-06": {
-        "submissions_per_variant": [
-            {
-                "count": 5,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 5,
-                "value": "GR"
-            }
-        ],
-        "submissions": 5
-    },
-    "2020-06-07": {
-        "submissions_per_variant": [
-            {
-                "count": 3,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 3,
-                "value": "GR"
-            }
-        ],
-        "submissions": 3
-    },
-    "2021-11-07": {},
-    "2019-06-30": {},
-    "2020-08-23": {},
-    "2020-05-31": {
-        "submissions_per_variant": [
-            {
-                "count": 8,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 6,
-                "value": "GR"
-            },
-            {
-                "count": 2,
-                "value": "G"
-            }
-        ],
-        "submissions": 8
-    },
-    "2019-12-29": {},
-    "2021-08-01": {},
-    "2020-03-08": {},
-    "2020-12-13": {
-        "submissions_per_variant": [
-            {
-                "count": 9,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 9,
-                "value": "GR"
-            }
-        ],
-        "submissions": 9
-    },
-    "2021-08-08": {},
-    "2021-05-16": {},
-    "2020-03-22": {
-        "submissions_per_variant": [
-            {
-                "count": 24,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 20,
-                "value": "S"
-            },
-            {
-                "count": 3,
-                "value": "G"
-            },
-            {
-                "count": 1,
-                "value": "V"
-            }
-        ],
-        "submissions": 24
-    },
-    "2021-03-14": {
-        "submissions_per_variant": [
-            {
-                "count": 13,
-                "value": "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan"
-            },
-            {
-                "count": 3,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 13,
-                "value": "Spike_N501Y"
-            },
-            {
-                "count": 1,
-                "value": "Spike_D796Y"
-            }
-        ],
-        "submissions_per_lineage": [
-            {
-                "count": 12,
-                "value": "P.1"
-            },
-            {
-                "count": 1,
-                "value": "P.1.2"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 16,
-                "value": "GR"
-            }
-        ],
-        "submissions": 16
-    },
-    "2020-09-06": {},
-    "2020-06-14": {},
-    "2020-11-29": {
-        "submissions_per_variant": [
-            {
-                "count": 3,
-                "value": "Other"
-            }
-        ],
-        "submissions_per_aa_substitution": [],
-        "submissions_per_lineage": [],
-        "submissions_per_clade": [
-            {
-                "count": 3,
-                "value": "GR"
-            }
-        ],
-        "submissions": 3
-    },
-    "2020-08-30": {},
-    "2021-11-14": {},
-    "2021-11-21": {},
-    "2021-08-15": {},
-    "2021-05-23": {},
-    "2021-03-07": {
-        "submissions_per_variant": [
-            {
-                "count": 31,
-                "value": "Other"
-            },
-            {
-                "count": 14,
-                "value": "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan"
-            },
-            {
-                "count": 3,
-                "value": "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil"
-            }
-        ],
-        "submissions_per_aa_substitution": [
-            {
-                "count": 10,
-                "value": "Spike_N501Y"
-            }
-        ],
-        "submissions_per_lineage": [
-            {
-                "count": 13,
-                "value": "P.1"
-            },
-            {
-                "count": 1,
-                "value": "P.1.10"
-            }
-        ],
-        "submissions_per_clade": [
-            {
-                "count": 48,
-                "value": "GR"
-            }
-        ],
-        "submissions": 48
-    },
-    "2022-02-20": {}
+    "variant_series": [
+        {
+            "Other": 1.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "03/15/2020",
+            "submissions": 1.0
+        },
+        {
+            "Other": 1.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "03/29/2020",
+            "submissions": 1.0
+        },
+        {
+            "Other": 1.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "04/12/2020",
+            "submissions": 1.0
+        },
+        {
+            "Other": 1.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "04/26/2020",
+            "submissions": 1.0
+        },
+        {
+            "Other": 1.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "05/10/2020",
+            "submissions": 1.0
+        },
+        {
+            "Other": 1.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "05/24/2020",
+            "submissions": 1.0
+        },
+        {
+            "Other": 1.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "06/07/2020",
+            "submissions": 1.0
+        },
+        {
+            "Other": 1.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "06/21/2020",
+            "submissions": 1.0
+        },
+        {
+            "Other": 1.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "07/05/2020",
+            "submissions": 1.0
+        },
+        {
+            "Other": 1.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "07/19/2020",
+            "submissions": 1.0
+        },
+        {
+            "Other": 1.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "08/02/2020",
+            "submissions": 1.0
+        },
+        {
+            "Other": 1.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "08/16/2020",
+            "submissions": 1.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "08/30/2020",
+            "submissions": 0.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "09/13/2020",
+            "submissions": 0.0
+        },
+        {
+            "Other": 1.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "09/27/2020",
+            "submissions": 1.0
+        },
+        {
+            "Other": 1.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "10/11/2020",
+            "submissions": 1.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "10/25/2020",
+            "submissions": 0.0
+        },
+        {
+            "Other": 1.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "11/08/2020",
+            "submissions": 1.0
+        },
+        {
+            "Other": 1.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "11/22/2020",
+            "submissions": 1.0
+        },
+        {
+            "Other": 1.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "12/06/2020",
+            "submissions": 1.0
+        },
+        {
+            "Other": 1.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "12/20/2020",
+            "submissions": 1.0
+        },
+        {
+            "Other": 1.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "01/03/2021",
+            "submissions": 1.0
+        },
+        {
+            "Other": 0.5777777777777777,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.4222222222222222,
+            "name": "01/17/2021",
+            "submissions": 1.0
+        },
+        {
+            "Other": 0.7647058823529411,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.23529411764705882,
+            "name": "01/31/2021",
+            "submissions": 1.0
+        },
+        {
+            "Other": 0.9722222222222222,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.027777777777777776,
+            "name": "02/14/2021",
+            "submissions": 1.0
+        },
+        {
+            "Other": 0.825,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0875,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0875,
+            "name": "02/28/2021",
+            "submissions": 1.0
+        },
+        {
+            "Other": 0.53125,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.421875,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.046875,
+            "name": "03/14/2021",
+            "submissions": 1.0
+        },
+        {
+            "Other": 0.23076923076923078,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.7692307692307693,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "03/28/2021",
+            "submissions": 1.0
+        },
+        {
+            "Other": 0.45,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.5214285714285715,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.02857142857142857,
+            "name": "04/11/2021",
+            "submissions": 1.0
+        },
+        {
+            "Other": 0.7,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.2833333333333333,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.016666666666666666,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "04/25/2021",
+            "submissions": 1.0
+        },
+        {
+            "Other": 1.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "05/09/2021",
+            "submissions": 1.0
+        },
+        {
+            "Other": 0.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "05/23/2021",
+            "submissions": 0.0
+        },
+        {
+            "Other": 1.0,
+            "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
+            "VOI Lambda GR/452Q.V1 (C.37+C.37.1) first detected in Peru": 0.0,
+            "VOI Zeta GR/484K.V2 (P.2) first detected in Brazil": 0.0,
+            "name": "06/06/2021",
+            "submissions": 1.0
+        }
+    ]
 }
