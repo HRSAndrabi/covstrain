@@ -7,7 +7,7 @@ import { useState } from "react";
 
 export default function Home() {
     const [filter, setFilter] = useState("");
-    const countries = require("./countries.json");
+    const countries = require("../data/countries.json");
 
     const searchChangeHandler = (event) => {
         const query = event.target.value;
