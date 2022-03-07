@@ -19,8 +19,8 @@ export default function Home() {
             <Container>
                 <div className="max-w-3xl mx-auto w-full px-3">
                     <div className="text-slate-900 font-bold text-center text-3xl tracking-tight px-2">
-                        CoVStrain helps you view and analyse dominant COVID-19
-                        strains around the world
+                        CoVStrain helps you view and analyse COVID-19 variants
+                        of interest around the world
                     </div>
                     <p className="mt-6 text-lg text-slate-600 text-center mx-auto max-w-md sm:max-w-lg md:max-w-xl lg:max-w-3xl px-2">
                         <span className="text-sky-500 font-medium font-mono">
