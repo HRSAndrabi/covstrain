@@ -87,6 +87,7 @@ export default function Home() {
                                 .map((country) => {
                                     return (
                                         <CountryChip
+                                            key={country.cca3}
                                             country={country}
                                             disabled={false}
                                         />
@@ -103,6 +104,7 @@ export default function Home() {
                                 .map((country) => {
                                     return (
                                         <CountryChip
+                                            key={country.cca3}
                                             country={country}
                                             disabled={true}
                                         />
