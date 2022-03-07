@@ -2,7 +2,11 @@ import Link from "next/link";
 
 const CountryChip = ({ country, disabled }) => {
     return (
-        <Link key={country.cca3} href="/" passhref>
+        <Link
+            key={country.cca3}
+            href={`/country/${country.cca3.toLowerCase()}`}
+            passhref
+        >
             <a
                 className={`flex flex-grow gap-2 items-center rounded-lg p-3 cursor-pointer 
 				font-mono text-sm hover:ring-slate-300 hover:text-sky-500 focus:outline-none 
