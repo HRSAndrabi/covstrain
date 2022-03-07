@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { MdMenu } from "react-icons/md";
-import Image from "next/image";
+import { AiFillGithub } from "react-icons/ai";
 
 const Header = () => {
     return (
@@ -17,20 +17,20 @@ const Header = () => {
                                 width="30"
                             /> */}
                             <div className="text-slate-900 text-2xl">
-                                covstrain
+                                CoVStrain
                             </div>
                         </div>
                     </Link>
                 </div>
                 <div className="hidden sm:flex gap-6 items-center">
-                    <Link href="/get-started" passHref>
+                    <Link href="/acknowledgements" passHref>
                         <a className="text-slate-600 text-sm hover:text-blue-600">
-                            Get started
+                            Acknowledgements
                         </a>
                     </Link>
-                    <Link href="/blog" passHref>
-                        <a className="text-slate-600 text-sm hover:text-blue-600">
-                            Blog
+                    <Link href="/" passHref>
+                        <a className="text-slate-600 text-xl hover:text-blue-600">
+                            <AiFillGithub />
                         </a>
                     </Link>
                 </div>
