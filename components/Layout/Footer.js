@@ -12,7 +12,10 @@ const Footer = () => {
         {
             title: "Company",
             contents: [
-                { title: "Contact", href: "/" },
+                {
+                    title: "Contact",
+                    href: "mailto:hassan.andrabi@unimelb.edu.au",
+                },
                 { title: "About", href: "/about" },
             ],
         },
