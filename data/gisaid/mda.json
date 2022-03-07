@@ -1,0 +1,2614 @@
+{
+    "2021-01-24": {},
+    "2020-02-23": {},
+    "2020-08-09": {},
+    "2021-04-11": {
+        "submissions_per_variant": [
+            {
+                "count": 2,
+                "value": "VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 2,
+                "value": "Spike_Y144del"
+            },
+            {
+                "count": 2,
+                "value": "Spike_V70del"
+            },
+            {
+                "count": 2,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 2,
+                "value": "Spike_H69del"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 2,
+                "value": "B.1.1.7"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 2,
+                "value": "GRY"
+            }
+        ],
+        "submissions": 2
+    },
+    "2020-11-15": {},
+    "2020-05-17": {},
+    "2021-10-17": {},
+    "2020-05-10": {},
+    "2020-08-02": {},
+    "2019-10-27": {},
+    "2021-07-11": {
+        "submissions_per_variant": [
+            {
+                "count": 1,
+                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 1,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 1,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 1,
+                "value": "Spike_L452R"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 1,
+                "value": "AY.122"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 1,
+                "value": "GK"
+            }
+        ],
+        "submissions": 1
+    },
+    "2020-11-22": {},
+    "2022-01-02": {
+        "submissions_per_variant": [
+            {
+                "count": 6,
+                "value": "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa"
+            },
+            {
+                "count": 4,
+                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 10,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 6,
+                "value": "Spike_Y505H"
+            },
+            {
+                "count": 6,
+                "value": "Spike_S477N"
+            },
+            {
+                "count": 6,
+                "value": "Spike_S375F"
+            },
+            {
+                "count": 6,
+                "value": "Spike_S373P"
+            },
+            {
+                "count": 6,
+                "value": "Spike_Q498R"
+            },
+            {
+                "count": 6,
+                "value": "Spike_Q493R"
+            },
+            {
+                "count": 6,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 6,
+                "value": "Spike_N440K"
+            },
+            {
+                "count": 6,
+                "value": "Spike_K417N"
+            },
+            {
+                "count": 6,
+                "value": "Spike_G496S"
+            },
+            {
+                "count": 6,
+                "value": "Spike_G446S"
+            },
+            {
+                "count": 6,
+                "value": "Spike_G339D"
+            },
+            {
+                "count": 6,
+                "value": "Spike_E484A"
+            },
+            {
+                "count": 5,
+                "value": "Spike_D796Y"
+            },
+            {
+                "count": 4,
+                "value": "Spike_Y144del"
+            },
+            {
+                "count": 4,
+                "value": "Spike_V70del"
+            },
+            {
+                "count": 4,
+                "value": "Spike_V143del"
+            },
+            {
+                "count": 4,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 4,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 4,
+                "value": "Spike_H69del"
+            },
+            {
+                "count": 2,
+                "value": "Spike_R346K"
+            },
+            {
+                "count": 1,
+                "value": "Spike_Y145H"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 4,
+                "value": "BA.1"
+            },
+            {
+                "count": 2,
+                "value": "BA.1.1"
+            },
+            {
+                "count": 2,
+                "value": "AY.46.6"
+            },
+            {
+                "count": 1,
+                "value": "AY.4.2"
+            },
+            {
+                "count": 1,
+                "value": "AY.122"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 6,
+                "value": "GRA"
+            },
+            {
+                "count": 4,
+                "value": "GK"
+            }
+        ],
+        "submissions": 10
+    },
+    "2021-01-17": {},
+    "2021-07-18": {},
+    "2021-04-04": {
+        "submissions_per_variant": [
+            {
+                "count": 5,
+                "value": "VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 5,
+                "value": "Spike_Y144del"
+            },
+            {
+                "count": 5,
+                "value": "Spike_V70del"
+            },
+            {
+                "count": 5,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 5,
+                "value": "Spike_H69del"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 5,
+                "value": "B.1.1.7"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 5,
+                "value": "GRY"
+            }
+        ],
+        "submissions": 5
+    },
+    "2020-11-08": {},
+    "2020-08-16": {},
+    "2020-03-01": {},
+    "2020-05-24": {},
+    "2022-03-06": {},
+    "2021-01-10": {},
+    "2021-10-24": {
+        "submissions_per_variant": [
+            {
+                "count": 2,
+                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 2,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 2,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 2,
+                "value": "Spike_L452R"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 2,
+                "value": "AY.122"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 2,
+                "value": "GK"
+            }
+        ],
+        "submissions": 2
+    },
+    "2021-10-31": {},
+    "2013-07-28": {},
+    "2021-07-25": {},
+    "2021-05-02": {
+        "submissions_per_variant": [
+            {
+                "count": 1,
+                "value": "VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK"
+            }
+        ],
+        "submissions_per_aa_substitution": [],
+        "submissions_per_lineage": [
+            {
+                "count": 1,
+                "value": "B.1.1.7"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 1,
+                "value": "GR"
+            }
+        ],
+        "submissions": 1
+    },
+    "2021-03-28": {},
+    "2021-02-14": {
+        "submissions_per_variant": [
+            {
+                "count": 1,
+                "value": "VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 1,
+                "value": "Spike_Y144del"
+            },
+            {
+                "count": 1,
+                "value": "Spike_V70del"
+            },
+            {
+                "count": 1,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 1,
+                "value": "Spike_H69del"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 1,
+                "value": "B.1.1.7"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 1,
+                "value": "GR"
+            }
+        ],
+        "submissions": 1
+    },
+    "2020-02-02": {},
+    "2020-10-25": {},
+    "2020-04-26": {},
+    "2022-01-16": {
+        "submissions_per_variant": [
+            {
+                "count": 68,
+                "value": "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa"
+            },
+            {
+                "count": 8,
+                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 74,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 68,
+                "value": "Spike_G339D"
+            },
+            {
+                "count": 67,
+                "value": "Spike_S477N"
+            },
+            {
+                "count": 67,
+                "value": "Spike_S373P"
+            },
+            {
+                "count": 67,
+                "value": "Spike_N440K"
+            },
+            {
+                "count": 67,
+                "value": "Spike_K417N"
+            },
+            {
+                "count": 66,
+                "value": "Spike_Q493R"
+            },
+            {
+                "count": 66,
+                "value": "Spike_E484A"
+            },
+            {
+                "count": 64,
+                "value": "Spike_G446S"
+            },
+            {
+                "count": 57,
+                "value": "Spike_Y505H"
+            },
+            {
+                "count": 57,
+                "value": "Spike_S375F"
+            },
+            {
+                "count": 57,
+                "value": "Spike_Q498R"
+            },
+            {
+                "count": 57,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 57,
+                "value": "Spike_D796Y"
+            },
+            {
+                "count": 56,
+                "value": "Spike_G496S"
+            },
+            {
+                "count": 52,
+                "value": "Spike_V70del"
+            },
+            {
+                "count": 52,
+                "value": "Spike_V143del"
+            },
+            {
+                "count": 52,
+                "value": "Spike_H69del"
+            },
+            {
+                "count": 45,
+                "value": "Spike_Y144del"
+            },
+            {
+                "count": 17,
+                "value": "Spike_R346K"
+            },
+            {
+                "count": 8,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 8,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 2,
+                "value": "Spike_Y145H"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 48,
+                "value": "BA.1"
+            },
+            {
+                "count": 17,
+                "value": "BA.1.1"
+            },
+            {
+                "count": 3,
+                "value": "BA.2"
+            },
+            {
+                "count": 3,
+                "value": "AY.122"
+            },
+            {
+                "count": 2,
+                "value": "AY.4"
+            },
+            {
+                "count": 1,
+                "value": "AY.4.2.3"
+            },
+            {
+                "count": 1,
+                "value": "AY.4.2"
+            },
+            {
+                "count": 1,
+                "value": "AY.126"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 68,
+                "value": "GRA"
+            },
+            {
+                "count": 8,
+                "value": "GK"
+            }
+        ],
+        "submissions": 76
+    },
+    "2020-07-19": {},
+    "2021-12-19": {
+        "submissions_per_variant": [
+            {
+                "count": 10,
+                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
+            },
+            {
+                "count": 2,
+                "value": "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 12,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 10,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 10,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 2,
+                "value": "Spike_Y505H"
+            },
+            {
+                "count": 2,
+                "value": "Spike_Y144del"
+            },
+            {
+                "count": 2,
+                "value": "Spike_V70del"
+            },
+            {
+                "count": 2,
+                "value": "Spike_V143del"
+            },
+            {
+                "count": 2,
+                "value": "Spike_S477N"
+            },
+            {
+                "count": 2,
+                "value": "Spike_S375F"
+            },
+            {
+                "count": 2,
+                "value": "Spike_S373P"
+            },
+            {
+                "count": 2,
+                "value": "Spike_Q498R"
+            },
+            {
+                "count": 2,
+                "value": "Spike_Q493R"
+            },
+            {
+                "count": 2,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 2,
+                "value": "Spike_N440K"
+            },
+            {
+                "count": 2,
+                "value": "Spike_K417N"
+            },
+            {
+                "count": 2,
+                "value": "Spike_H69del"
+            },
+            {
+                "count": 2,
+                "value": "Spike_G496S"
+            },
+            {
+                "count": 2,
+                "value": "Spike_G446S"
+            },
+            {
+                "count": 2,
+                "value": "Spike_G339D"
+            },
+            {
+                "count": 2,
+                "value": "Spike_E484A"
+            },
+            {
+                "count": 2,
+                "value": "Spike_D796Y"
+            },
+            {
+                "count": 1,
+                "value": "Spike_Y145H"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 6,
+                "value": "AY.122"
+            },
+            {
+                "count": 2,
+                "value": "BA.1"
+            },
+            {
+                "count": 1,
+                "value": "AY.46.6"
+            },
+            {
+                "count": 1,
+                "value": "AY.4.2.3"
+            },
+            {
+                "count": 1,
+                "value": "AY.4"
+            },
+            {
+                "count": 1,
+                "value": "AY.127"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 10,
+                "value": "GK"
+            },
+            {
+                "count": 2,
+                "value": "GRA"
+            }
+        ],
+        "submissions": 12
+    },
+    "2020-07-12": {},
+    "2021-06-20": {
+        "submissions_per_variant": [
+            {
+                "count": 2,
+                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 2,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 2,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 2,
+                "value": "Spike_L452R"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 2,
+                "value": "AY.122"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 2,
+                "value": "GK"
+            }
+        ],
+        "submissions": 2
+    },
+    "2021-09-12": {
+        "submissions_per_variant": [
+            {
+                "count": 27,
+                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 27,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 27,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 27,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 4,
+                "value": "Spike_Y145H"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 11,
+                "value": "AY.122"
+            },
+            {
+                "count": 4,
+                "value": "AY.4"
+            },
+            {
+                "count": 3,
+                "value": "AY.98.1"
+            },
+            {
+                "count": 3,
+                "value": "AY.4.2.3"
+            },
+            {
+                "count": 2,
+                "value": "B.1.617.2"
+            },
+            {
+                "count": 1,
+                "value": "AY.9"
+            },
+            {
+                "count": 1,
+                "value": "AY.43"
+            },
+            {
+                "count": 1,
+                "value": "AY.4.2"
+            },
+            {
+                "count": 1,
+                "value": "AY.33"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 27,
+                "value": "GK"
+            }
+        ],
+        "submissions": 27
+    },
+    "2017-09-03": {},
+    "2010-12-12": {},
+    "2020-04-19": {},
+    "2022-01-23": {
+        "submissions_per_variant": [
+            {
+                "count": 12,
+                "value": "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 12,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 12,
+                "value": "Spike_S477N"
+            },
+            {
+                "count": 12,
+                "value": "Spike_S373P"
+            },
+            {
+                "count": 12,
+                "value": "Spike_Q493R"
+            },
+            {
+                "count": 12,
+                "value": "Spike_N440K"
+            },
+            {
+                "count": 12,
+                "value": "Spike_K417N"
+            },
+            {
+                "count": 12,
+                "value": "Spike_G339D"
+            },
+            {
+                "count": 12,
+                "value": "Spike_E484A"
+            },
+            {
+                "count": 11,
+                "value": "Spike_G446S"
+            },
+            {
+                "count": 11,
+                "value": "Spike_D796Y"
+            },
+            {
+                "count": 10,
+                "value": "Spike_V70del"
+            },
+            {
+                "count": 10,
+                "value": "Spike_V143del"
+            },
+            {
+                "count": 10,
+                "value": "Spike_H69del"
+            },
+            {
+                "count": 8,
+                "value": "Spike_Y144del"
+            },
+            {
+                "count": 7,
+                "value": "Spike_S375F"
+            },
+            {
+                "count": 4,
+                "value": "Spike_Y505H"
+            },
+            {
+                "count": 4,
+                "value": "Spike_R346K"
+            },
+            {
+                "count": 3,
+                "value": "Spike_Q498R"
+            },
+            {
+                "count": 3,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 3,
+                "value": "Spike_G496S"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 8,
+                "value": "BA.1"
+            },
+            {
+                "count": 3,
+                "value": "BA.1.1"
+            },
+            {
+                "count": 1,
+                "value": "BA.2"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 12,
+                "value": "GRA"
+            }
+        ],
+        "submissions": 12
+    },
+    "2020-11-01": {},
+    "2021-06-27": {
+        "submissions_per_variant": [
+            {
+                "count": 2,
+                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
+            },
+            {
+                "count": 2,
+                "value": "VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 2,
+                "value": "Spike_Y144del"
+            },
+            {
+                "count": 2,
+                "value": "Spike_V70del"
+            },
+            {
+                "count": 2,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 2,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 2,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 2,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 2,
+                "value": "Spike_H69del"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 2,
+                "value": "B.1.1.7"
+            },
+            {
+                "count": 2,
+                "value": "AY.122"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 2,
+                "value": "GRY"
+            },
+            {
+                "count": 2,
+                "value": "GK"
+            }
+        ],
+        "submissions": 4
+    },
+    "2021-02-07": {
+        "submissions_per_variant": [
+            {
+                "count": 2,
+                "value": "VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 2,
+                "value": "Spike_Y144del"
+            },
+            {
+                "count": 2,
+                "value": "Spike_V70del"
+            },
+            {
+                "count": 2,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 2,
+                "value": "Spike_H69del"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 2,
+                "value": "B.1.1.7"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 2,
+                "value": "GR"
+            }
+        ],
+        "submissions": 2
+    },
+    "2021-09-19": {
+        "submissions_per_variant": [
+            {
+                "count": 1,
+                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 1,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 1,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 1,
+                "value": "Spike_L452R"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 1,
+                "value": "AY.122"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 1,
+                "value": "GK"
+            }
+        ],
+        "submissions": 1
+    },
+    "2020-05-03": {},
+    "2020-10-18": {},
+    "2022-01-09": {
+        "submissions_per_variant": [
+            {
+                "count": 67,
+                "value": "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa"
+            },
+            {
+                "count": 10,
+                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 75,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 66,
+                "value": "Spike_G339D"
+            },
+            {
+                "count": 65,
+                "value": "Spike_S477N"
+            },
+            {
+                "count": 65,
+                "value": "Spike_S373P"
+            },
+            {
+                "count": 65,
+                "value": "Spike_Q493R"
+            },
+            {
+                "count": 65,
+                "value": "Spike_N440K"
+            },
+            {
+                "count": 65,
+                "value": "Spike_K417N"
+            },
+            {
+                "count": 65,
+                "value": "Spike_E484A"
+            },
+            {
+                "count": 64,
+                "value": "Spike_G446S"
+            },
+            {
+                "count": 60,
+                "value": "Spike_D796Y"
+            },
+            {
+                "count": 47,
+                "value": "Spike_V70del"
+            },
+            {
+                "count": 47,
+                "value": "Spike_H69del"
+            },
+            {
+                "count": 46,
+                "value": "Spike_Y505H"
+            },
+            {
+                "count": 46,
+                "value": "Spike_V143del"
+            },
+            {
+                "count": 46,
+                "value": "Spike_S375F"
+            },
+            {
+                "count": 46,
+                "value": "Spike_Q498R"
+            },
+            {
+                "count": 46,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 45,
+                "value": "Spike_G496S"
+            },
+            {
+                "count": 33,
+                "value": "Spike_Y144del"
+            },
+            {
+                "count": 26,
+                "value": "Spike_R346K"
+            },
+            {
+                "count": 10,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 10,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 3,
+                "value": "Spike_Y145H"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 40,
+                "value": "BA.1"
+            },
+            {
+                "count": 26,
+                "value": "BA.1.1"
+            },
+            {
+                "count": 3,
+                "value": "AY.122"
+            },
+            {
+                "count": 2,
+                "value": "AY.4.2.3"
+            },
+            {
+                "count": 2,
+                "value": "AY.127"
+            },
+            {
+                "count": 1,
+                "value": "BA.2"
+            },
+            {
+                "count": 1,
+                "value": "AY.43"
+            },
+            {
+                "count": 1,
+                "value": "AY.4.2"
+            },
+            {
+                "count": 1,
+                "value": "AY.120"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 66,
+                "value": "GRA"
+            },
+            {
+                "count": 10,
+                "value": "GK"
+            },
+            {
+                "count": 1,
+                "value": "GR"
+            }
+        ],
+        "submissions": 77
+    },
+    "2021-04-25": {
+        "submissions_per_variant": [
+            {
+                "count": 3,
+                "value": "VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK"
+            }
+        ],
+        "submissions_per_aa_substitution": [],
+        "submissions_per_lineage": [
+            {
+                "count": 3,
+                "value": "B.1.1.7"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 3,
+                "value": "GR"
+            }
+        ],
+        "submissions": 3
+    },
+    "2020-07-26": {},
+    "2021-01-31": {
+        "submissions_per_variant": [
+            {
+                "count": 1,
+                "value": "VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 1,
+                "value": "Spike_Y144del"
+            },
+            {
+                "count": 1,
+                "value": "Spike_V70del"
+            },
+            {
+                "count": 1,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 1,
+                "value": "Spike_H69del"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 1,
+                "value": "B.1.1.7"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 1,
+                "value": "GR"
+            }
+        ],
+        "submissions": 1
+    },
+    "2020-02-16": {},
+    "2021-12-26": {
+        "submissions_per_variant": [
+            {
+                "count": 8,
+                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
+            },
+            {
+                "count": 4,
+                "value": "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 12,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 8,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 8,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 4,
+                "value": "Spike_Y505H"
+            },
+            {
+                "count": 4,
+                "value": "Spike_S477N"
+            },
+            {
+                "count": 4,
+                "value": "Spike_S375F"
+            },
+            {
+                "count": 4,
+                "value": "Spike_S373P"
+            },
+            {
+                "count": 4,
+                "value": "Spike_Q498R"
+            },
+            {
+                "count": 4,
+                "value": "Spike_Q493R"
+            },
+            {
+                "count": 4,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 4,
+                "value": "Spike_N440K"
+            },
+            {
+                "count": 4,
+                "value": "Spike_K417N"
+            },
+            {
+                "count": 4,
+                "value": "Spike_G496S"
+            },
+            {
+                "count": 4,
+                "value": "Spike_G446S"
+            },
+            {
+                "count": 4,
+                "value": "Spike_G339D"
+            },
+            {
+                "count": 4,
+                "value": "Spike_E484A"
+            },
+            {
+                "count": 3,
+                "value": "Spike_R346K"
+            },
+            {
+                "count": 3,
+                "value": "Spike_D796Y"
+            },
+            {
+                "count": 2,
+                "value": "Spike_Y145H"
+            },
+            {
+                "count": 1,
+                "value": "Spike_Y144del"
+            },
+            {
+                "count": 1,
+                "value": "Spike_V70del"
+            },
+            {
+                "count": 1,
+                "value": "Spike_V143del"
+            },
+            {
+                "count": 1,
+                "value": "Spike_H69del"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 5,
+                "value": "AY.122"
+            },
+            {
+                "count": 4,
+                "value": "BA.1.1"
+            },
+            {
+                "count": 2,
+                "value": "AY.4.2.3"
+            },
+            {
+                "count": 1,
+                "value": "AY.44"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 8,
+                "value": "GK"
+            },
+            {
+                "count": 4,
+                "value": "GRA"
+            }
+        ],
+        "submissions": 12
+    },
+    "2021-10-03": {},
+    "2021-10-10": {},
+    "2021-09-26": {},
+    "2020-02-09": {},
+    "2021-07-04": {
+        "submissions_per_variant": [
+            {
+                "count": 6,
+                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 6,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 6,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 6,
+                "value": "Spike_L452R"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 6,
+                "value": "AY.122"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 6,
+                "value": "GK"
+            }
+        ],
+        "submissions": 6
+    },
+    "2021-04-18": {},
+    "2020-04-05": {},
+    "2020-10-04": {},
+    "2020-01-12": {},
+    "2020-12-27": {},
+    "2020-06-28": {},
+    "2022-02-06": {
+        "submissions_per_variant": [
+            {
+                "count": 7,
+                "value": "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 7,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 7,
+                "value": "Spike_S477N"
+            },
+            {
+                "count": 7,
+                "value": "Spike_S373P"
+            },
+            {
+                "count": 7,
+                "value": "Spike_Q493R"
+            },
+            {
+                "count": 7,
+                "value": "Spike_N440K"
+            },
+            {
+                "count": 7,
+                "value": "Spike_K417N"
+            },
+            {
+                "count": 7,
+                "value": "Spike_G339D"
+            },
+            {
+                "count": 7,
+                "value": "Spike_E484A"
+            },
+            {
+                "count": 6,
+                "value": "Spike_V70del"
+            },
+            {
+                "count": 6,
+                "value": "Spike_V143del"
+            },
+            {
+                "count": 6,
+                "value": "Spike_H69del"
+            },
+            {
+                "count": 6,
+                "value": "Spike_G446S"
+            },
+            {
+                "count": 1,
+                "value": "Spike_R346K"
+            },
+            {
+                "count": 1,
+                "value": "Spike_D796Y"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 5,
+                "value": "BA.1"
+            },
+            {
+                "count": 1,
+                "value": "BA.2"
+            },
+            {
+                "count": 1,
+                "value": "BA.1.1"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 7,
+                "value": "GRA"
+            }
+        ],
+        "submissions": 7
+    },
+    "2020-09-13": {
+        "submissions_per_variant": [
+            {
+                "count": 7,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 6,
+                "value": "GR"
+            },
+            {
+                "count": 1,
+                "value": "G"
+            }
+        ],
+        "submissions": 7
+    },
+    "2020-06-21": {
+        "submissions_per_variant": [
+            {
+                "count": 4,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 3,
+                "value": "GR"
+            },
+            {
+                "count": 1,
+                "value": "G"
+            }
+        ],
+        "submissions": 4
+    },
+    "2021-11-28": {
+        "submissions_per_variant": [
+            {
+                "count": 8,
+                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 8,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 8,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 8,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 2,
+                "value": "Spike_Y145H"
+            },
+            {
+                "count": 1,
+                "value": "Spike_Y144del"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 5,
+                "value": "AY.122"
+            },
+            {
+                "count": 2,
+                "value": "AY.4.2.3"
+            },
+            {
+                "count": 1,
+                "value": "B.1.617.2"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 8,
+                "value": "GK"
+            }
+        ],
+        "submissions": 8
+    },
+    "2019-12-08": {},
+    "2021-08-22": {
+        "submissions_per_variant": [
+            {
+                "count": 1,
+                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 1,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 1,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 1,
+                "value": "Spike_L452R"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 1,
+                "value": "AY.54"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 1,
+                "value": "GK"
+            }
+        ],
+        "submissions": 1
+    },
+    "2021-05-30": {},
+    "2020-10-11": {},
+    "2020-01-05": {},
+    "2020-03-29": {},
+    "2022-02-13": {
+        "submissions_per_variant": [
+            {
+                "count": 4,
+                "value": "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 4,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 4,
+                "value": "Spike_S477N"
+            },
+            {
+                "count": 4,
+                "value": "Spike_S373P"
+            },
+            {
+                "count": 4,
+                "value": "Spike_Q493R"
+            },
+            {
+                "count": 4,
+                "value": "Spike_N440K"
+            },
+            {
+                "count": 4,
+                "value": "Spike_K417N"
+            },
+            {
+                "count": 4,
+                "value": "Spike_G339D"
+            },
+            {
+                "count": 4,
+                "value": "Spike_E484A"
+            },
+            {
+                "count": 3,
+                "value": "Spike_V70del"
+            },
+            {
+                "count": 3,
+                "value": "Spike_V143del"
+            },
+            {
+                "count": 3,
+                "value": "Spike_H69del"
+            },
+            {
+                "count": 3,
+                "value": "Spike_G446S"
+            },
+            {
+                "count": 1,
+                "value": "Spike_R346K"
+            },
+            {
+                "count": 1,
+                "value": "Spike_D796Y"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 2,
+                "value": "BA.1"
+            },
+            {
+                "count": 1,
+                "value": "BA.2"
+            },
+            {
+                "count": 1,
+                "value": "BA.1.1"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 4,
+                "value": "GRA"
+            }
+        ],
+        "submissions": 4
+    },
+    "2021-08-29": {
+        "submissions_per_variant": [
+            {
+                "count": 1,
+                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 1,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 1,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 1,
+                "value": "Spike_L452R"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 1,
+                "value": "AY.122"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 1,
+                "value": "GK"
+            }
+        ],
+        "submissions": 1
+    },
+    "2021-06-06": {},
+    "2021-02-28": {
+        "submissions_per_variant": [
+            {
+                "count": 4,
+                "value": "VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 4,
+                "value": "Spike_Y144del"
+            },
+            {
+                "count": 4,
+                "value": "Spike_V70del"
+            },
+            {
+                "count": 4,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 4,
+                "value": "Spike_H69del"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 4,
+                "value": "B.1.1.7"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 4,
+                "value": "GR"
+            }
+        ],
+        "submissions": 4
+    },
+    "2020-07-05": {},
+    "2020-04-12": {},
+    "2020-09-27": {},
+    "2021-02-21": {},
+    "2020-01-26": {},
+    "2020-09-20": {},
+    "2021-12-05": {
+        "submissions_per_variant": [
+            {
+                "count": 8,
+                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 8,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 8,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 8,
+                "value": "Spike_L452R"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 2,
+                "value": "AY.127"
+            },
+            {
+                "count": 2,
+                "value": "AY.125"
+            },
+            {
+                "count": 2,
+                "value": "AY.122"
+            },
+            {
+                "count": 1,
+                "value": "AY.4.9"
+            },
+            {
+                "count": 1,
+                "value": "AY.4"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 8,
+                "value": "GK"
+            }
+        ],
+        "submissions": 8
+    },
+    "2021-12-12": {
+        "submissions_per_variant": [
+            {
+                "count": 21,
+                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 21,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 21,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 21,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 5,
+                "value": "Spike_Y145H"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 7,
+                "value": "AY.122"
+            },
+            {
+                "count": 4,
+                "value": "AY.4.2.3"
+            },
+            {
+                "count": 4,
+                "value": "AY.4"
+            },
+            {
+                "count": 2,
+                "value": "AY.46"
+            },
+            {
+                "count": 1,
+                "value": "AY.46.6"
+            },
+            {
+                "count": 1,
+                "value": "AY.43"
+            },
+            {
+                "count": 1,
+                "value": "AY.4.2"
+            },
+            {
+                "count": 1,
+                "value": "AY.126"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 20,
+                "value": "GK"
+            },
+            {
+                "count": 1,
+                "value": "O"
+            }
+        ],
+        "submissions": 21
+    },
+    "2019-03-24": {},
+    "2021-06-13": {},
+    "2021-09-05": {
+        "submissions_per_variant": [
+            {
+                "count": 8,
+                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 8,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 8,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 8,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 1,
+                "value": "Spike_Y145H"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 5,
+                "value": "AY.122"
+            },
+            {
+                "count": 2,
+                "value": "AY.43"
+            },
+            {
+                "count": 1,
+                "value": "B.1.617.2"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 8,
+                "value": "GK"
+            }
+        ],
+        "submissions": 8
+    },
+    "2020-01-19": {},
+    "2022-01-30": {
+        "submissions_per_variant": [
+            {
+                "count": 9,
+                "value": "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 9,
+                "value": "Spike_V70del"
+            },
+            {
+                "count": 9,
+                "value": "Spike_V143del"
+            },
+            {
+                "count": 9,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 9,
+                "value": "Spike_S477N"
+            },
+            {
+                "count": 9,
+                "value": "Spike_S373P"
+            },
+            {
+                "count": 9,
+                "value": "Spike_Q493R"
+            },
+            {
+                "count": 9,
+                "value": "Spike_N440K"
+            },
+            {
+                "count": 9,
+                "value": "Spike_K417N"
+            },
+            {
+                "count": 9,
+                "value": "Spike_H69del"
+            },
+            {
+                "count": 9,
+                "value": "Spike_G446S"
+            },
+            {
+                "count": 9,
+                "value": "Spike_G339D"
+            },
+            {
+                "count": 9,
+                "value": "Spike_E484A"
+            },
+            {
+                "count": 6,
+                "value": "Spike_D796Y"
+            },
+            {
+                "count": 5,
+                "value": "Spike_Y144del"
+            },
+            {
+                "count": 3,
+                "value": "Spike_R346K"
+            },
+            {
+                "count": 2,
+                "value": "Spike_S375F"
+            },
+            {
+                "count": 1,
+                "value": "Spike_Y505H"
+            },
+            {
+                "count": 1,
+                "value": "Spike_N501Y"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 6,
+                "value": "BA.1"
+            },
+            {
+                "count": 3,
+                "value": "BA.1.1"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 9,
+                "value": "GRA"
+            }
+        ],
+        "submissions": 9
+    },
+    "2020-12-20": {},
+    "2021-05-09": {
+        "submissions_per_variant": [
+            {
+                "count": 6,
+                "value": "VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK"
+            },
+            {
+                "count": 1,
+                "value": "VOI Eta G/484K.V3 (B.1.525) first detected in UK/Nigeria"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 3,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 1,
+                "value": "Spike_V70del"
+            },
+            {
+                "count": 1,
+                "value": "Spike_H69del"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 6,
+                "value": "B.1.1.7"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 5,
+                "value": "GR"
+            },
+            {
+                "count": 2,
+                "value": "G"
+            }
+        ],
+        "submissions": 7
+    },
+    "2021-01-03": {},
+    "2020-03-15": {
+        "submissions_per_variant": [
+            {
+                "count": 5,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 4,
+                "value": "G"
+            },
+            {
+                "count": 1,
+                "value": "V"
+            }
+        ],
+        "submissions": 5
+    },
+    "2022-02-27": {
+        "submissions_per_variant": [
+            {
+                "count": 2,
+                "value": "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 2,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 2,
+                "value": "Spike_S477N"
+            },
+            {
+                "count": 2,
+                "value": "Spike_S373P"
+            },
+            {
+                "count": 2,
+                "value": "Spike_Q493R"
+            },
+            {
+                "count": 2,
+                "value": "Spike_N440K"
+            },
+            {
+                "count": 2,
+                "value": "Spike_K417N"
+            },
+            {
+                "count": 2,
+                "value": "Spike_G339D"
+            },
+            {
+                "count": 2,
+                "value": "Spike_E484A"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 2,
+                "value": "BA.2"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 2,
+                "value": "GRA"
+            }
+        ],
+        "submissions": 2
+    },
+    "2021-03-21": {
+        "submissions_per_variant": [
+            {
+                "count": 2,
+                "value": "VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 2,
+                "value": "Spike_Y144del"
+            },
+            {
+                "count": 2,
+                "value": "Spike_V70del"
+            },
+            {
+                "count": 2,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 2,
+                "value": "Spike_H69del"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 2,
+                "value": "B.1.1.7"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 2,
+                "value": "GRY"
+            }
+        ],
+        "submissions": 2
+    },
+    "2020-12-06": {},
+    "2020-06-07": {},
+    "2021-11-07": {
+        "submissions_per_variant": [
+            {
+                "count": 17,
+                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 17,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 16,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 16,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 3,
+                "value": "Spike_Y145H"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 11,
+                "value": "AY.122"
+            },
+            {
+                "count": 3,
+                "value": "AY.4.2.3"
+            },
+            {
+                "count": 2,
+                "value": "AY.43"
+            },
+            {
+                "count": 1,
+                "value": "AY.125"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 16,
+                "value": "GK"
+            },
+            {
+                "count": 1,
+                "value": "G"
+            }
+        ],
+        "submissions": 17
+    },
+    "2019-06-30": {},
+    "2020-08-23": {},
+    "2020-05-31": {},
+    "2019-12-29": {},
+    "2021-08-01": {},
+    "2020-03-08": {},
+    "2020-12-13": {},
+    "2021-08-08": {},
+    "2021-05-16": {
+        "submissions_per_variant": [
+            {
+                "count": 4,
+                "value": "VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK"
+            },
+            {
+                "count": 1,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 2,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 1,
+                "value": "Spike_Y144del"
+            },
+            {
+                "count": 1,
+                "value": "Spike_V70del"
+            },
+            {
+                "count": 1,
+                "value": "Spike_H69del"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 4,
+                "value": "B.1.1.7"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 4,
+                "value": "GR"
+            },
+            {
+                "count": 1,
+                "value": "GRY"
+            }
+        ],
+        "submissions": 5
+    },
+    "2020-03-22": {},
+    "2021-03-14": {},
+    "2020-09-06": {
+        "submissions_per_variant": [
+            {
+                "count": 1,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 1,
+                "value": "G"
+            }
+        ],
+        "submissions": 1
+    },
+    "2020-06-14": {},
+    "2020-11-29": {},
+    "2020-08-30": {},
+    "2021-11-14": {
+        "submissions_per_variant": [
+            {
+                "count": 12,
+                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 12,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 12,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 12,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 1,
+                "value": "Spike_Y145H"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 8,
+                "value": "AY.122"
+            },
+            {
+                "count": 2,
+                "value": "AY.4.2.3"
+            },
+            {
+                "count": 1,
+                "value": "AY.4"
+            },
+            {
+                "count": 1,
+                "value": "AY.121"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 10,
+                "value": "GK"
+            },
+            {
+                "count": 2,
+                "value": "O"
+            }
+        ],
+        "submissions": 12
+    },
+    "2021-11-21": {
+        "submissions_per_variant": [
+            {
+                "count": 8,
+                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 8,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 8,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 8,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 1,
+                "value": "Spike_Y145H"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 4,
+                "value": "AY.122"
+            },
+            {
+                "count": 1,
+                "value": "AY.98.1"
+            },
+            {
+                "count": 1,
+                "value": "AY.4.2.3"
+            },
+            {
+                "count": 1,
+                "value": "AY.4"
+            },
+            {
+                "count": 1,
+                "value": "AY.36"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 8,
+                "value": "GK"
+            }
+        ],
+        "submissions": 8
+    },
+    "2021-08-15": {
+        "submissions_per_variant": [
+            {
+                "count": 5,
+                "value": "VOC Delta GK (B.1.617.2+AY.*) first detected in India"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 5,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 5,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 5,
+                "value": "Spike_L452R"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 3,
+                "value": "AY.122"
+            },
+            {
+                "count": 1,
+                "value": "AY.4"
+            },
+            {
+                "count": 1,
+                "value": "AY.126"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 5,
+                "value": "GK"
+            }
+        ],
+        "submissions": 5
+    },
+    "2021-05-23": {
+        "submissions_per_variant": [
+            {
+                "count": 1,
+                "value": "VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 1,
+                "value": "Spike_Y144del"
+            },
+            {
+                "count": 1,
+                "value": "Spike_V70del"
+            },
+            {
+                "count": 1,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 1,
+                "value": "Spike_H69del"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 1,
+                "value": "B.1.1.7"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 1,
+                "value": "GRY"
+            }
+        ],
+        "submissions": 1
+    },
+    "2021-03-07": {
+        "submissions_per_variant": [
+            {
+                "count": 3,
+                "value": "VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 3,
+                "value": "Spike_Y144del"
+            },
+            {
+                "count": 3,
+                "value": "Spike_V70del"
+            },
+            {
+                "count": 3,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 3,
+                "value": "Spike_H69del"
+            }
+        ],
+        "submissions_per_lineage": [
+            {
+                "count": 3,
+                "value": "B.1.1.7"
+            }
+        ],
+        "submissions_per_clade": [
+            {
+                "count": 3,
+                "value": "GRY"
+            }
+        ],
+        "submissions": 3
+    },
+    "2022-02-20": {}
+}

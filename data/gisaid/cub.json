@@ -1,0 +1,1617 @@
+{
+    "2021-01-24": {
+        "submissions_per_variant": [
+            {
+                "count": 1,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 1,
+                "value": "G"
+            }
+        ],
+        "submissions": 1
+    },
+    "2020-02-23": {},
+    "2020-08-09": {},
+    "2021-04-11": {
+        "submissions_per_variant": [
+            {
+                "count": 36,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 26,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 18,
+                "value": "Spike_K417N"
+            },
+            {
+                "count": 4,
+                "value": "Spike_L452R"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 36,
+                "value": "G"
+            }
+        ],
+        "submissions": 36
+    },
+    "2020-11-15": {},
+    "2020-05-17": {},
+    "2021-10-17": {},
+    "2020-05-10": {},
+    "2020-08-02": {},
+    "2019-10-27": {},
+    "2021-07-11": {
+        "submissions_per_variant": [
+            {
+                "count": 36,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 27,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 27,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 27,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 9,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 9,
+                "value": "Spike_K417N"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 36,
+                "value": "O"
+            }
+        ],
+        "submissions": 36
+    },
+    "2020-11-22": {},
+    "2022-01-02": {
+        "submissions_per_variant": [
+            {
+                "count": 18,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 18,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 12,
+                "value": "Spike_Y505H"
+            },
+            {
+                "count": 12,
+                "value": "Spike_S477N"
+            },
+            {
+                "count": 12,
+                "value": "Spike_Q498R"
+            },
+            {
+                "count": 12,
+                "value": "Spike_Q493R"
+            },
+            {
+                "count": 12,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 12,
+                "value": "Spike_G496S"
+            },
+            {
+                "count": 12,
+                "value": "Spike_E484A"
+            },
+            {
+                "count": 9,
+                "value": "Spike_N440K"
+            },
+            {
+                "count": 9,
+                "value": "Spike_G446S"
+            },
+            {
+                "count": 7,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 5,
+                "value": "Spike_L452R"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 12,
+                "value": "GRA"
+            },
+            {
+                "count": 6,
+                "value": "O"
+            }
+        ],
+        "submissions": 18
+    },
+    "2021-01-17": {
+        "submissions_per_variant": [
+            {
+                "count": 40,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 1,
+                "value": "Spike_L452R"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 40,
+                "value": "G"
+            }
+        ],
+        "submissions": 40
+    },
+    "2021-07-18": {
+        "submissions_per_variant": [
+            {
+                "count": 6,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 5,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 5,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 5,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 1,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 1,
+                "value": "Spike_K417N"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 6,
+                "value": "O"
+            }
+        ],
+        "submissions": 6
+    },
+    "2021-04-04": {
+        "submissions_per_variant": [
+            {
+                "count": 41,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 33,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 29,
+                "value": "Spike_K417N"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 41,
+                "value": "G"
+            }
+        ],
+        "submissions": 41
+    },
+    "2020-11-08": {},
+    "2020-08-16": {},
+    "2020-03-01": {},
+    "2020-05-24": {},
+    "2022-03-06": {},
+    "2021-01-10": {
+        "submissions_per_variant": [
+            {
+                "count": 1,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 1,
+                "value": "G"
+            }
+        ],
+        "submissions": 1
+    },
+    "2021-10-24": {},
+    "2021-10-31": {},
+    "2013-07-28": {},
+    "2021-07-25": {
+        "submissions_per_variant": [
+            {
+                "count": 29,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 21,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 21,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 20,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 8,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 8,
+                "value": "Spike_K417N"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 29,
+                "value": "O"
+            }
+        ],
+        "submissions": 29
+    },
+    "2021-05-02": {
+        "submissions_per_variant": [
+            {
+                "count": 28,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 22,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 2,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 1,
+                "value": "Spike_S477N"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 28,
+                "value": "G"
+            }
+        ],
+        "submissions": 28
+    },
+    "2021-03-28": {
+        "submissions_per_variant": [
+            {
+                "count": 28,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 14,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 10,
+                "value": "Spike_K417N"
+            },
+            {
+                "count": 3,
+                "value": "Spike_L452R"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 27,
+                "value": "G"
+            },
+            {
+                "count": 1,
+                "value": "O"
+            }
+        ],
+        "submissions": 28
+    },
+    "2021-02-14": {
+        "submissions_per_variant": [
+            {
+                "count": 11,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 3,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 1,
+                "value": "Spike_K417N"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 11,
+                "value": "G"
+            }
+        ],
+        "submissions": 11
+    },
+    "2020-02-02": {},
+    "2020-10-25": {},
+    "2020-04-26": {
+        "submissions_per_variant": [
+            {
+                "count": 1,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 1,
+                "value": "O"
+            }
+        ],
+        "submissions": 1
+    },
+    "2022-01-16": {},
+    "2020-07-19": {},
+    "2021-12-19": {
+        "submissions_per_variant": [
+            {
+                "count": 9,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 9,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 8,
+                "value": "Spike_Y505H"
+            },
+            {
+                "count": 8,
+                "value": "Spike_S477N"
+            },
+            {
+                "count": 8,
+                "value": "Spike_Q498R"
+            },
+            {
+                "count": 8,
+                "value": "Spike_Q493R"
+            },
+            {
+                "count": 8,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 8,
+                "value": "Spike_G496S"
+            },
+            {
+                "count": 8,
+                "value": "Spike_E484A"
+            },
+            {
+                "count": 5,
+                "value": "Spike_N440K"
+            },
+            {
+                "count": 5,
+                "value": "Spike_G446S"
+            },
+            {
+                "count": 1,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 1,
+                "value": "Spike_L452R"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 8,
+                "value": "GRA"
+            },
+            {
+                "count": 1,
+                "value": "O"
+            }
+        ],
+        "submissions": 9
+    },
+    "2020-07-12": {
+        "submissions_per_variant": [
+            {
+                "count": 1,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 1,
+                "value": "G"
+            }
+        ],
+        "submissions": 1
+    },
+    "2021-06-20": {
+        "submissions_per_variant": [
+            {
+                "count": 30,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 21,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 16,
+                "value": "Spike_K417N"
+            },
+            {
+                "count": 8,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 7,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 7,
+                "value": "Spike_P681R"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 30,
+                "value": "O"
+            }
+        ],
+        "submissions": 30
+    },
+    "2021-09-12": {},
+    "2017-09-03": {},
+    "2010-12-12": {},
+    "2020-04-19": {
+        "submissions_per_variant": [
+            {
+                "count": 1,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 1,
+                "value": "G"
+            }
+        ],
+        "submissions": 1
+    },
+    "2022-01-23": {},
+    "2020-11-01": {},
+    "2021-06-27": {
+        "submissions_per_variant": [
+            {
+                "count": 58,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 29,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 23,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 22,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 22,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 15,
+                "value": "Spike_K417N"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 58,
+                "value": "O"
+            }
+        ],
+        "submissions": 58
+    },
+    "2021-02-07": {
+        "submissions_per_variant": [
+            {
+                "count": 45,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 2,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 1,
+                "value": "Spike_K417N"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 45,
+                "value": "G"
+            }
+        ],
+        "submissions": 45
+    },
+    "2021-09-19": {},
+    "2020-05-03": {},
+    "2020-10-18": {},
+    "2022-01-09": {},
+    "2021-04-25": {
+        "submissions_per_variant": [
+            {
+                "count": 36,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 26,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 4,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 1,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 1,
+                "value": "Spike_P681R"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 33,
+                "value": "G"
+            },
+            {
+                "count": 3,
+                "value": "O"
+            }
+        ],
+        "submissions": 36
+    },
+    "2020-07-26": {},
+    "2021-01-31": {
+        "submissions_per_variant": [
+            {
+                "count": 50,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 50,
+                "value": "G"
+            }
+        ],
+        "submissions": 50
+    },
+    "2020-02-16": {},
+    "2021-12-26": {
+        "submissions_per_variant": [
+            {
+                "count": 59,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 58,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 46,
+                "value": "Spike_Y505H"
+            },
+            {
+                "count": 46,
+                "value": "Spike_S477N"
+            },
+            {
+                "count": 46,
+                "value": "Spike_Q498R"
+            },
+            {
+                "count": 46,
+                "value": "Spike_Q493R"
+            },
+            {
+                "count": 46,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 46,
+                "value": "Spike_E484A"
+            },
+            {
+                "count": 45,
+                "value": "Spike_G496S"
+            },
+            {
+                "count": 31,
+                "value": "Spike_N440K"
+            },
+            {
+                "count": 31,
+                "value": "Spike_G446S"
+            },
+            {
+                "count": 12,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 9,
+                "value": "Spike_P681R"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 46,
+                "value": "GRA"
+            },
+            {
+                "count": 13,
+                "value": "O"
+            }
+        ],
+        "submissions": 59
+    },
+    "2021-10-03": {},
+    "2021-10-10": {},
+    "2021-09-26": {},
+    "2020-02-09": {},
+    "2021-07-04": {
+        "submissions_per_variant": [
+            {
+                "count": 22,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 12,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 12,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 12,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 10,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 10,
+                "value": "Spike_K417N"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 22,
+                "value": "O"
+            }
+        ],
+        "submissions": 22
+    },
+    "2021-04-18": {
+        "submissions_per_variant": [
+            {
+                "count": 57,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 39,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 28,
+                "value": "Spike_K417N"
+            },
+            {
+                "count": 1,
+                "value": "Spike_L452R"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 56,
+                "value": "G"
+            },
+            {
+                "count": 1,
+                "value": "O"
+            }
+        ],
+        "submissions": 57
+    },
+    "2020-04-05": {
+        "submissions_per_variant": [
+            {
+                "count": 3,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 3,
+                "value": "G"
+            }
+        ],
+        "submissions": 3
+    },
+    "2020-10-04": {},
+    "2020-01-12": {},
+    "2020-12-27": {
+        "submissions_per_variant": [
+            {
+                "count": 5,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 1,
+                "value": "Spike_N501Y"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 5,
+                "value": "O"
+            }
+        ],
+        "submissions": 5
+    },
+    "2020-06-28": {},
+    "2022-02-06": {},
+    "2020-09-13": {},
+    "2020-06-21": {},
+    "2021-11-28": {
+        "submissions_per_variant": [
+            {
+                "count": 3,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 3,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 3,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 3,
+                "value": "Spike_L452R"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 3,
+                "value": "O"
+            }
+        ],
+        "submissions": 3
+    },
+    "2019-12-08": {},
+    "2021-08-22": {
+        "submissions_per_variant": [
+            {
+                "count": 18,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 18,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 18,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 17,
+                "value": "Spike_P681R"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 18,
+                "value": "O"
+            }
+        ],
+        "submissions": 18
+    },
+    "2021-05-30": {
+        "submissions_per_variant": [
+            {
+                "count": 24,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 16,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 4,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 4,
+                "value": "Spike_K417N"
+            },
+            {
+                "count": 2,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 2,
+                "value": "Spike_P681R"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 24,
+                "value": "O"
+            }
+        ],
+        "submissions": 24
+    },
+    "2020-10-11": {},
+    "2020-01-05": {},
+    "2020-03-29": {
+        "submissions_per_variant": [
+            {
+                "count": 3,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 3,
+                "value": "G"
+            }
+        ],
+        "submissions": 3
+    },
+    "2022-02-13": {},
+    "2021-08-29": {},
+    "2021-06-06": {
+        "submissions_per_variant": [
+            {
+                "count": 43,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 34,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 24,
+                "value": "Spike_K417N"
+            },
+            {
+                "count": 6,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 2,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 2,
+                "value": "Spike_S477N"
+            },
+            {
+                "count": 2,
+                "value": "Spike_P681R"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 43,
+                "value": "O"
+            }
+        ],
+        "submissions": 43
+    },
+    "2021-02-28": {
+        "submissions_per_variant": [
+            {
+                "count": 50,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 12,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 3,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 1,
+                "value": "Spike_V143del"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 49,
+                "value": "G"
+            },
+            {
+                "count": 1,
+                "value": "O"
+            }
+        ],
+        "submissions": 50
+    },
+    "2020-07-05": {},
+    "2020-04-12": {},
+    "2020-09-27": {},
+    "2021-02-21": {
+        "submissions_per_variant": [
+            {
+                "count": 37,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 10,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 3,
+                "value": "Spike_K417N"
+            },
+            {
+                "count": 1,
+                "value": "Spike_Y144del"
+            },
+            {
+                "count": 1,
+                "value": "Spike_L452R"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 37,
+                "value": "G"
+            }
+        ],
+        "submissions": 37
+    },
+    "2020-01-26": {},
+    "2020-09-20": {},
+    "2021-12-05": {
+        "submissions_per_variant": [
+            {
+                "count": 6,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 5,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 5,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 5,
+                "value": "Spike_L452R"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 6,
+                "value": "O"
+            }
+        ],
+        "submissions": 6
+    },
+    "2021-12-12": {
+        "submissions_per_variant": [
+            {
+                "count": 8,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 8,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 6,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 6,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 2,
+                "value": "Spike_Y505H"
+            },
+            {
+                "count": 2,
+                "value": "Spike_S477N"
+            },
+            {
+                "count": 2,
+                "value": "Spike_Q498R"
+            },
+            {
+                "count": 2,
+                "value": "Spike_Q493R"
+            },
+            {
+                "count": 2,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 2,
+                "value": "Spike_N440K"
+            },
+            {
+                "count": 2,
+                "value": "Spike_G496S"
+            },
+            {
+                "count": 2,
+                "value": "Spike_G446S"
+            },
+            {
+                "count": 2,
+                "value": "Spike_E484A"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 6,
+                "value": "O"
+            },
+            {
+                "count": 2,
+                "value": "GRA"
+            }
+        ],
+        "submissions": 8
+    },
+    "2019-03-24": {},
+    "2021-06-13": {
+        "submissions_per_variant": [
+            {
+                "count": 24,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 17,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 13,
+                "value": "Spike_K417N"
+            },
+            {
+                "count": 6,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 6,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 6,
+                "value": "Spike_L452R"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 24,
+                "value": "O"
+            }
+        ],
+        "submissions": 24
+    },
+    "2021-09-05": {},
+    "2020-01-19": {},
+    "2022-01-30": {},
+    "2020-12-20": {},
+    "2021-05-09": {
+        "submissions_per_variant": [
+            {
+                "count": 46,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 28,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 16,
+                "value": "Spike_L452R"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 40,
+                "value": "G"
+            },
+            {
+                "count": 6,
+                "value": "O"
+            }
+        ],
+        "submissions": 46
+    },
+    "2021-01-03": {
+        "submissions_per_variant": [
+            {
+                "count": 17,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 4,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 2,
+                "value": "Spike_V143del"
+            },
+            {
+                "count": 1,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 1,
+                "value": "Spike_S477N"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 16,
+                "value": "G"
+            },
+            {
+                "count": 1,
+                "value": "O"
+            }
+        ],
+        "submissions": 17
+    },
+    "2020-03-15": {},
+    "2022-02-27": {},
+    "2021-03-21": {
+        "submissions_per_variant": [
+            {
+                "count": 29,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 12,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 6,
+                "value": "Spike_L452R"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 29,
+                "value": "G"
+            }
+        ],
+        "submissions": 29
+    },
+    "2020-12-06": {},
+    "2020-06-07": {
+        "submissions_per_variant": [
+            {
+                "count": 2,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 1,
+                "value": "O"
+            },
+            {
+                "count": 1,
+                "value": "G"
+            }
+        ],
+        "submissions": 2
+    },
+    "2021-11-07": {},
+    "2019-06-30": {},
+    "2020-08-23": {},
+    "2020-05-31": {},
+    "2019-12-29": {},
+    "2021-08-01": {
+        "submissions_per_variant": [
+            {
+                "count": 22,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 18,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 18,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 18,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 4,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 4,
+                "value": "Spike_K417N"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 22,
+                "value": "O"
+            }
+        ],
+        "submissions": 22
+    },
+    "2020-03-08": {},
+    "2020-12-13": {},
+    "2021-08-08": {
+        "submissions_per_variant": [
+            {
+                "count": 42,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 40,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 40,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 40,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 2,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 1,
+                "value": "Spike_K417N"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 42,
+                "value": "O"
+            }
+        ],
+        "submissions": 42
+    },
+    "2021-05-16": {},
+    "2020-03-22": {
+        "submissions_per_variant": [
+            {
+                "count": 15,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 14,
+                "value": "G"
+            },
+            {
+                "count": 1,
+                "value": "O"
+            }
+        ],
+        "submissions": 15
+    },
+    "2021-03-14": {
+        "submissions_per_variant": [
+            {
+                "count": 50,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 12,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 12,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 1,
+                "value": "Spike_K417N"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 48,
+                "value": "G"
+            },
+            {
+                "count": 2,
+                "value": "O"
+            }
+        ],
+        "submissions": 50
+    },
+    "2020-09-06": {},
+    "2020-06-14": {},
+    "2020-11-29": {},
+    "2020-08-30": {},
+    "2021-11-14": {},
+    "2021-11-21": {},
+    "2021-08-15": {
+        "submissions_per_variant": [
+            {
+                "count": 35,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 35,
+                "value": "Spike_T478K"
+            },
+            {
+                "count": 35,
+                "value": "Spike_P681R"
+            },
+            {
+                "count": 35,
+                "value": "Spike_L452R"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 35,
+                "value": "O"
+            }
+        ],
+        "submissions": 35
+    },
+    "2021-05-23": {
+        "submissions_per_variant": [
+            {
+                "count": 7,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 6,
+                "value": "Spike_N501Y"
+            },
+            {
+                "count": 1,
+                "value": "Spike_L452R"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 7,
+                "value": "O"
+            }
+        ],
+        "submissions": 7
+    },
+    "2021-03-07": {
+        "submissions_per_variant": [
+            {
+                "count": 37,
+                "value": "Other"
+            }
+        ],
+        "submissions_per_aa_substitution": [
+            {
+                "count": 4,
+                "value": "Spike_L452R"
+            },
+            {
+                "count": 3,
+                "value": "Spike_N501Y"
+            }
+        ],
+        "submissions_per_lineage": [],
+        "submissions_per_clade": [
+            {
+                "count": 36,
+                "value": "G"
+            },
+            {
+                "count": 1,
+                "value": "O"
+            }
+        ],
+        "submissions": 37
+    },
+    "2022-02-20": {}
+}
