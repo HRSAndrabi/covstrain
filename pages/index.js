@@ -63,20 +63,20 @@ export default function Home() {
             <div className="w-full bg-slate-50">
                 <Container>
                     <div className="flex flex-wrap gap-2">
-                        {countries.map((country, idx) => {
+                        {countries.map((country) => {
                             return (
                                 <div
                                     className="flex flex-grow gap-2 items-center bg-white rounded-lg p-3 hover:bg-slate-200 cursor-pointer font-mono text-sm"
-                                    key={country.countryCode}
+                                    key={country.cca3}
                                 >
                                     <Image
-                                        src={`https://countryflagsapi.com/png/${country.countryCode}`}
+                                        src={`https://countryflagsapi.com/png/${country.cca3}`}
                                         alt="logo"
                                         layout="intrinsic"
                                         height="25"
                                         width="30"
                                     />
-                                    <div>{country.name}</div>
+                                    <div>{country.name.common}</div>
                                 </div>
                             );
                         })}
