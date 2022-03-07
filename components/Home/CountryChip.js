@@ -9,9 +9,13 @@ const CountryChip = ({ country, disabled }) => {
         >
             <a
                 className={`flex flex-grow gap-2 items-center rounded-lg p-3 cursor-pointer 
-				font-mono text-sm hover:ring-slate-300 hover:text-sky-500 focus:outline-none 
+				font-mono text-sm hover:ring-slate-300 focus:outline-none 
 				focus:ring-2 focus:ring-sky-500
-				${disabled ? "bg-slate-100 text-slate-500" : "bg-white text-slate-800"} 
+				${
+                    disabled
+                        ? "bg-slate-100 text-slate-500 hover:text-slate-800"
+                        : "bg-white text-slate-900 hover:text-sky-500"
+                } 
 				`}
             >
                 {/* <Image
