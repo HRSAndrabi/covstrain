@@ -5,8 +5,8 @@ import { AiFillGithub } from "react-icons/ai";
 
 const Header = () => {
     return (
-        <div className="w-full fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-50">
-            <div className="max-w-screen-lg mx-auto px-5 py-3 flex justify-between items-center">
+        <div className="w-full px-5 py-3 fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-50">
+            <div className="max-w-screen-lg mx-auto flex justify-between items-center">
                 <div className="flex gap-2 items-center">
                     <Link href="/" passHref>
                         <div className="flex gap-2 items-center cursor-pointer">
