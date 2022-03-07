@@ -1,7 +1,7 @@
 import Layout from "../components/Layout/Layout";
 import Container from "../components/Layout/Container";
 import { MdSearch } from "react-icons/md";
-import Image from "next/image";
+import CountryChip from "../components/Home/CountryChip";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -74,11 +74,6 @@ export default function Home() {
             </Container>
             <div className="w-full bg-slate-50">
                 <Container>
-                    {/* <div className="max-w-[15rem] w-full px-5 py-10">
-                        <div className="font-medium text-slate-800">
-                            Filter by region
-                        </div>
-                    </div> */}
                     <div className="w-full">
                         <div className="flex flex-wrap gap-2">
                             {countries
@@ -90,30 +85,10 @@ export default function Home() {
                                 )
                                 .map((country) => {
                                     return (
-                                        <Link
-                                            key={country.cca3}
-                                            href="/"
-                                            passhref
-                                        >
-                                            <a
-                                                className="flex flex-grow gap-2 items-center bg-white rounded-lg 
-                                            p-3 cursor-pointer font-mono text-sm 
-                                            hover:ring-slate-300 hover:text-sky-500 focus:outline-none focus:ring-2 
-                                            focus:ring-sky-500"
-                                            >
-                                                {/* <Image
-                                                    src={`https://countryflagsapi.com/png/${country.cca3}`}
-                                                    alt="logo"
-                                                    layout="intrinsic"
-                                                    height="25"
-                                                    width="30"
-                                                /> */}
-                                                <div className="text-2xl">
-                                                    {country.flag}
-                                                </div>
-                                                <div>{country.name.common}</div>
-                                            </a>
-                                        </Link>
+                                        <CountryChip
+                                            country={country}
+                                            disabled={false}
+                                        />
                                     );
                                 })}
                             {countries
@@ -126,21 +101,10 @@ export default function Home() {
                                 )
                                 .map((country) => {
                                     return (
-                                        <Link
-                                            key={country.cca3}
-                                            href="/"
-                                            passhref
-                                        >
-                                            <a
-                                                key={country.cca3}
-                                                className="flex flex-grow gap-2 items-center bg-slate-100 rounded-lg 
-                                            p-3 cursor-pointer font-mono text-sm text-slate-500
-                                            hover:ring-slate-300 hover:text-sky-500 focus:outline-none focus:ring-2 
-                                            focus:ring-sky-500"
-                                            >
-                                                <div>{country.name.common}</div>
-                                            </a>
-                                        </Link>
+                                        <CountryChip
+                                            country={country}
+                                            disabled={true}
+                                        />
                                     );
                                 })}
                         </div>
