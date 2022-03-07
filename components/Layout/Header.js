@@ -23,9 +23,9 @@ const Header = () => {
                     </Link>
                 </div>
                 <div className="hidden sm:flex gap-6 items-center">
-                    <Link href="/acknowledgements" passHref>
+                    <Link href="/about" passHref>
                         <a className="text-slate-600 text-sm hover:text-blue-600">
-                            Acknowledgements
+                            About
                         </a>
                     </Link>
                     <Link href="/" passHref>

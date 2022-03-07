@@ -3,16 +3,9 @@ import Link from "next/link";
 const Footer = () => {
     const links = [
         {
-            title: "Product",
-            contents: [
-                { title: "Status", href: "/status" },
-                { title: "Roadmap", href: "/roadmap" },
-            ],
-        },
-        {
             title: "Community",
             contents: [
-                { title: "Discussions", href: "/" },
+                { title: "Contribute", href: "/" },
                 { title: "GitHub", href: "/" },
             ],
         },
@@ -20,7 +13,14 @@ const Footer = () => {
             title: "Company",
             contents: [
                 { title: "Contact", href: "/" },
-                { title: "Contribute", href: "/contribute" },
+                { title: "About", href: "/about" },
+            ],
+        },
+        {
+            title: "Data",
+            contents: [
+                { title: "GISAID", href: "/https://www.gisaid.org/" },
+                { title: "FAQ", href: "/FAQ" },
             ],
         },
         {
