@@ -18,7 +18,7 @@ const Header = () => {
     return (
         <>
             <div
-                className={`w-full px-5 py-3 fixed top-0 left-0 right-0backdrop-blur-md z-50
+                className={`w-full px-5 py-3 fixed top-0 left-0 right-0 backdrop-blur-md z-50
                 transition ease-in-out duration-150 ${
                     mobileNavOpen ? "bg-white" : "bg-white/80 "
                 }`}
