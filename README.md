@@ -1,6 +1,6 @@
 # covstrain
 
-Covstrain is an interactive tool using global SARS-CoV-2 genomic sequencing data to visualise mutations of interest around the world.
+Covstrain is an interactive tool using global SARS-CoV-2 genomic sequencing data to visualise mutations of interest around the world. Visit the website at https://covstrain.com/.
 
 ### Contributing
 
