@@ -29,11 +29,14 @@ const Header = () => {
                             About
                         </a>
                     </Link>
-                    <Link href="/" passHref>
-                        <a className="text-slate-600 text-xl hover:text-blue-600">
-                            <AiFillGithub />
-                        </a>
-                    </Link>
+                    <a
+                        href="https://github.com/HRSAndrabi/covstrain"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-slate-600 text-xl hover:text-blue-600"
+                    >
+                        <AiFillGithub />
+                    </a>
                 </div>
                 <div className="flex sm:hidden">
                     <MdMenu className="text-2xl text-slate-800 cursor-pointer" />

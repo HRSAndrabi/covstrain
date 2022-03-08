@@ -5,8 +5,14 @@ const Footer = () => {
         {
             title: "Community",
             contents: [
-                { title: "Contribute", href: "/" },
-                { title: "GitHub", href: "/" },
+                {
+                    title: "Contribute",
+                    href: "https://github.com/HRSAndrabi/covstrain/pulls",
+                },
+                {
+                    title: "GitHub",
+                    href: "https://github.com/HRSAndrabi/covstrain",
+                },
             ],
         },
         {

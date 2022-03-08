@@ -27,13 +27,24 @@ export default function About() {
                 <p>
                     If you want to get in touch about this work, you can contact
                     me on{" "}
-                    <a href="https://twitter.com/hrs_andrabi" target="blank">
+                    <a
+                        href="https://twitter.com/hrs_andrabi"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         Twitter
                     </a>
                     , or reach out via{" "}
                     <a href="mailto:hassan.andrabi@unimelb.edu.au">email</a>.
                     Covstrain is open-source, and accepting contributions via{" "}
-                    <a href="https://github.com">GitHub</a>.
+                    <a
+                        href="https://github.com/HRSAndrabi/covstrain"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        GitHub
+                    </a>
+                    .
                 </p>
                 <h4>Acknowledgements</h4>
                 <p>
