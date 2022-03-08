@@ -164,8 +164,8 @@ const CountryDetail = ({ countryData, strainData }) => {
                 <p>
                     The graph below presents the distribution of SARS-CoV-2
                     variant sequences over time, disaggregated by variants of
-                    concern (VOC), and variants of interest (VOI). 'Other'
-                    category comprises untracked variants.
+                    concern (VOC), and variants of interest (VOI). Untracked
+                    variants are classified under the 'Other' category.
                 </p>
                 <figure>
                     <div className="text-sm font-medium">
@@ -189,6 +189,7 @@ const CountryDetail = ({ countryData, strainData }) => {
                                 <XAxis
                                     style={{ fontSize: 12 }}
                                     minTickGap={10}
+                                    dataKey={"name"}
                                 />
                                 <YAxis
                                     style={{ fontSize: 12 }}
@@ -203,7 +204,7 @@ const CountryDetail = ({ countryData, strainData }) => {
                                             type="monotone"
                                             dataKey={element.variant}
                                             stackId="1"
-                                            stroke={element.color}
+                                            stroke={false}
                                             fill={element.color}
                                             name={element.name}
                                             key={idx}
