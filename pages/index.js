@@ -21,7 +21,7 @@ export default function Home() {
                     <div className="text-slate-900 font-bold text-center text-3xl tracking-tight px-2">
                         An open-source tool to view and analyse{" "}
                         <br className="hidden sm:block" />
-                        SARS-CoV-2 variants of interest around the world
+                        SARS-CoV-2 mutations of interest around the world
                     </div>
                     <p className="mt-6 text-lg text-slate-600 text-center mx-auto max-w-md sm:max-w-lg md:max-w-xl lg:max-w-3xl px-2">
                         <span className="text-sky-500 font-medium font-mono">
