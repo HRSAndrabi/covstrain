@@ -13,8 +13,11 @@ export default function About() {
                         Hassan
                     </a>
                     . I'm a university student living in Melbourne, Australia. I
-                    built and maintain this website using data from the GISAID
-                    intitiative.
+                    built and maintain this website using data from the{" "}
+                    <a href="https://www.gisaid.org/" target="_blank">
+                        GISAID Initiative
+                    </a>
+                    .
                 </p>
                 <p>
                     If you want to get in touch about this work, you can contact
