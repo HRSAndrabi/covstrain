@@ -42,6 +42,7 @@ export default function Home() {
                             px-6 rounded-lg w-full flex items-center justify-center sm:w-auto"
                             href="https://www.gisaid.org/"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             Powered by GISAID
                         </a>

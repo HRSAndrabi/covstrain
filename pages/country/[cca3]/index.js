@@ -21,7 +21,9 @@ const CountryDetail = ({
                 <div className="text-slate-400 mb-5">
                     {countryData.name.official} /{" "}
                     {countryData.translations.fra.official} /{" "}
-                    {countryData.translations.jpn.official} /{" "}
+                    {countryData.translations.jpn?.official
+                        ? `${countryData.translations.jpn.official} /`
+                        : ""}
                 </div>
                 {submissionsPerVariant.length > 0 && (
                     <>
@@ -34,7 +36,7 @@ const CountryDetail = ({
                             SARS-CoV-2 variant sequences over time,
                             disaggregated by variants of concern (VOC), and
                             variants of interest (VOI). Untracked variants are
-                            classified under the 'Other' category.
+                            classified under the &apos;Other&apos; category.
                         </p>
                         <figure>
                             <div className="text-sm font-medium">

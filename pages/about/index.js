@@ -8,13 +8,18 @@ export default function About() {
             <div className="prose prose-slate mx-auto mb-10">
                 <h2>About</h2>
                 <p>
-                    Hello 👋 I'm{" "}
+                    Hello 👋 I&apos;m{" "}
                     <a href="https://twitter.com/hrs_andrabi" target="blank">
                         Hassan
                     </a>
-                    . I'm a university student living in Melbourne, Australia. I
-                    built and maintain this website using data from the{" "}
-                    <a href="https://www.gisaid.org/" target="_blank">
+                    . I&apos;m a university student living in Melbourne,
+                    Australia. I built and maintain this website using data from
+                    the{" "}
+                    <a
+                        href="https://www.gisaid.org/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         GISAID Initiative
                     </a>
                     .
@@ -33,7 +38,11 @@ export default function About() {
                 <h4>Acknowledgements</h4>
                 <p>
                     This work is enabled by data from the{" "}
-                    <a href="https://www.gisaid.org/" target="_blank">
+                    <a
+                        href="https://www.gisaid.org/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         GISAID Initiative
                     </a>
                     . I greatfully acknowledge the efforts of all contributors
@@ -43,8 +52,8 @@ export default function About() {
                 </p>
                 <h4>You may cite this work as:</h4>
                 <div className="not-prose bg-slate-100 font-mono text-sm px-3 py-2">
-                    Hassan R. S. Andrabi. 2022. "Covstrain: Sequencing
-                    Distributions of SARS-CoV-2 Mutations of Interest."
+                    Hassan R. S. Andrabi. 2022. &quot;Covstrain: Sequencing
+                    Distributions of SARS-CoV-2 Mutations of Interest.&quot;
                     https://covstrain.com/
                 </div>
             </div>
