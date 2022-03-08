@@ -10,7 +10,6 @@ const CountryDetail = ({
     submissionsPerLineage,
     submissionsPerClade,
 }) => {
-    console.log(submissionsPerVariant);
     return (
         <Container>
             <article className="max-w-screen-prose mx-auto prose prose-slate prose-sm sm:prose-base mb-10">
