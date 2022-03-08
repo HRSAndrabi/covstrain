@@ -1,0 +1,107 @@
+[
+    {
+        "hex": "#f43f5e",
+        "class": "rose-500"
+    },
+    {
+        "hex": "#ec4899",
+        "class": "pink-500"
+    },
+    {
+        "hex": "#d946ef",
+        "class": "fuchsia-500"
+    },
+    {
+        "hex": "#a855f7",
+        "class": "purple-500"
+    },
+    {
+        "hex": "#8b5cf6",
+        "class": "violet-500"
+    },
+    {
+        "hex": "#6366f1",
+        "class": "indigo-500"
+    },
+    {
+        "hex": "#3b82f6",
+        "class": "blue-500"
+    },
+    {
+        "hex": "#0ea5e9",
+        "class": "sky-500"
+    },
+    {
+        "hex": "#67e8f9",
+        "class": "cyan-500"
+    },
+    {
+        "hex": "#14b8a6",
+        "class": "teal-500"
+    },
+    {
+        "hex": "#10b981",
+        "class": "emerald-500"
+    },
+    {
+        "hex": "#22c55e",
+        "class": "green-500"
+    },
+    {
+        "hex": "#84cc16",
+        "class": "lime-500"
+    },
+    {
+        "hex": "#eab308",
+        "class": "yellow-500"
+    },
+    {
+        "hex": "#f59e0b",
+        "class": "amber-500"
+    },
+    {
+        "hex": "#f97316",
+        "class": "orange-500"
+    },
+    {
+        "hex": "#ef4444",
+        "class": "red-500"
+    },
+    {
+        "hex": "#ef4444",
+        "class": "red-500"
+    },
+    {
+        "hex": "#ef4444",
+        "class": "red-500"
+    },
+    {
+        "hex": "#ef4444",
+        "class": "red-500"
+    },
+    {
+        "hex": "#ef4444",
+        "class": "red-500"
+    },
+    {
+        "hex": "#ef4444",
+        "class": "red-500"
+    },
+    {
+        "hex": "#ef4444",
+        "class": "red-500"
+    },
+    {
+        "hex": "#ef4444",
+        "class": "red-500"
+    },
+    {
+        "hex": "#ef4444",
+        "class": "red-500"
+    },
+    {
+        "name": "Other",
+        "class": "slate-400",
+        "hex": "#94a3b8"
+    }
+]
