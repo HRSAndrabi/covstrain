@@ -23,7 +23,7 @@ const Footer = () => {
             title: "Data",
             contents: [
                 { title: "GISAID", href: "https://www.gisaid.org/" },
-                { title: "FAQ", href: "/FAQ" },
+                // { title: "FAQ", href: "/FAQ" },
             ],
         },
         {
