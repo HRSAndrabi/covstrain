@@ -61,7 +61,7 @@ export default function Home() {
                                 placeholder="Search a country..."
                                 onChange={searchChangeHandler}
                             ></input>
-                            <kbd className="font-sans font-semibold">
+                            {/* <kbd className="font-sans font-semibold">
                                 <abbr
                                     title="Command"
                                     className="no-underline text-slate-300"
@@ -69,7 +69,7 @@ export default function Home() {
                                     ⌘
                                 </abbr>{" "}
                                 K
-                            </kbd>
+                            </kbd> */}
                         </button>
                     </div>
                 </div>
