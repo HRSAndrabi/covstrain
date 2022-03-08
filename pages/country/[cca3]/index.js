@@ -98,7 +98,7 @@ const CountryDetail = ({
 export default CountryDetail;
 
 CountryDetail.getLayout = function getLayout(page) {
-    return <Layout>{page}</Layout>;
+    return <Layout title={page.props.countryData.name.common}>{page}</Layout>;
 };
 
 export async function getStaticProps(context) {
