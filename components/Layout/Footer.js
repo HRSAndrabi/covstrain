@@ -29,9 +29,11 @@ const Footer = () => {
         {
             title: "Legal",
             contents: [
-                { title: "Terms of Service", href: "/terms-of-service" },
+                {
+                    title: "GISAID terms of use",
+                    href: "https://www.gisaid.org/registration/terms-of-use/",
+                },
                 { title: "Privacy Policy", href: "/privacy-policy" },
-                { title: "Cookies", href: "/cookie-policy" },
             ],
         },
     ];
