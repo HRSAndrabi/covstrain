@@ -84,7 +84,7 @@ const Footer = () => {
                 </div>
                 <div className="flex justify-between pb-3 text-xs">
                     <div>Copyright © covstrain</div>
-                    <div>Status: All systems normal</div>
+                    <div>Last updated: 08 March 2022</div>
                 </div>
             </div>
         </div>
