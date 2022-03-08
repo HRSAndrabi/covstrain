@@ -44,7 +44,7 @@ export default function About() {
                 <h4>You may cite this work as:</h4>
                 <div className="not-prose bg-slate-100 font-mono text-sm px-3 py-2">
                     Hassan R. S. Andrabi. 2022. "Covstrain: Sequencing
-                    Distributions of SARS-CoV-2 Variants of Interest."
+                    Distributions of SARS-CoV-2 Mutations of Interest."
                     https://covstrain.com/
                 </div>
             </div>
