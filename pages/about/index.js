@@ -44,23 +44,6 @@ export default function About() {
                     >
                         GitHub
                     </a>
-                    .
-                </p>
-                <h4>Acknowledgements</h4>
-                <p>
-                    This work is enabled by data from the{" "}
-                    <a
-                        href="https://www.gisaid.org/"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        GISAID Initiative
-                    </a>
-                    . We gratefully acknowledge all data contributors, i.e. the
-                    Authors and their Originating laboratories responsible for
-                    obtaining the specimens, and their Submitting laboratories
-                    for generating the genetic sequence and metadata and sharing
-                    via the GISAID Initiative, on which this research is based.
                 </p>
                 <h4>You may cite this work as:</h4>
                 <div className="not-prose bg-slate-100 font-mono text-sm px-3 py-2">
