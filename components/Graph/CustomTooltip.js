@@ -11,7 +11,7 @@ const CustomTooltip = ({ active, payload }) => {
                         <tr>
                             <td
                                 className="text-center font-semibold"
-                                colspan="2"
+                                colSpan="2"
                             >
                                 Sample: {dateRange}
                             </td>
