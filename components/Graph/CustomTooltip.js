@@ -64,8 +64,8 @@ const CustomTooltip = ({ active, payload }) => {
                             </tr>
                         )}
                     </tbody>
-                    <div className="my-1"></div>
                 </table>
+                <div className="my-1"></div>
             </div>
         );
     }

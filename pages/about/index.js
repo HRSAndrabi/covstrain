@@ -56,10 +56,11 @@ export default function About() {
                     >
                         GISAID Initiative
                     </a>
-                    . I greatfully acknowledge the efforts of all contributors
-                    to the GISAID initative, who continue to work together to
-                    achieve global health security and understanding of
-                    infectious diseases.
+                    . We gratefully acknowledge all data contributors, i.e. the
+                    Authors and their Originating laboratories responsible for
+                    obtaining the specimens, and their Submitting laboratories
+                    for generating the genetic sequence and metadata and sharing
+                    via the GISAID Initiative, on which this research is based.
                 </p>
                 <h4>You may cite this work as:</h4>
                 <div className="not-prose bg-slate-100 font-mono text-sm px-3 py-2">
