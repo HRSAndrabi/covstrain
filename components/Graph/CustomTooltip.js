@@ -3,10 +3,19 @@ import React from "react";
 const CustomTooltip = ({ active, payload }) => {
     if (active && payload && payload.length) {
         const filteredPayload = payload.filter((element) => element.value > 0);
+        const dateRange = payload[0].payload["date_range"];
         return (
-            <div className="bg-white px-2 text-xs text-slate-600 rounded-sm font-mono">
+            <div className="bg-white px-1 text-xs text-slate-600 rounded-sm font-mono">
                 <table>
                     <thead>
+                        <tr>
+                            <td
+                                className="text-center font-semibold"
+                                colspan="2"
+                            >
+                                Sample: {dateRange}
+                            </td>
+                        </tr>
                         <tr>
                             <td>Variant</td>
                             <td className="text-right">Proportion</td>
@@ -55,6 +64,7 @@ const CustomTooltip = ({ active, payload }) => {
                             </tr>
                         )}
                     </tbody>
+                    <div className="my-1"></div>
                 </table>
             </div>
         );

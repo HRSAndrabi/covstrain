@@ -1,4 +1,3 @@
-from cmath import nan
 import requests
 from requests.auth import HTTPBasicAuth
 import json
@@ -6,6 +5,7 @@ import pandas as pd
 import numpy as np
 import os
 import warnings
+from datetime import timedelta
 
 # Ignore:
 # FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' 
@@ -85,7 +85,7 @@ def calculate_proportions(input):
 	output = input
 	for i in range(0, len(input)):
 		for key, value in input[i].items():
-			if key == "date" or key == "submissions" or key == "fortnight" or key == "country":
+			if key == "date" or key == "submissions" or key == "date_range" or key == "country":
 				continue
 			elif input[i]["submissions"] == 0:
 				output[i][key] = value
@@ -115,16 +115,16 @@ def clean_data():
 			temp_df = temp_df.loc[
 				(temp_df["country"] == country["name"]["common"])
 			]
-			temp_df["fortnight"] = temp_df["date"].dt.strftime("%W").astype(int)
-			temp_df["fortnight"] = np.ceil(temp_df["fortnight"]/2)
 			aggregation = {
 				column: "sum" for column in temp_df.columns
 			}
 			aggregation["date"] = "first"
 			aggregation["country"] = "first"
-			aggregation["fortnight"] = "first"
-			temp_df = temp_df.groupby(temp_df["fortnight"]).agg(aggregation)
-			temp_df["date"] = temp_df["date"].dt.strftime("%m %b %Y")
+			temp_df.index = temp_df["date"]
+			temp_df = temp_df.groupby(pd.Grouper(freq="W")).agg(aggregation)
+			temp_df["date_range"] = temp_df.index.strftime("%-d %b") + "-" + (temp_df.index + timedelta(days=7)).strftime("%-d %b %Y")
+			temp_df["date"] = temp_df.index.strftime("%-d %b %Y") 
+			temp_df = temp_df.loc[(temp_df["submissions"] > 0)]
 			output = calculate_proportions(temp_df.to_dict("records"))
 			output_path = f"./data/gisaid/{country['cca3'].lower()}/{file_name}.json"
 			make_path(output_path)

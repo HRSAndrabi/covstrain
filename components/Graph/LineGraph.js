@@ -39,7 +39,22 @@ const LineGraph = ({ data }) => {
                     <YAxis
                         style={{ fontSize: 12 }}
                         width={35}
-                        domain={[0, 1]}
+                        domain={[
+                            (min) => {
+                                if (isFinite(min)) {
+                                    return min - Math.abs(0.1 * min);
+                                } else {
+                                    return 0;
+                                }
+                            },
+                            (max) => {
+                                if (isFinite(max)) {
+                                    return max + Math.abs(0.1 * max);
+                                } else {
+                                    return 1;
+                                }
+                            },
+                        ]}
                         ticks={[0, 0.25, 0.5, 0.75, 1.0]}
                     />
                     <Tooltip content={<CustomTooltip />} />
