@@ -2124,9 +2124,9 @@
         "Other": 0.0,
         "VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK": 0.0,
         "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
-        "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.020598332515939184,
+        "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.02107843137254902,
         "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
-        "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.9794016674840608,
+        "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.9789215686274509,
         "VOI Epsilon GH/452R.V1 (B.1.429+B.1.427) first detected in USA/California": 0.0,
         "VOI Eta G/484K.V3 (B.1.525) first detected in UK/Nigeria": 0.0,
         "VOI Iota GH/253G.V1 (B.1.526) first detected in USA/New York": 0.0,
@@ -2139,15 +2139,15 @@
         "country": "Netherlands",
         "date": "23 Jan 2022",
         "date_range": "23 Jan-30 Jan 2022",
-        "submissions": 2039.0
+        "submissions": 2040.0
     },
     {
         "Other": 0.0,
         "VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK": 0.0,
         "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
-        "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.013342696629213483,
+        "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.013296011196641007,
         "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
-        "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.9866573033707865,
+        "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.986703988803359,
         "VOI Epsilon GH/452R.V1 (B.1.429+B.1.427) first detected in USA/California": 0.0,
         "VOI Eta G/484K.V3 (B.1.525) first detected in UK/Nigeria": 0.0,
         "VOI Iota GH/253G.V1 (B.1.526) first detected in USA/New York": 0.0,
@@ -2160,15 +2160,15 @@
         "country": "Netherlands",
         "date": "30 Jan 2022",
         "date_range": "30 Jan-6 Feb 2022",
-        "submissions": 1424.0
+        "submissions": 1429.0
     },
     {
         "Other": 0.0,
-        "VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK": 0.0005878894767783657,
+        "VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK": 0.0005793742757821553,
         "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
-        "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.006466784244562022,
+        "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.006952491309385863,
         "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
-        "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.9929453262786596,
+        "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.992468134414832,
         "VOI Epsilon GH/452R.V1 (B.1.429+B.1.427) first detected in USA/California": 0.0,
         "VOI Eta G/484K.V3 (B.1.525) first detected in UK/Nigeria": 0.0,
         "VOI Iota GH/253G.V1 (B.1.526) first detected in USA/New York": 0.0,
@@ -2181,15 +2181,15 @@
         "country": "Netherlands",
         "date": "6 Feb 2022",
         "date_range": "6 Feb-13 Feb 2022",
-        "submissions": 1701.0
+        "submissions": 1726.0
     },
     {
         "Other": 0.0,
         "VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK": 0.0,
         "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
-        "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0007507507507507507,
+        "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0014104372355430183,
         "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
-        "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.9992492492492493,
+        "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.998589562764457,
         "VOI Epsilon GH/452R.V1 (B.1.429+B.1.427) first detected in USA/California": 0.0,
         "VOI Eta G/484K.V3 (B.1.525) first detected in UK/Nigeria": 0.0,
         "VOI Iota GH/253G.V1 (B.1.526) first detected in USA/New York": 0.0,
@@ -2202,15 +2202,15 @@
         "country": "Netherlands",
         "date": "13 Feb 2022",
         "date_range": "13 Feb-20 Feb 2022",
-        "submissions": 1332.0
+        "submissions": 1418.0
     },
     {
         "Other": 0.0,
         "VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK": 0.0,
         "VOC Beta GH/501Y.V2 (B.1.351+B.1.351.2+B.1.351.3) first detected in South Africa": 0.0,
-        "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.0010857763300760044,
+        "VOC Delta GK (B.1.617.2+AY.*) first detected in India": 0.002,
         "VOC Gamma GR/501Y.V3 (P.1+P.1.*) first detected in Brazil/Japan": 0.0,
-        "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.998914223669924,
+        "VOC Omicron GRA (B.1.1.529+BA.*) first detected in Botswana/Hong Kong/South Africa": 0.998,
         "VOI Epsilon GH/452R.V1 (B.1.429+B.1.427) first detected in USA/California": 0.0,
         "VOI Eta G/484K.V3 (B.1.525) first detected in UK/Nigeria": 0.0,
         "VOI Iota GH/253G.V1 (B.1.526) first detected in USA/New York": 0.0,
@@ -2223,7 +2223,7 @@
         "country": "Netherlands",
         "date": "20 Feb 2022",
         "date_range": "20 Feb-27 Feb 2022",
-        "submissions": 921.0
+        "submissions": 1000.0
     },
     {
         "Other": 0.0,
@@ -2244,6 +2244,6 @@
         "country": "Netherlands",
         "date": "27 Feb 2022",
         "date_range": "27 Feb-6 Mar 2022",
-        "submissions": 108.0
+        "submissions": 189.0
     }
 ]

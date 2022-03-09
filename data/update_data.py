@@ -1,3 +1,4 @@
+from ast import Raise
 import requests
 from requests.auth import HTTPBasicAuth
 import json
@@ -5,7 +6,7 @@ import pandas as pd
 import numpy as np
 import os
 import warnings
-from datetime import timedelta
+from datetime import timedelta, datetime
 
 # Ignore:
 # FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' 
@@ -13,17 +14,24 @@ from datetime import timedelta
 warnings.simplefilter(action="ignore", category=FutureWarning)
 
 def request_data():
-    print("Requesting data ...")
-    url = 'https://www.epicov.org/epi3/feed/gisaid_variants_statistics.json'
-    target_path = './data/gisaid/raw.json'
+	print("Requesting data ...")
+	url = "https://www.epicov.org/epi3/feed/gisaid_variants_statistics.json"
+	base_path = './data/gisaid'
 
-    response = requests.get(url, stream=True, auth=HTTPBasicAuth('USERNAME', 'PASSWORD'))
-    if response.status_code == 200:
-        print("Request OK.")
-        with open(target_path, 'w') as f:
-            print("Writing data ...")
-            json.dump(response.json(), f)
-            print(f"Data written to: {target_path}")
+	response = requests.get(url, stream=True, auth=HTTPBasicAuth("USERNAME", "PASSWORD"))
+	try:
+		response.json()
+	except:
+		raise ValueError("Failed to download data. Check GISAID credentials.")
+
+	if response.status_code == 200:
+		print("Request OK.")
+		with open(f"{base_path}/raw.json", 'w') as f:
+			print("Writing data ...")	
+			json.dump(response.json(), f)
+			print(f"Data written to: {base_path}/raw.json")
+		with open(f"{base_path}/last_updated.txt", 'w') as f:
+			f.write(f"{datetime.today().strftime('%d %b %Y')}")
 
 def make_path(path):
 	'''
@@ -42,9 +50,19 @@ def disaggregate(x):
 	except: 
 		return np.NaN
 
-def load_data():
-	print("Loading data ...")
-	gisaid_data = json.load(open("./data/gisaid/raw.json"))["stats"]
+def load_data(update=False):
+	if update:
+		request_data()
+
+	try:
+		print("Loading data ...")
+		gisaid_data = json.load(open("./data/gisaid/raw.json"))["stats"]
+	except:
+		print("Raw dataset not found at: data/raw.json")
+		request_data()
+		print("Loading data ...")
+		gisaid_data = json.load(open("./data/gisaid/raw.json"))["stats"]
+
 	country_data = json.load(open("./data/countries.json"))
 
 	gisaid_df = pd.DataFrame(gisaid_data)
@@ -95,8 +113,8 @@ def calculate_proportions(input):
 			
 	return output
 
-def clean_data():
-	data = load_data()
+def clean_data(update=False):
+	data = load_data(update=update)
 	country_data = json.load(open("./data/countries.json"))
 
 	for file_name, df in data.items():
@@ -138,4 +156,4 @@ def clean_data():
 
         
 
-clean_data()
+clean_data(update=False)
