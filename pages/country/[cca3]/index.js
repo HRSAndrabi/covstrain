@@ -53,8 +53,8 @@ const CountryDetail = ({
                             Mutations
                         </h4>
                         <p>
-                            As the pandemic progresses, prevalent strains of
-                            SARS-CoV-2 are modified by natural nucleotide
+                            As the pandemic progresses, existing strains of
+                            SARS-CoV-2 are periodically modified by nucleotide
                             mutations. Some of these result in amino acid
                             replacements in viral proteins, while others extend
                             or shorten amino acid sequence lengths. The graph
