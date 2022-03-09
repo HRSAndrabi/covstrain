@@ -43,6 +43,9 @@ const Footer = () => {
             ],
         },
     ];
+
+    const timeStamp = require("../../data/gisaid/timeStamp.json").timeStamp;
+
     return (
         <div className="bg-slate-100 flex flex-col px-5 md:px-10 text-sm text-slate-600 border-t border-t-slate-100">
             <div className="max-w-screen-lg mx-auto w-full">
@@ -92,7 +95,7 @@ const Footer = () => {
                 </div>
                 <div className="flex justify-between pb-3 text-xs">
                     <div>Copyright © covstrain</div>
-                    <div>Last updated: 08 March 2022</div>
+                    <div>Last updated: {timeStamp}</div>
                 </div>
             </div>
         </div>

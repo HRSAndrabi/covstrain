@@ -26,12 +26,12 @@ def request_data():
 
 	if response.status_code == 200:
 		print("Request OK.")
-		with open(f"{base_path}/raw.json", 'w') as f:
+		with open(f"{base_path}/raw.json", "w") as f:
 			print("Writing data ...")	
 			json.dump(response.json(), f)
 			print(f"Data written to: {base_path}/raw.json")
-		with open(f"{base_path}/last_updated.txt", 'w') as f:
-			f.write(f"{datetime.today().strftime('%d %b %Y')}")
+		with open(f"{base_path}/timeStamp.json", "w") as f:
+			json.dump({"timeStamp": datetime.today().strftime('%d %b %Y')}, f)
 
 def make_path(path):
 	'''
