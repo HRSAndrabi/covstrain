@@ -39,8 +39,9 @@ export default function Home() {
                         <span className="text-sky-500 font-medium font-mono">
                             SARS-CoV-2
                         </span>{" "}
-                        mutations of interest to visualise mutation distribution
-                        and life cycles over time, and around the world.
+                        mutations of interest to visualise mutation
+                        distributions and life cycles over time, and around the
+                        world.
                     </p>
                     <div className="mt-6 sm:mt-10 flex flex-col sm:flex-row justify-center gap-6 text-sm items-center">
                         <a
