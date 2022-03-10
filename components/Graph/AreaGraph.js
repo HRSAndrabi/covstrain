@@ -55,18 +55,19 @@ const AreaGraph = ({ data }) => {
                                 element !== "fortnight"
                         )
                         .map((element, idx) => {
+                            const color =
+                                idx > colors.length - 1
+                                    ? colors[idx % (colors.length - 1)].hex
+                                    : element === "Other"
+                                    ? colors[colors.length - 1].hex
+                                    : colors[idx].hex;
                             return (
                                 <Area
                                     type="monotone"
                                     dataKey={element}
                                     stackId="1"
                                     stroke={null}
-                                    fill={
-                                        colors[colors.length - 1].name ===
-                                        element
-                                            ? colors[colors.length - 1].hex
-                                            : colors[idx].hex
-                                    }
+                                    fill={color}
                                     name={data[0][element]}
                                     key={idx}
                                 />
