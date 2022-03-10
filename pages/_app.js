@@ -5,7 +5,7 @@ import { useEffect } from "react";
 function MyApp({ Component, pageProps }) {
     // Use the layout defined at the page level, if available
     const tagManagerArgs = {
-        gtmId: "G-Q69JNTWRR3",
+        gtmId: "GTM-NNPH5N9",
     };
 
     const getLayout = Component.getLayout || ((page) => page);
