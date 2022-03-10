@@ -81,15 +81,25 @@ const CountryDetail = ({
                     </>
                 )}
                 {submissionsPerVariant.length === 0 &&
-                    submissionsPerAaSubstitution.length === 0 && (
-                        <>
-                            <h4>No data available</h4>
-                            <p>
-                                No sequences have been submitted from{" "}
-                                {countryData.name.common}.
-                            </p>
-                        </>
-                    )}
+                submissionsPerAaSubstitution.length === 0 ? (
+                    <>
+                        <h4>No data available</h4>
+                        <p>
+                            No sequences have been submitted from{" "}
+                            {countryData.name.common}.
+                        </p>
+                    </>
+                ) : (
+                    <div>
+                        <h4>Recommended citation</h4>
+
+                        <div className="not-prose bg-slate-100 font-mono text-sm px-3 py-2">
+                            Hassan R. S. Andrabi. 2022. &quot;CoVstrain:
+                            Sequencing Distributions of SARS-CoV-2 Mutations of
+                            Interest.&quot; https://covstrain.com/
+                        </div>
+                    </div>
+                )}
             </article>
         </Container>
     );
