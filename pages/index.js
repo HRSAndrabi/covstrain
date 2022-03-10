@@ -34,7 +34,7 @@ export default function Home() {
                         mutations of interest to visualise mutation distribution
                         and life cycles over time, and around the world.
                     </p>
-                    <div className="mt-6 sm:mt-10 flex justify-center space-x-6 text-sm">
+                    <div className="mt-6 sm:mt-10 flex flex-col sm:flex-row justify-center gap-6 text-sm items-center">
                         <a
                             className="bg-slate-900 hover:bg-slate-700 focus:outline-none 
                             focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 
@@ -48,8 +48,8 @@ export default function Home() {
                         </a>
                         <button
                             type="button"
-                            className="hidden sm:flex items-center w-72 text-left space-x-3 px-4 
-                            h-12 bg-white ring-1 ring-slate-900/10 hover:ring-slate-300 
+                            className="flex items-center sm:max-w-[18rem] w-full text-left space-x-3 px-4 
+                            mx-0 h-12 bg-white ring-1 ring-slate-900/10 hover:ring-slate-300 
                             focus:outline-none focus:ring-2 focus:ring-sky-500 shadow-sm 
                             rounded-lg text-slate-400"
                         >
