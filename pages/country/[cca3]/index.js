@@ -49,7 +49,7 @@ const CountryDetail = ({
                 {submissionsPerAaSubstitution.length > 0 && (
                     <>
                         <h4>
-                            Distribution of submitted SARS-CoV-2 Amino Acid
+                            Distribution of observed SARS-CoV-2 Amino Acid
                             Mutations
                         </h4>
                         <p>
