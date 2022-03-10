@@ -1,4 +1,3 @@
-from ast import Raise
 import requests
 from requests.auth import HTTPBasicAuth
 import json
