@@ -129,9 +129,12 @@ def clean_data(update=False):
 		df.fillna(0, inplace=True)
 
 		for country in country_data:
+			country_query = country["name"]["common"]
+			if  country_query == "United States":
+				country_query = "USA"
 			temp_df = df.copy()
 			temp_df = temp_df.loc[
-				(temp_df["country"] == country["name"]["common"])
+				(temp_df["country"] == country_query)
 			]
 			aggregation = {
 				column: "sum" for column in temp_df.columns
