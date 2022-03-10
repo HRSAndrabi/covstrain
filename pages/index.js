@@ -2,17 +2,25 @@ import Layout from "../components/Layout/Layout";
 import Container from "../components/Layout/Container";
 import { MdSearch } from "react-icons/md";
 import CountryChip from "../components/Home/CountryChip";
-import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 
 export default function Home() {
     const [filter, setFilter] = useState("");
+    const searchInput = useRef(null);
     const countries = require("../data/countries.json");
 
     const searchChangeHandler = (event) => {
         const query = event.target.value;
         setFilter(query.trim().toLowerCase());
     };
+
+    useEffect(() => {
+        document.addEventListener("keydown", (e) => {
+            if ((e.metaKey || e.ctrlKey) && e.code === "KeyK") {
+                searchInput.current.focus();
+            }
+        });
+    });
 
     return (
         <div className="w-full">
@@ -46,22 +54,22 @@ export default function Home() {
                         >
                             Powered by GISAID
                         </a>
-                        <button
-                            type="button"
+                        <div
                             className="flex items-center sm:max-w-[18rem] w-full text-left space-x-3 px-4 
                             mx-0 h-12 bg-white ring-1 ring-slate-900/10 hover:ring-slate-300 
-                            focus:outline-none focus:ring-2 focus:ring-sky-500 shadow-sm 
+                            focus-within:outline-none focus-within:ring-2 focus-within:ring-sky-500 shadow-sm 
                             rounded-lg text-slate-400"
                         >
                             <MdSearch className="text-2xl text-slate-300 dark:text-slate-400" />
                             <input
                                 type="text"
                                 name="country"
+                                ref={searchInput}
                                 className="p-0 m-0 grow bg-white border-none placeholder-slate-400 focus:outline-none focus:border-none focus:ring-0 block sm:text-sm"
                                 placeholder="Search a country..."
                                 onChange={searchChangeHandler}
                             ></input>
-                            {/* <kbd className="font-sans font-semibold">
+                            <kbd className="font-sans font-semibold">
                                 <abbr
                                     title="Command"
                                     className="no-underline text-slate-300"
@@ -69,8 +77,8 @@ export default function Home() {
                                     ⌘
                                 </abbr>{" "}
                                 K
-                            </kbd> */}
-                        </button>
+                            </kbd>
+                        </div>
                     </div>
                 </div>
             </Container>
