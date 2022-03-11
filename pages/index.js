@@ -70,7 +70,7 @@ export default function Home() {
                                 placeholder="Search a country..."
                                 onChange={searchChangeHandler}
                             ></input>
-                            <kbd className="font-sans font-semibold">
+                            <kbd className="font-sans font-semibold min-w-max">
                                 <abbr
                                     title="Command"
                                     className="no-underline text-slate-300"
