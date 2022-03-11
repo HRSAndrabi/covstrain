@@ -1,7 +1,8 @@
 import Layout from "../../../components/Layout/Layout";
 import Container from "../../../components/Layout/Container";
-import AreaGraph from "../../../components/Graph/AreaGraph";
-import LineGraph from "../../../components/Graph/LineGraph";
+import SubmissionsPerVariant from "../../../components/Country/SubmissionsPerVariant";
+import SubmissionsPerAaSubstitution from "../../../components/Country/SubmissionsPerAaSubstitution";
+import SubmissionsPerLineage from "../../../components/Country/SubmissionsPerLineage";
 
 const CountryDetail = ({
     countryData,
@@ -11,13 +12,13 @@ const CountryDetail = ({
     submissionsPerClade,
 }) => {
     return (
-        <Container>
-            <article className="max-w-screen-prose mx-auto prose prose-slate prose-sm sm:prose-base mb-10">
+        <>
+            <Container prose={true}>
                 <div className="text-slate-800 text-2xl font-semibold">
                     {countryData.name.common} ({countryData.cca3}){" "}
                     {countryData.flag}
                 </div>
-                <div className="text-slate-400 mb-5">
+                <div className="text-slate-400">
                     {countryData.name.official} /{" "}
                     {countryData.translations.fra.official} /{" "}
                     {countryData.translations.jpn?.official
@@ -25,61 +26,25 @@ const CountryDetail = ({
                         : ""}
                 </div>
                 {submissionsPerVariant.length > 0 && (
-                    <>
-                        <h4>
-                            Distribution of submitted SARS-CoV-2 Variant
-                            Sequences
-                        </h4>
-                        <p>
-                            The graph below presents the distribution of
-                            SARS-CoV-2 variant sequences over time,
-                            disaggregated by variants of concern (VOC), and
-                            variants of interest (VOI). Untracked variants are
-                            classified under the &apos;Other&apos; category.
-                        </p>
-                        <figure>
-                            <div className="text-sm font-medium">
-                                Figure 1: Distribution of SARS-CoV-2 Variant
-                                Sequences in {countryData.name.common}
-                            </div>
-                            <AreaGraph data={submissionsPerVariant} />
-                        </figure>
-                    </>
+                    <SubmissionsPerVariant
+                        plotData={submissionsPerVariant}
+                        countryData={countryData}
+                    />
                 )}
                 {submissionsPerAaSubstitution.length > 0 && (
-                    <>
-                        <h4>
-                            Distribution of observed SARS-CoV-2 Amino Acid
-                            Mutations
-                        </h4>
-                        <p>
-                            As the pandemic progresses, existing strains of
-                            SARS-CoV-2 are periodically modified by nucleotide
-                            mutations. Some of these result in amino acid
-                            replacements in viral proteins, while others extend
-                            or shorten amino acid sequence lengths. The graph
-                            below presents changes in the observed mix of amino
-                            acid sequences in samples of SARS-CoV-2 over time.
-                            Tracking, and understanding these changes could help
-                            improve antiviral drug and vaccine effectiveness.
-                        </p>
-                        <figure>
-                            <div className="text-sm font-medium">
-                                Figure 2: Distribution of SARS-CoV-2 Amino Acid
-                                Mutations in {countryData.name.common}
-                            </div>
-                            <LineGraph data={submissionsPerAaSubstitution} />
-                        </figure>
-                        <p>
-                            <span className="font-medium">Please note: </span>{" "}
-                            samples may be subject to bias resulting from:
-                            geographical clustering in submission of sequences;
-                            demographic clustering in submission of sequences,
-                            and/or mutation clustering, arising from prioritised
-                            sequencing of samples with particular mutations
-                        </p>
-                    </>
+                    <SubmissionsPerAaSubstitution
+                        plotData={submissionsPerAaSubstitution}
+                        countryData={countryData}
+                    />
                 )}
+            </Container>
+            {submissionsPerLineage.length > 0 && (
+                <SubmissionsPerLineage
+                    plotData={submissionsPerLineage}
+                    countryData={countryData}
+                />
+            )}
+            <Container prose={true}>
                 {submissionsPerVariant.length === 0 &&
                 submissionsPerAaSubstitution.length === 0 ? (
                     <>
@@ -91,8 +56,27 @@ const CountryDetail = ({
                     </>
                 ) : (
                     <div>
+                        <h4>Note on potential biases</h4>
+                        <p>
+                            Please note, samples may be subject to bias
+                            resulting from:
+                            <ul>
+                                <li>
+                                    geographical clustering in submission of
+                                    sequences;
+                                </li>
+                                <li>
+                                    demographic clustering in submission of
+                                    sequences; and,
+                                </li>
+                                <li>
+                                    mutation clustering arising from prioritised
+                                    sequencing of samples with particular
+                                    mutations
+                                </li>
+                            </ul>
+                        </p>
                         <h4>Recommended citation</h4>
-
                         <div className="not-prose bg-slate-100 font-mono text-sm px-3 py-2">
                             Hassan R. S. Andrabi. 2022. &quot;CoVstrain:
                             Sequencing Distributions of SARS-CoV-2 Mutations of
@@ -100,8 +84,8 @@ const CountryDetail = ({
                         </div>
                     </div>
                 )}
-            </article>
-        </Container>
+            </Container>
+        </>
     );
 };
 

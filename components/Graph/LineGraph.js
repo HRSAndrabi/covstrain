@@ -69,10 +69,10 @@ const LineGraph = ({ data }) => {
                         )
                         .map((element, idx) => {
                             const color =
-                                idx > colors.length - 1
-                                    ? colors[idx % (colors.length - 1)].hex
-                                    : element === "Other"
+                                element === "Other"
                                     ? colors[colors.length - 1].hex
+                                    : idx > colors.length - 1
+                                    ? colors[idx % (colors.length - 1)].hex
                                     : colors[idx].hex;
                             return (
                                 <Line
