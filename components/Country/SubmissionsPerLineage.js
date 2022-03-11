@@ -76,10 +76,18 @@ function SubmissionsPerLineage({ plotData, countryData }) {
     return (
         <div className="bg-slate-50 w-full -mt-6">
             <Container prose={true}>
-                <h3>SARS-CoV-2 Pango lineages</h3>
+                <h3>SARS-CoV-2 lineages</h3>
                 <p>
-                    Select one or more SARS-CoV-2 Pango lineages using the tool
-                    below to view their prevalence over time.
+                    Select one or more SARS-CoV-2{" "}
+                    <a
+                        href="https://en.wikipedia.org/wiki/Phylogenetic_Assignment_of_Named_Global_Outbreak_Lineages"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Pango
+                    </a>{" "}
+                    lineages using the tool below to view their prevalence over
+                    time.
                 </p>
                 <div className="mt-4 mb-10 flex flex-col sm:flex-row justify-center gap-6 text-sm items-center">
                     <div
@@ -93,18 +101,9 @@ function SubmissionsPerLineage({ plotData, countryData }) {
                             type="text"
                             name="country"
                             className="p-0 m-0 bg-white border-none grow placeholder-slate-400 focus:outline-none focus:border-none focus:ring-0 block sm:text-sm"
-                            placeholder="Search a lineage..."
+                            placeholder="Search a Pango lineage..."
                             onChange={searchChangeHandler}
                         ></input>
-                        <kbd className="font-sans font-semibold">
-                            <abbr
-                                title="Command"
-                                className="no-underline text-slate-300"
-                            >
-                                ⌘
-                            </abbr>{" "}
-                            K
-                        </kbd>
                     </div>
                     <a
                         className="bg-slate-900 hover:bg-slate-700 focus:outline-none 

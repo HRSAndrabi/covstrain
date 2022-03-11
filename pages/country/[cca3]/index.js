@@ -56,13 +56,25 @@ const CountryDetail = ({
                     </>
                 ) : (
                     <div>
+                        <h4>Note on potential biases</h4>
                         <p>
-                            <span className="font-medium">Please note: </span>{" "}
-                            samples may be subject to bias resulting from:
-                            geographical clustering in submission of sequences;
-                            demographic clustering in submission of sequences,
-                            and/or mutation clustering, arising from prioritised
-                            sequencing of samples with particular mutations
+                            Please note, samples may be subject to bias
+                            resulting from:
+                            <ul>
+                                <li>
+                                    geographical clustering in submission of
+                                    sequences;
+                                </li>
+                                <li>
+                                    demographic clustering in submission of
+                                    sequences; and,
+                                </li>
+                                <li>
+                                    mutation clustering arising from prioritised
+                                    sequencing of samples with particular
+                                    mutations
+                                </li>
+                            </ul>
                         </p>
                         <h4>Recommended citation</h4>
                         <div className="not-prose bg-slate-100 font-mono text-sm px-3 py-2">
