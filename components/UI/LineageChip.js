@@ -1,8 +1,9 @@
 import React from "react";
 
-function LineageChip({ lineage, disabled }) {
+function LineageChip({ lineage, disabled, onClick }) {
     return (
-        <a
+        <button
+            onClick={onClick}
             className={`flex flex-grow gap-2 items-center rounded-lg p-3 cursor-pointer 
 				font-mono text-sm hover:ring-slate-300 focus:outline-none 
 				focus:ring-2 focus:ring-sky-500 no-underline
@@ -14,7 +15,7 @@ function LineageChip({ lineage, disabled }) {
 				`}
         >
             <div>{lineage}</div>
-        </a>
+        </button>
     );
 }
 
