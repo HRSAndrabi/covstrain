@@ -1,7 +1,7 @@
 import Layout from "../components/Layout/Layout";
 import Container from "../components/Layout/Container";
 import { MdSearch } from "react-icons/md";
-import CountryChip from "../components/Home/CountryChip";
+import CountryChip from "../components/UI/CountryChip";
 import { useState, useEffect, useRef } from "react";
 
 export default function Home() {
