@@ -1,14 +1,28 @@
 import LineageChip from "../UI/LineageChip";
 import Container from "../Layout/Container";
 import { MdSearch } from "react-icons/md";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import AreaGraph from "../Graph/AreaGraph";
 
 function SubmissionsPerLineage({ plotData, countryData }) {
-    const [selectedLineages, setSelectedLineages] = useState([]);
+    const [selectedLineages, setSelectedLineages] = useState([
+        Object.keys(plotData[0]).includes("BA.1")
+            ? "BA.1"
+            : Object.keys(plotData[0])[0],
+    ]);
     const [filter, setFilter] = useState("");
+    const [selectedPlotData, setSelectedPlotData] = useState({});
+    const [tooManyLineages, setTooManyLineages] = useState(false);
 
     const selectLineageHandler = (event) => {
-        setSelectedLineages([...selectedLineages, event.target.innerText]);
+        if (selectedLineages.length < 10) {
+            setTooManyLineages(false);
+            setSelectedLineages(
+                selectedLineages.concat(event.target.innerText)
+            );
+        } else {
+            setTooManyLineages(true);
+        }
     };
 
     const removeLineageHandler = (event) => {
@@ -17,6 +31,7 @@ function SubmissionsPerLineage({ plotData, countryData }) {
                 (element) => element !== event.target.innerText
             )
         );
+        setTooManyLineages(false);
     };
 
     const searchChangeHandler = (event) => {
@@ -24,14 +39,47 @@ function SubmissionsPerLineage({ plotData, countryData }) {
         setFilter(query.trim().toUpperCase());
     };
 
+    useEffect(() => {
+        console.log(selectedLineages);
+        const newPlotData = plotData
+            .map((element) => {
+                return Object.keys(element)
+                    .filter((key) =>
+                        [
+                            ...selectedLineages,
+                            "date",
+                            "date_range",
+                            "country",
+                            "submissions",
+                        ].includes(key)
+                    )
+                    .reduce((obj, key) => {
+                        obj[key] = element[key];
+                        return obj;
+                    }, {});
+            })
+            .map((element) => {
+                const sumProp = Object.keys(element)
+                    .filter((key) => [...selectedLineages].includes(key))
+                    .reduce(
+                        (sum, key) => sum + parseFloat(element[key] || 0),
+                        0
+                    );
+                return {
+                    Other: 1 - sumProp,
+                    ...element,
+                };
+            });
+        setSelectedPlotData(newPlotData);
+    }, [selectedLineages]);
+
     return (
         <div className="bg-slate-50 w-full -mt-6">
             <Container prose={true}>
                 <h3>SARS-CoV-2 Pango lineages</h3>
                 <p>
                     Select one or more SARS-CoV-2 Pango lineages using the tool
-                    below to view the prevalence of particular lineages over
-                    time.
+                    below to view their prevalence over time.
                 </p>
                 <div className="mt-4 mb-10 flex flex-col sm:flex-row justify-center gap-6 text-sm items-center">
                     <div
@@ -75,8 +123,14 @@ function SubmissionsPerLineage({ plotData, countryData }) {
                 </div>
                 <div className="w-full flex flex-col gap-2 text-sm min-h-[3.2rem] mb-5">
                     <div className="min-w-[10.5rem] font-mono">
-                        Selected lineages (max 8):
+                        Selected lineages:
                     </div>
+                    {tooManyLineages && (
+                        <div className="text-red-600 text-xs">
+                            Maximum of 10 lineages can be selected at a time.
+                            Remove a lineage before selecting another.
+                        </div>
+                    )}
                     <div className="flex flex-wrap gap-2 overflow-x-scroll scroll p-1">
                         {selectedLineages.map((lineage) => {
                             return (
@@ -94,7 +148,7 @@ function SubmissionsPerLineage({ plotData, countryData }) {
                 </div>
                 <div className="w-full flex flex-col items-start gap-2 text-sm min-h-[3.2rem]">
                     <div className="min-w-[10.5rem] font-mono">
-                        Available lineages:
+                        Available lineages (scroll to view more):
                     </div>
                     <div className="flex flex-wrap gap-2 overflow-x-scroll scroll p-1 max-h-52 overflow-y-scroll bg-scroll">
                         {Object.keys(plotData[0])
@@ -146,6 +200,12 @@ function SubmissionsPerLineage({ plotData, countryData }) {
                                 );
                             })}
                     </div>
+                </div>
+                <div>
+                    <AreaGraph
+                        data={selectedPlotData}
+                        disableAnimation={true}
+                    />
                 </div>
             </Container>
         </div>

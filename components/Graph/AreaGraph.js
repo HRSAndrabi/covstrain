@@ -9,7 +9,7 @@ import {
 } from "recharts";
 import CustomTooltip from "./CustomTooltip";
 
-const AreaGraph = ({ data }) => {
+const AreaGraph = ({ data, disableAnimation }) => {
     const colors = require("./colors.json");
 
     if (!data.length) {
@@ -56,10 +56,10 @@ const AreaGraph = ({ data }) => {
                         )
                         .map((element, idx) => {
                             const color =
-                                idx > colors.length - 1
-                                    ? colors[idx % (colors.length - 1)].hex
-                                    : element === "Other"
+                                element === "Other"
                                     ? colors[colors.length - 1].hex
+                                    : idx > colors.length - 1
+                                    ? colors[idx % (colors.length - 1)].hex
                                     : colors[idx].hex;
                             return (
                                 <Area
@@ -70,6 +70,9 @@ const AreaGraph = ({ data }) => {
                                     fill={color}
                                     name={data[0][element]}
                                     key={idx}
+                                    isAnimationActive={
+                                        disableAnimation ? false : true
+                                    }
                                 />
                             );
                         })}
