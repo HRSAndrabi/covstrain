@@ -1,8 +1,5 @@
 import Layout from "../../../components/Layout/Layout";
 import Container from "../../../components/Layout/Container";
-import LineGraph from "../../../components/Graph/LineGraph";
-import { MdSearch } from "react-icons/md";
-import LineageChip from "../../../components/UI/LineageChip";
 import SubmissionsPerVariant from "../../../components/Country/SubmissionsPerVariant";
 import SubmissionsPerAaSubstitution from "../../../components/Country/SubmissionsPerAaSubstitution";
 import SubmissionsPerLineage from "../../../components/Country/SubmissionsPerLineage";
