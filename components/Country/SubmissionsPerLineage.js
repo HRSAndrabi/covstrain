@@ -40,7 +40,6 @@ function SubmissionsPerLineage({ plotData, countryData }) {
     };
 
     useEffect(() => {
-        console.log(selectedLineages);
         const newPlotData = plotData
             .map((element) => {
                 return Object.keys(element)
@@ -120,32 +119,7 @@ function SubmissionsPerLineage({ plotData, countryData }) {
                         <span className="hidden sm:flex">Reference</span>
                     </a>
                 </div>
-                <div className="w-full flex flex-col gap-2 text-sm min-h-[3.2rem] mb-5">
-                    <div className="min-w-[10.5rem] font-mono">
-                        Selected lineages:
-                    </div>
-                    {tooManyLineages && (
-                        <div className="text-red-600 text-xs">
-                            Maximum of 10 lineages can be selected at a time.
-                            Remove a lineage before selecting another.
-                        </div>
-                    )}
-                    <div className="flex flex-wrap gap-2 overflow-x-scroll scroll p-1">
-                        {selectedLineages.map((lineage) => {
-                            return (
-                                <LineageChip
-                                    key={lineage}
-                                    lineage={lineage}
-                                    disabled={false}
-                                    onClick={removeLineageHandler}
-                                >
-                                    {lineage}
-                                </LineageChip>
-                            );
-                        })}
-                    </div>
-                </div>
-                <div className="w-full flex flex-col items-start gap-2 text-sm min-h-[3.2rem]">
+                <div className="w-full flex flex-col items-start gap-2 text-sm min-h-[3.2rem] mb-5">
                     <div className="min-w-[10.5rem] font-mono">
                         Available lineages (scroll to view more):
                     </div>
@@ -200,6 +174,32 @@ function SubmissionsPerLineage({ plotData, countryData }) {
                             })}
                     </div>
                 </div>
+                <div className="w-full flex flex-col gap-2 text-sm min-h-[3.2rem] mb-5">
+                    <div className="min-w-[10.5rem] font-mono">
+                        Selected lineages:
+                    </div>
+                    {tooManyLineages && (
+                        <div className="text-red-600 text-xs">
+                            Maximum of 10 lineages can be selected at a time.
+                            Remove a lineage before selecting another.
+                        </div>
+                    )}
+                    <div className="flex flex-wrap gap-2 overflow-x-scroll scroll p-1">
+                        {selectedLineages.map((lineage) => {
+                            return (
+                                <LineageChip
+                                    key={lineage}
+                                    lineage={lineage}
+                                    disabled={false}
+                                    onClick={removeLineageHandler}
+                                >
+                                    {lineage}
+                                </LineageChip>
+                            );
+                        })}
+                    </div>
+                </div>
+
                 <div>
                     <AreaGraph
                         data={selectedPlotData}
