@@ -41,7 +41,7 @@ const CountryDetail = ({
     return (
         <>
             <Container prose={true}>
-                <div className="text-slate-800 text-2xl font-semibold">
+                <div className="text-slate-800 text-2xl font-semibold mt-10">
                     {countryData.name.common} ({countryData.cca3}){" "}
                     {countryData.flag}
                 </div>

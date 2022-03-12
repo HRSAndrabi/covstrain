@@ -28,7 +28,7 @@ const Footer = () => {
         {
             title: "Data",
             contents: [
-                { title: "GISAID", href: "https://www.gisaid.org/" },
+                { title: "FAQ", href: "/faq" },
                 { title: "Acknowledgements", href: "/acknowledgements" },
             ],
         },
