@@ -84,7 +84,7 @@ function faq() {
             ),
         },
         {
-            question: <>I've found a bug, what should I do?</>,
+            question: <>I&apos;ve found a bug, what should I do?</>,
             answer: (
                 <>
                     You can try and fix it on your own by submitting a{" "}
@@ -114,7 +114,7 @@ function faq() {
             <h2>Frequently asked questions</h2>
             <p>
                 The following are a list of FAQs related to CoVStrain data and
-                software. If you can't find what you're looking for,{" "}
+                software. If you can&apos;t find what you&apos;re looking for,{" "}
                 <a href="mailto:hassan.andrabi@unimelb.edu.au">
                     send us an email
                 </a>
