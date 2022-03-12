@@ -79,6 +79,22 @@ const Header = () => {
                                     About
                                 </a>
                             </Link>
+                            <Link href="/faq" passHref>
+                                <a
+                                    className="text-slate-600 hover:text-sky-500 py-1"
+                                    onClick={closeMobileNav}
+                                >
+                                    FAQ
+                                </a>
+                            </Link>
+                            <Link href="/acknowledgements" passHref>
+                                <a
+                                    className="text-slate-600 hover:text-sky-500 py-1"
+                                    onClick={closeMobileNav}
+                                >
+                                    Acknowledgements
+                                </a>
+                            </Link>
                             <a
                                 href="https://github.com/HRSAndrabi/covstrain"
                                 target="_blank"
