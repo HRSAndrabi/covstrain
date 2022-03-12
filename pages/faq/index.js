@@ -121,9 +121,9 @@ function faq() {
                 .
             </p>
             <ol>
-                {faqList.map((element) => {
+                {faqList.map((element, idx) => {
                     return (
-                        <li>
+                        <li key={idx}>
                             <strong>{element.question}</strong>
                             <p>{element.answer}</p>
                         </li>
