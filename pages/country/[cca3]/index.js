@@ -46,7 +46,8 @@ const CountryDetail = ({
             )}
             <Container prose={true}>
                 {submissionsPerVariant.length === 0 &&
-                submissionsPerAaSubstitution.length === 0 ? (
+                submissionsPerAaSubstitution.length === 0 &&
+                submissionsPerLineage.length === 0 ? (
                     <>
                         <h4>No data available</h4>
                         <p>
@@ -60,22 +61,21 @@ const CountryDetail = ({
                         <p>
                             Please note, samples may be subject to bias
                             resulting from:
-                            <ul>
-                                <li>
-                                    geographical clustering in submission of
-                                    sequences;
-                                </li>
-                                <li>
-                                    demographic clustering in submission of
-                                    sequences; and,
-                                </li>
-                                <li>
-                                    mutation clustering arising from prioritised
-                                    sequencing of samples with particular
-                                    mutations
-                                </li>
-                            </ul>
                         </p>
+                        <ul>
+                            <li>
+                                geographical clustering in submission of
+                                sequences;
+                            </li>
+                            <li>
+                                demographic clustering in submission of
+                                sequences; and,
+                            </li>
+                            <li>
+                                mutation clustering arising from prioritised
+                                sequencing of samples with particular mutations
+                            </li>
+                        </ul>
                         <h4>Recommended citation</h4>
                         <div className="not-prose bg-slate-100 font-mono text-sm px-3 py-2">
                             Hassan R. S. Andrabi. 2022. &quot;CoVstrain:
