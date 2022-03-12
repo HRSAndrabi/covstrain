@@ -7,7 +7,9 @@ import { useState, useEffect, useRef } from "react";
 export default function Home() {
     const [filter, setFilter] = useState("");
     const searchInput = useRef(null);
-    const countries = require("../data/countries.json");
+    const countries = require("../data/countries.json").filter(
+        (country) => country.name.common !== "Antarctica"
+    );
 
     const searchChangeHandler = (event) => {
         const query = event.target.value;
