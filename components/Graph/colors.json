@@ -4,6 +4,14 @@
         "class": "rose-500"
     },
     {
+        "hex": "#eab308",
+        "class": "yellow-500"
+    },
+    {
+        "hex": "#10b981",
+        "class": "emerald-500"
+    },
+    {
         "hex": "#ec4899",
         "class": "pink-500"
     },
@@ -40,20 +48,12 @@
         "class": "teal-500"
     },
     {
-        "hex": "#10b981",
-        "class": "emerald-500"
-    },
-    {
         "hex": "#22c55e",
         "class": "green-500"
     },
     {
         "hex": "#84cc16",
         "class": "lime-500"
-    },
-    {
-        "hex": "#eab308",
-        "class": "yellow-500"
     },
     {
         "hex": "#f59e0b",
