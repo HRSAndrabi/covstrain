@@ -4,13 +4,13 @@ import SubmissionsPerVariant from "../../../components/Country/SubmissionsPerVar
 import SubmissionsPerAaSubstitution from "../../../components/Country/SubmissionsPerAaSubstitution";
 import SubmissionsPerLineage from "../../../components/Country/SubmissionsPerLineage";
 
-const CountryDetail = ({
+export default function CountryDetail({
     countryData,
     submissionsPerVariant,
     submissionsPerAaSubstitution,
     submissionsPerLineage,
     submissionsPerClade,
-}) => {
+}) {
     if (
         submissionsPerVariant.length === 0 &&
         submissionsPerAaSubstitution.length === 0 &&
@@ -95,9 +95,7 @@ const CountryDetail = ({
             </Container>
         </>
     );
-};
-
-export default CountryDetail;
+}
 
 CountryDetail.getLayout = function getLayout(page) {
     return <Layout title={page.props.countryData.name.common}>{page}</Layout>;

@@ -4,7 +4,7 @@ import { MdMenu } from "react-icons/md";
 import { AiFillGithub } from "react-icons/ai";
 import { useState } from "react";
 
-const Header = () => {
+export default function Header() {
     const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
     const toggleMobileNav = () => {
@@ -115,6 +115,4 @@ const Header = () => {
             ></div>
         </>
     );
-};
-
-export default Header;
+}

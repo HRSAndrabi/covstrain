@@ -9,7 +9,7 @@ import {
 } from "recharts";
 import CustomTooltip from "./CustomTooltip";
 
-const LineGraph = ({ data }) => {
+export default function LineGraph({ data }) {
     const colors = require("./colors.json");
 
     if (!data.length) {
@@ -88,6 +88,4 @@ const LineGraph = ({ data }) => {
             </ResponsiveContainer>
         </div>
     );
-};
-
-export default LineGraph;
+}

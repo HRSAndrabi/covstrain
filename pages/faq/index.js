@@ -1,7 +1,7 @@
 import Layout from "../../components/Layout/Layout";
 import Container from "../../components/Layout/Container";
 
-function faq() {
+export default function faq() {
     const faqList = [
         {
             question: <>How do I acknowledge this work?</>,
@@ -133,8 +133,6 @@ function faq() {
         </Container>
     );
 }
-
-export default faq;
 
 faq.getLayout = function getLayout(page) {
     return <Layout title="FAQ">{page}</Layout>;

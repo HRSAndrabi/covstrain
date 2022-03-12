@@ -4,7 +4,7 @@ import { MdSearch } from "react-icons/md";
 import { useState, useEffect } from "react";
 import AreaGraph from "../Graph/AreaGraph";
 
-function SubmissionsPerLineage({ plotData, countryData }) {
+export default function SubmissionsPerLineage({ plotData, countryData }) {
     const [selectedLineages, setSelectedLineages] = useState([
         Object.keys(plotData[0]).includes("BA.1")
             ? "BA.1"
@@ -210,5 +210,3 @@ function SubmissionsPerLineage({ plotData, countryData }) {
         </div>
     );
 }
-
-export default SubmissionsPerLineage;
