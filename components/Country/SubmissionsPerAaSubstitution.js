@@ -1,6 +1,9 @@
 import LineGraph from "../Graph/LineGraph";
 
-function SubmissionsPerAaSubstitution({ plotData, countryData }) {
+export default function SubmissionsPerAaSubstitution({
+    plotData,
+    countryData,
+}) {
     return (
         <div>
             <h3>SARS-CoV-2 amino acid mutations</h3>
@@ -24,5 +27,3 @@ function SubmissionsPerAaSubstitution({ plotData, countryData }) {
         </div>
     );
 }
-
-export default SubmissionsPerAaSubstitution;

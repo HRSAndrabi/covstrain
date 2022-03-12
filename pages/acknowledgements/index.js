@@ -1,7 +1,7 @@
 import Layout from "../../components/Layout/Layout";
 import Container from "../../components/Layout/Container";
 
-export default function About() {
+export default function Acknowledgements() {
     return (
         <Container>
             <div className="prose prose-slate mx-auto mb-10">
@@ -55,6 +55,6 @@ export default function About() {
     );
 }
 
-About.getLayout = function getLayout(page) {
-    return <Layout title="About">{page}</Layout>;
+Acknowledgements.getLayout = function getLayout(page) {
+    return <Layout title="Acknowledgements">{page}</Layout>;
 };

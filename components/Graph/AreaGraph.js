@@ -9,7 +9,7 @@ import {
 } from "recharts";
 import CustomTooltip from "./CustomTooltip";
 
-const AreaGraph = ({ data, disableAnimation }) => {
+export default function AreaGraph({ data, disableAnimation }) {
     const colors = require("./colors.json");
 
     if (!data.length) {
@@ -80,6 +80,4 @@ const AreaGraph = ({ data, disableAnimation }) => {
             </ResponsiveContainer>
         </div>
     );
-};
-
-export default AreaGraph;
+}

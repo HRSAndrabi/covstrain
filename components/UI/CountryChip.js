@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const CountryChip = ({ country, disabled }) => {
+export default function CountryChip({ country, disabled }) {
     return (
         <Link
             key={country.cca3}
@@ -30,6 +30,4 @@ const CountryChip = ({ country, disabled }) => {
             </a>
         </Link>
     );
-};
-
-export default CountryChip;
+}

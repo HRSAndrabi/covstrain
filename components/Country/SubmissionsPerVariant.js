@@ -1,6 +1,6 @@
 import AreaGraph from "../Graph/AreaGraph";
 
-function SubmissionsPerVariant({ plotData, countryData }) {
+export default function SubmissionsPerVariant({ plotData, countryData }) {
     return (
         <div>
             <h3>SARS-CoV-2 variant sequences</h3>
@@ -21,5 +21,3 @@ function SubmissionsPerVariant({ plotData, countryData }) {
         </div>
     );
 }
-
-export default SubmissionsPerVariant;

@@ -36,3 +36,6 @@ yarn-error.log*
 
 # GISAD
 raw.json
+
+# Python
+venv

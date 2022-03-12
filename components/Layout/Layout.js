@@ -2,7 +2,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Head from "next/head";
 
-const Layout = (props) => {
+export default function Layout(props) {
     return (
         <>
             <Head>
@@ -71,6 +71,4 @@ const Layout = (props) => {
             </div>
         </>
     );
-};
-
-export default Layout;
+}

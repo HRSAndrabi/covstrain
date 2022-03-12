@@ -1,6 +1,4 @@
-import React from "react";
-
-function LineageChip({ lineage, disabled, onClick }) {
+export default function LineageChip({ lineage, disabled, onClick }) {
     return (
         <button
             onClick={onClick}
@@ -18,5 +16,3 @@ function LineageChip({ lineage, disabled, onClick }) {
         </button>
     );
 }
-
-export default LineageChip;

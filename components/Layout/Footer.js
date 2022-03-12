@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Footer = () => {
+export default function Footer() {
     const links = [
         {
             title: "Community",
@@ -100,6 +100,4 @@ const Footer = () => {
             </div>
         </div>
     );
-};
-
-export default Footer;
+}

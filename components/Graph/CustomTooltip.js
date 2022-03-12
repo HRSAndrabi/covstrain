@@ -1,6 +1,4 @@
-import React from "react";
-
-const CustomTooltip = ({ active, payload }) => {
+export default function CustomTooltip({ active, payload }) {
     if (active && payload && payload.length) {
         const filteredPayload = payload.filter((element) => element.value > 0);
         const dateRange = payload[0].payload["date_range"];
@@ -71,6 +69,4 @@ const CustomTooltip = ({ active, payload }) => {
     }
 
     return null;
-};
-
-export default CustomTooltip;
+}

@@ -1,4 +1,4 @@
-const Container = (props) => {
+export default function Container(props) {
     if (props.prose) {
         return (
             <div className="px-5">
@@ -18,6 +18,4 @@ const Container = (props) => {
             </div>
         );
     }
-};
-
-export default Container;
+}

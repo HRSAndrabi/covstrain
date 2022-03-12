@@ -9,8 +9,11 @@ CoVstrain is open-source, and accepting pull requests. For major changes, please
 ### Acknowledgements
 
 This work is enabled by data from the [GISAID Initiative]("https://www.gisaid.org/'). I greatfully acknowledge the efforts of all contributors to the GISAID initative, who continue to work together to achieve global health security and understanding of infectious diseases.
-
 This work is subject to [GISAID terms of use](https://www.gisaid.org/registration/terms-of-use/).
+
+### Contact
+
+If you want to get in touch about this work, you can contact me on [Twitter](https://twitter.com/hrs_andrabi), or reach out via <a href="mailto:hassan.andrabi@unimelb.edu.au">email</a>.
 
 ### Citing this work
 
@@ -21,7 +24,3 @@ You may cite this work as:
 ```
 Hassan R. S. Andrabi. 2022. "CoVstrain: Sequencing Distributions of SARS-CoV-2 Mutations of Interest." https://covstrain.com/
 ```
-
-### Contact
-
-If you want to get in touch about this work, you can contact me on [Twitter](https://twitter.com/hrs_andrabi), or reach out via <a href="mailto:hassan.andrabi@unimelb.edu.au">email</a>.
