@@ -200,7 +200,7 @@ export default function SubmissionsPerLineage({ plotData, countryData }) {
                     </div>
                 </div>
 
-                <div>
+                <div className="mb-10">
                     <AreaGraph
                         data={selectedPlotData}
                         disableAnimation={true}
