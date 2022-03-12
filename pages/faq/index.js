@@ -135,5 +135,5 @@ export default function faq() {
 }
 
 faq.getLayout = function getLayout(page) {
-    return <Layout title="FAQs">{page}</Layout>;
+    return <Layout title="FAQ">{page}</Layout>;
 };
