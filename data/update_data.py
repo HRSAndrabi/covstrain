@@ -150,7 +150,7 @@ def clean_data(update=False):
 			make_path(output_path)
 			try:
 				with open(output_path, 'w') as f:
-					json.dump(output, f, indent=4, sort_keys=True)
+					json.dump(output, f, sort_keys=True)
 			except:
 				with open(output_path, 'w') as f:
 					json.dump({}, f)
