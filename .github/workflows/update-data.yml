@@ -22,7 +22,7 @@ jobs:
               env:
                   GISAID_USER: ${{ secrets.GISAID_USER }}
                   GISAID_PASS: ${{ secrets.GISAID_PASS }}
-              run: python data/format_data.py True
+              run: python data/format_data.py False
 
             - name: Commit files to new branch
               run: |
