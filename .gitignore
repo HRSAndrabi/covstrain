@@ -39,3 +39,4 @@ raw.json
 
 # Python
 venv
+__pycache__
