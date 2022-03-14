@@ -1,4 +1,4 @@
-name: Update data from GISAID
+name: update-data
 on: workflow_dispatch
 
 jobs:
