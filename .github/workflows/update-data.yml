@@ -1,7 +1,7 @@
 name: Update data from GISAID
 on:
     schedule:
-        - cron: "40 2 * * *" # runs at 12:00 UTC everyday
+        - cron: "0 4 * * *" # runs at 12:00 UTC everyday
 
 jobs:
     build:
