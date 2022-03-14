@@ -17,7 +17,14 @@ def request_data():
 	url = "https://www.epicov.org/epi3/feed/gisaid_variants_statistics.json"
 	base_path = './data/gisaid'
 
-	response = requests.get(url, stream=True, auth=HTTPBasicAuth("USERNAME", "PASSWORD"))
+	response = requests.get(
+		url, stream=True, 
+		auth=HTTPBasicAuth(
+			os.environ["GISAID_USER"], 
+			os.environ["GISAID_PASS"]
+		)
+	)
+	
 	try:
 		response.json()
 	except:
@@ -157,5 +164,4 @@ def clean_data(update=False):
 
 
         
-
-clean_data(update=False)
+clean_data(update=True)
