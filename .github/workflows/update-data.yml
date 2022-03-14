@@ -1,10 +1,8 @@
 name: Update data from GISAID
-on:
-    schedule:
-        - cron: "0 12 * * *" # runs at 12:00 UTC everyday
+on: workflow_dispatch
 
 jobs:
-    build:
+    request-data:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout repository
@@ -40,6 +38,7 @@ jobs:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
                   branch: update-data
 	create-pull-request:
+		needs: request-data
 		runs-on: ubuntu-latest
 		steps:
 		- name: Create pull request
