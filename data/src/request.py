@@ -30,3 +30,4 @@ def request_data():
 			print(f"Data written to: {base_path}/raw.json")
 		with open(f"{base_path}/timeStamp.json", "w") as f:
 			json.dump({"timeStamp": datetime.today().strftime('%d %b %Y')}, f)
+		return response.json()

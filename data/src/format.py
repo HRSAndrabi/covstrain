@@ -20,16 +20,18 @@ def disaggregate(x):
 
 def load_data(update=False):
 	if update:
-		request_data()
-
-	try:
-		print("Loading data ...")
-		gisaid_data = json.load(open("./data/gisaid/raw.json"))["stats"]
-	except:
-		print("Raw dataset not found at: data/raw.json")
-		request_data()
-		print("Loading data ...")
-		gisaid_data = json.load(open("./data/gisaid/raw.json"))["stats"]
+		gisaid_data = request_data()
+		gisaid_data = gisaid_data["stats"]
+	else:
+		try:
+			print("Loading data ...")
+			gisaid_data = json.load(open("./data/gisaid/raw.json"))["stats"]
+		except:
+			print("Raw dataset not found at: data/raw.json")
+			request_data()
+			print("Loading data ...")
+			gisaid_data = request_data()
+			gisaid_data = gisaid_data["stats"]
 
 	gisaid_df = pd.DataFrame(gisaid_data)
 	columns = gisaid_df.columns
