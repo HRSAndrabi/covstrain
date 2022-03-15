@@ -20,7 +20,7 @@ def request_data():
 	try:
 		response.json()
 	except:
-		raise ValueError("Failed to download data. Check GISAID credentials.")
+		raise ValueError("Failed to download data. Your credentials may be incorrect, or you have sent too many requests in quick succession.")
 
 	if response.status_code == 200:
 		print("Request OK.")
