@@ -5,7 +5,7 @@ import sys
 # Default is don't update data. To update data, run pythn format.py True
 
 if len(sys.argv) > 1:
-	if sys.argv == 'True':
+	if sys.argv[1] == 'True':
 		update = True
 	else:
 		update = False
