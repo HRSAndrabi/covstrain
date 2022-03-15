@@ -9,8 +9,8 @@ export default function faq() {
                 <>
                     If you use screenshots of this work please credit CoVStrain
                     with a link back to the website. If you use the data or code
-                    provided by this work, please include citations to CoVStrain
-                    and GISAID. The recommended citation for CoVstrain is
+                    provided by this work, please attribute CoVStrain and GISAID
+                    with a citation. The recommended citation for CoVstrain is
                     provided below:
                     <div className="not-prose bg-slate-100 font-mono text-sm px-3 py-2 mt-5">
                         Hassan R. S. Andrabi. 2022. &quot;CoVstrain: Sequencing
@@ -34,9 +34,10 @@ export default function faq() {
                     </a>
                     . Under this license, CoVStrain provides open access to all
                     data and code in the hope that it will be useful for
-                    research, and enable the creation of new tools. Users are
-                    free to use data and code in compliance with the terms set
-                    out in the GNU General Public License.
+                    research, and enable the creation of new communication
+                    tools. Users are free to use data and code with appropriate
+                    attribution, and in compliance with the terms set out in the
+                    GNU General Public License.
                 </>
             ),
         },
@@ -77,9 +78,9 @@ export default function faq() {
             question: <>How often is the website updated?</>,
             answer: (
                 <>
-                    The website is updated on a weekly basis with the latest
-                    lineage assignments, using all available sequencing data on
-                    GISAID at the point of retrieval.
+                    The website is updated daily with the latest lineage
+                    assignments, using all available sequencing data on GISAID
+                    at the point of retrieval.
                 </>
             ),
         },
@@ -103,7 +104,7 @@ export default function faq() {
                     >
                         issue
                     </a>{" "}
-                    pull and we will sort out as soon as possible.
+                    and we will sort out as soon as possible.
                 </>
             ),
         },
