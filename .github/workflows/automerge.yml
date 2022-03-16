@@ -20,4 +20,4 @@ jobs:
                   GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
                   MERGE_LABELS: "update-data"
                   MERGE_COMMIT_MESSAGE: "pull-request-title"
-                  MERGE_FILTER_AUTHOR: "actions-user"
+                  MERGE_FILTER_AUTHOR: "HRSAndrabi"
