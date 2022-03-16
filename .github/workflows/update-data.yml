@@ -46,7 +46,7 @@ jobs:
               with:
                   script: |
                       const date = new Date();
-                      const title = `Update GISAID data (${date.toUTCString()})`
+                      const title = `Update data (${date.toUTCString()})`
                       const { repo, owner } = context.repo;
                       const result = await github.rest.pulls.create({
                         title: title,
