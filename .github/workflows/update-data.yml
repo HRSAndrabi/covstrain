@@ -1,7 +1,7 @@
 name: update-data
 on:
     schedule:
-        - cron: "0 12 * * *" # runs at 12am UTC (11am Melbourne time)
+        - cron: "15 0 * * *" # runs at 12:15 am UTC (11:15 am Melbourne time)
 
 jobs:
     request-data:
