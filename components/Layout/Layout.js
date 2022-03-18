@@ -36,7 +36,7 @@ export default function Layout(props) {
                 />
                 <meta
                     property="og:image"
-                    content="https://www.covstrain.com/og-image.png"
+                    content="https://www.covstrain.com/og-image-2.png"
                 />
 
                 <meta property="twitter:card" content="summary_large_image" />
@@ -53,7 +53,7 @@ export default function Layout(props) {
                 />
                 <meta
                     property="twitter:image"
-                    content="https://www.covstrain.com/og-image.png"
+                    content="https://www.covstrain.com/og-image-2.png"
                 />
             </Head>
             {!(props.minimal || false) && <Header />}
