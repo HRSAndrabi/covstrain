@@ -96,6 +96,9 @@ export default function Home() {
                                         .toLowerCase()
                                         .includes(filter)
                                 )
+                                .sort((a, b) =>
+                                    a.name.common.localeCompare(b.name.common)
+                                )
                                 .map((country) => {
                                     return (
                                         <CountryChip
@@ -113,6 +116,9 @@ export default function Home() {
                                             .toLowerCase()
                                             .includes(filter)
                                 )
+                                .sort((a, b) => {
+                                    a.name.common.localeCompare(b.name.common);
+                                })
                                 .map((country) => {
                                     return (
                                         <CountryChip
