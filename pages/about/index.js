@@ -1,48 +1,77 @@
 import Layout from "../../components/Layout/Layout";
 import Container from "../../components/Layout/Container";
+import Image from "next/image";
 
 export default function About() {
     return (
         <Container prose={true}>
             <h2>About</h2>
-            <p>
-                Hello 👋 I&apos;m{" "}
-                <a href="https://twitter.com/hrs_andrabi" target="blank">
-                    Hassan
-                </a>
-                . I built and maintain CoVstrain using data from the{" "}
-                <a
-                    href="https://www.gisaid.org/"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    GISAID Initiative
-                </a>
-                . CoVstrain uses global genomic sequencing data on SARS-CoV-2
-                mutations of interest to visualise mutation distribution and
-                life cycles over time, and around the world.
+            <p className="flex flex-col gap-3">
+                <div>
+                    CoVstrain uses{" "}
+                    <a
+                        href="https://www.gisaid.org/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        global genomic sequencing data
+                    </a>{" "}
+                    on SARS-CoV-2 mutations of interest to visualise mutation
+                    distribution and life cycles over time, and around the
+                    world.
+                </div>
+                <div>
+                    CoVstrain is built and maintained by{" "}
+                    <a
+                        href="https://twitter.com/hrs_andrabi"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Hassan Andrabi
+                    </a>
+                    , as part of an open-source initiative by the{" "}
+                    <a
+                        href="https://populationinterventions.science.unimelb.edu.au/#welcome"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Population Interventions Unit
+                    </a>
+                    , University of Melbourne, School of Population and Global
+                    Health. CoVstrain is accepting contributions via{" "}
+                    <a
+                        href="https://github.com/HRSAndrabi/covstrain"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        GitHub
+                    </a>
+                    .
+                </div>
+                <div>
+                    If you want to get in touch about this work, you can{" "}
+                    <a href="mailto:hassan.andrabi@unimelb.edu.au">email us</a>{" "}
+                    or reach out via{" "}
+                    <a
+                        href="https://twitter.com/hrs_andrabi"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Twitter
+                    </a>
+                    .
+                </div>
+                <div className="flex mt-3">
+                    <Image
+                        src="/uom-logo.png"
+                        alt="logo"
+                        layout="fixed"
+                        height="100"
+                        width="100"
+                    />
+                </div>
             </p>
-            <p>
-                If you want to get in touch about this work, you can contact me
-                on{" "}
-                <a
-                    href="https://twitter.com/hrs_andrabi"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    Twitter
-                </a>
-                , or reach out via{" "}
-                <a href="mailto:hassan.andrabi@unimelb.edu.au">email</a>.
-                CoVstrain is open-source, and accepting contributions via{" "}
-                <a
-                    href="https://github.com/HRSAndrabi/covstrain"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    GitHub
-                </a>
-            </p>
+
             <h4>You may cite this work as:</h4>
             <div className="not-prose bg-slate-100 font-mono text-sm px-3 py-2">
                 Hassan R. S. Andrabi. 2022. &quot;CoVstrain: Sequencing
