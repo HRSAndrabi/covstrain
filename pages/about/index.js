@@ -1,6 +1,5 @@
 import Layout from "../../components/Layout/Layout";
 import Container from "../../components/Layout/Container";
-import Image from "next/image";
 
 export default function About() {
     return (
@@ -60,15 +59,6 @@ export default function About() {
                         Twitter
                     </a>
                     .
-                </div>
-                <div className="flex mt-3">
-                    <Image
-                        src="/uom-logo.png"
-                        alt="logo"
-                        layout="fixed"
-                        height="100"
-                        width="100"
-                    />
                 </div>
             </p>
 
