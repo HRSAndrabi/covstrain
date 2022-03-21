@@ -61,6 +61,15 @@ export default function About() {
                     </a>
                     .
                 </div>
+                <div className="flex mt-3">
+                    <Image
+                        src="/uom-logo.png"
+                        alt="logo"
+                        layout="fixed"
+                        height="100"
+                        width="100"
+                    />
+                </div>
             </p>
 
             <h4>You may cite this work as:</h4>
