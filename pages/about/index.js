@@ -1,5 +1,6 @@
 import Layout from "../../components/Layout/Layout";
 import Container from "../../components/Layout/Container";
+import Image from "next/image";
 
 export default function About() {
     return (
@@ -20,7 +21,15 @@ export default function About() {
                     world.
                 </div>
                 <div>
-                    CoVstrain is built and maintained by the{" "}
+                    CoVstrain is built and maintained by{" "}
+                    <a
+                        href="https://twitter.com/hrs_andrabi"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Hassan Andrabi
+                    </a>
+                    , as part of an open-source initiative by the{" "}
                     <a
                         href="https://populationinterventions.science.unimelb.edu.au/#welcome"
                         target="_blank"
@@ -28,9 +37,19 @@ export default function About() {
                     >
                         Population Interventions Unit
                     </a>
-                    , at the University of Melbourne School of Population and
-                    Global Health. If you want to get in touch about this work,
-                    you can{" "}
+                    , University of Melbourne, School of Population and Global
+                    Health. CoVstrain is accepting contributions via{" "}
+                    <a
+                        href="https://github.com/HRSAndrabi/covstrain"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        GitHub
+                    </a>
+                    .
+                </div>
+                <div>
+                    If you want to get in touch about this work, you can{" "}
                     <a href="mailto:hassan.andrabi@unimelb.edu.au">email us</a>{" "}
                     or reach out via{" "}
                     <a
@@ -40,14 +59,7 @@ export default function About() {
                     >
                         Twitter
                     </a>
-                    . CoVstrain is open-source, and accepting contributions via{" "}
-                    <a
-                        href="https://github.com/HRSAndrabi/covstrain"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        GitHub
-                    </a>
+                    .
                 </div>
             </p>
 
