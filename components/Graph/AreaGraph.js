@@ -51,6 +51,7 @@ export default function AreaGraph({ data, disableAnimation }) {
                             (element) =>
                                 element !== "submissions" &&
                                 element !== "date" &&
+                                element !== "date_range" &&
                                 element !== "country" &&
                                 element !== "fortnight"
                         )
