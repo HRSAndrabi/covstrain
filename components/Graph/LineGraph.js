@@ -64,6 +64,7 @@ export default function LineGraph({ data }) {
                             (element) =>
                                 element !== "submissions" &&
                                 element !== "date" &&
+                                element !== "date_range" &&
                                 element !== "country" &&
                                 element !== "fortnight"
                         )
