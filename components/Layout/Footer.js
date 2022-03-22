@@ -95,13 +95,18 @@ export default function Footer() {
                 </div>
                 <div className="flex flex-col items-center gap-3 sm:flex-row justify-between pb-3 text-xs mb-5 sm:mb-2">
                     <div>Copyright © 2022 covstrain. All rights reserved.</div>
-                    <div className="rounded-md p-2 border border-slate-300 flex items-center max-w-max gap-1">
+                    <a
+                        className="rounded-md p-2 border border-slate-300 flex items-center max-w-max gap-1"
+                        href="https://github.com/HRSAndrabi/covstrain/issues?q=label%3Aupdate-data+"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         <div className="text-slate-800">Last updated:</div>
                         <div className="bg-blue-600 rounded-full w-2 h-2"></div>
                         <div className="text-blue-600 font-medium">
                             {timeStamp}
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
