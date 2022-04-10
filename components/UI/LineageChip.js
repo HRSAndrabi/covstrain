@@ -1,4 +1,4 @@
-export default function LineageChip({ lineage, disabled, onClick }) {
+export default function LineageChip({ lineage, disabled, onClick, bgColor }) {
     return (
         <button
             onClick={onClick}
@@ -12,6 +12,12 @@ export default function LineageChip({ lineage, disabled, onClick }) {
                 } 
 				`}
         >
+            {bgColor && (
+                <div
+                    className="w-5 h-5 rounded-sm opacity-50"
+                    style={{ backgroundColor: bgColor }}
+                ></div>
+            )}
             <div>{lineage}</div>
         </button>
     );

@@ -11,15 +11,16 @@ export default function SubmissionsPerLineage({ plotData, countryData }) {
             : Object.keys(plotData[0])[0],
     ]);
     const [filter, setFilter] = useState("");
-    const [selectedPlotData, setSelectedPlotData] = useState({});
+    const [selectedPlotData, setSelectedPlotData] = useState([{}]);
     const [tooManyLineages, setTooManyLineages] = useState(false);
+    const colors = require("../Graph/colors.json");
 
     const selectLineageHandler = (event) => {
         if (selectedLineages.length < 10) {
             setTooManyLineages(false);
-            setSelectedLineages(
-                selectedLineages.concat(event.target.innerText)
-            );
+            const newSelectedLineages = selectedLineages.slice();
+            newSelectedLineages.unshift(event.target.innerText);
+            setSelectedLineages(newSelectedLineages);
         } else {
             setTooManyLineages(true);
         }
@@ -185,18 +186,31 @@ export default function SubmissionsPerLineage({ plotData, countryData }) {
                         </div>
                     )}
                     <div className="flex flex-wrap gap-2 overflow-x-scroll scroll p-1">
-                        {selectedLineages.map((lineage) => {
-                            return (
-                                <LineageChip
-                                    key={lineage}
-                                    lineage={lineage}
-                                    disabled={false}
-                                    onClick={removeLineageHandler}
-                                >
-                                    {lineage}
-                                </LineageChip>
-                            );
-                        })}
+                        {Object.keys(selectedPlotData[0])
+                            .reverse()
+                            .filter(
+                                (element) =>
+                                    ![
+                                        "date",
+                                        "date_range",
+                                        "country",
+                                        "submissions",
+                                        "Other",
+                                    ].includes(element)
+                            )
+                            .map((lineage, idx) => {
+                                return (
+                                    <LineageChip
+                                        key={lineage}
+                                        lineage={lineage}
+                                        disabled={false}
+                                        onClick={removeLineageHandler}
+                                        bgColor={colors[idx].hex}
+                                    >
+                                        {lineage}
+                                    </LineageChip>
+                                );
+                            })}
                     </div>
                 </div>
 
