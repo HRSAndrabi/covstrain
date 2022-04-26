@@ -4,6 +4,9 @@ const nextConfig = {
     images: {
         domains: ["countryflagsapi.com"],
     },
+    experimental: {
+        esmExternals: false,
+    },
 };
 
 module.exports = nextConfig;
