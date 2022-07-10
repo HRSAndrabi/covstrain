@@ -1,18 +1,19 @@
 import LineageChip from "../UI/LineageChip";
 import Container from "../Layout/Container";
 import { MdSearch } from "react-icons/md";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import AreaGraph from "../Graph/AreaGraph";
 
 export default function SubmissionsPerLineage({ plotData, countryData }) {
-    const [selectedLineages, setSelectedLineages] = useState([
-        Object.keys(plotData[0]).includes("BA.1")
-            ? "BA.1"
-            : Object.keys(plotData[0])[0],
-    ]);
+    const [selectedLineages, setSelectedLineages] = useState(
+        Object.keys(plotData[0]).includes("BA.5", "BA.1", "BA.2")
+            ? ["BA.5", "BA.1", "BA.2"]
+            : Object.keys(plotData[0])[0]
+    );
     const [filter, setFilter] = useState("");
     const [selectedPlotData, setSelectedPlotData] = useState([{}]);
     const [tooManyLineages, setTooManyLineages] = useState(false);
+    const searchTopRef = useRef(null);
     const colors = require("../Graph/colors.json");
 
     const selectLineageHandler = (event) => {
@@ -38,6 +39,10 @@ export default function SubmissionsPerLineage({ plotData, countryData }) {
     const searchChangeHandler = (event) => {
         const query = event.target.value;
         setFilter(query.trim().toUpperCase());
+        searchTopRef.current.scrollIntoView({
+            behaviour: "smooth",
+            block: "center",
+        });
     };
 
     useEffect(() => {
@@ -124,7 +129,8 @@ export default function SubmissionsPerLineage({ plotData, countryData }) {
                     <div className="min-w-[10.5rem] font-mono">
                         Available lineages (scroll to view more):
                     </div>
-                    <div className="flex flex-wrap gap-2 overflow-x-scroll scroll p-1 max-h-52 overflow-y-scroll bg-scroll">
+                    <div className="flex flex-wrap gap-2 overflow-x-scroll scroll p-1 max-h-56 overflow-y-scroll bg-scroll relative">
+                        <div ref={searchTopRef} className="absolute"></div>
                         {Object.keys(plotData[0])
                             .filter(
                                 (element) =>
