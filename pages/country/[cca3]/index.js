@@ -1,7 +1,7 @@
 import Layout from "../../../components/Layout/Layout";
 import Container from "../../../components/Layout/Container";
 import SubmissionsPerVariant from "../../../components/Country/SubmissionsPerVariant";
-import SubmissionsPerAaSubstitution from "../../../components/Country/SubmissionsPerAaSubstitution";
+// import SubmissionsPerAaSubstitution from "../../../components/Country/SubmissionsPerAaSubstitution";
 import SubmissionsPerLineage from "../../../components/Country/SubmissionsPerLineage";
 
 export default function CountryDetail({
@@ -58,12 +58,12 @@ export default function CountryDetail({
                         countryData={countryData}
                     />
                 )}
-                {submissionsPerAaSubstitution.length > 0 && (
+                {/* {submissionsPerAaSubstitution.length > 0 && (
                     <SubmissionsPerAaSubstitution
                         plotData={submissionsPerAaSubstitution}
                         countryData={countryData}
                     />
-                )}
+                )} */}
             </Container>
             {submissionsPerLineage.length > 0 && (
                 <SubmissionsPerLineage
@@ -118,7 +118,7 @@ export async function getStaticProps(context) {
         props: {
             countryData: countryData,
             submissionsPerVariant: submissionsPerVariant,
-            submissionsPerAaSubstitution: submissionsPerAaSubstitution,
+            // submissionsPerAaSubstitution: submissionsPerAaSubstitution,
             submissionsPerLineage: submissionsPerLineage,
             submissionsPerClade: submissionsPerClade,
         },
