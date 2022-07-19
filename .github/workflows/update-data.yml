@@ -1,8 +1,10 @@
 name: update-data
-on:
-    schedule:
-        - cron: "0 0 * * *" # runs at 12:00 am UTC (11:00 am Melbourne time)
-
+on: [workflow_dispatch]
+#     schedule:
+#         - cron: "0 0 * * *" # runs at 12:00 am UTC (11:00 am Melbourne time)
+        
+permissions: read-all|write-all
+    
 jobs:
     request-data:
         runs-on: ubuntu-latest
