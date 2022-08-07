@@ -12,9 +12,9 @@ export default function CountryDetail({
     submissionsPerClade,
 }) {
     if (
-        submissionsPerVariant.length === 0 &&
-        submissionsPerAaSubstitution.length === 0 &&
-        submissionsPerLineage.length === 0
+        submissionsPerVariant?.length === 0 &&
+        submissionsPerAaSubstitution?.length === 0 &&
+        submissionsPerLineage?.length === 0
     ) {
         return (
             <Container prose={true}>
