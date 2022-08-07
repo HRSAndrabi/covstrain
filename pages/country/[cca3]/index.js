@@ -7,13 +7,13 @@ import SubmissionsPerLineage from "../../../components/Country/SubmissionsPerLin
 export default function CountryDetail({
     countryData,
     submissionsPerVariant,
-    submissionsPerAaSubstitution,
+    // submissionsPerAaSubstitution,
     submissionsPerLineage,
-    submissionsPerClade,
+    // submissionsPerClade,
 }) {
     if (
         submissionsPerVariant?.length === 0 &&
-        submissionsPerAaSubstitution?.length === 0 &&
+        // submissionsPerAaSubstitution?.length === 0 &&
         submissionsPerLineage?.length === 0
     ) {
         return (
@@ -104,12 +104,12 @@ CountryDetail.getLayout = function getLayout(page) {
 export async function getStaticProps(context) {
     const submissionsPerVariant =
         await require(`../../../data/gisaid/${context.params.cca3.toLowerCase()}/submissions_per_variant.json`);
-    const submissionsPerAaSubstitution =
-        await require(`../../../data/gisaid/${context.params.cca3.toLowerCase()}/submissions_per_aa_substitution.json`);
+    // const submissionsPerAaSubstitution =
+    //     await require(`../../../data/gisaid/${context.params.cca3.toLowerCase()}/submissions_per_aa_substitution.json`);
     const submissionsPerLineage =
         await require(`../../../data/gisaid/${context.params.cca3.toLowerCase()}/submissions_per_lineage.json`);
-    const submissionsPerClade =
-        await require(`../../../data/gisaid/${context.params.cca3.toLowerCase()}/submissions_per_clade.json`);
+    // const submissionsPerClade =
+    //     await require(`../../../data/gisaid/${context.params.cca3.toLowerCase()}/submissions_per_clade.json`);
     const countryData = await require("../../../data/countries.json").filter(
         (country) => country.cca3.toLowerCase() === context.params.cca3
     )[0];
@@ -120,7 +120,7 @@ export async function getStaticProps(context) {
             submissionsPerVariant: submissionsPerVariant,
             // submissionsPerAaSubstitution: submissionsPerAaSubstitution,
             submissionsPerLineage: submissionsPerLineage,
-            submissionsPerClade: submissionsPerClade,
+            // submissionsPerClade: submissionsPerClade,
         },
         revalidate: 43200, // re-render this page with new props every 12 hours.
     };
